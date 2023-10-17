@@ -20,17 +20,17 @@ public:
             {
                 num += (mp[s[i]]);
                 i++;
-                break;
+                
             }
 
-            if(mp[s[i]] >= mp[s[i+1]])
+            else if(mp[s[i]] >= mp[s[i+1]])
             {
                 
                 num += (mp[s[i]]);
                 i++;
             }
 
-            if(mp[s[i]] < mp[s[i+1]])
+            else if(mp[s[i]] < mp[s[i+1]])
             {
                 num += ( (mp[s[i+1]]) - (mp[s[i]]) );
                 i = i + 2;
