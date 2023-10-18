@@ -8,9 +8,13 @@ public:
             {
                 if(nums[i] + nums[j] == target)
                 {
-                    v.emplace_back(i);
-                    v.emplace_back(j);
+                    v = {i,j};
+                    break;
                 }
+            }
+            if(!v.empty())
+            {
+                break;
             }
         }
 
