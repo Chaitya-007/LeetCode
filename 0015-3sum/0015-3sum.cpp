@@ -5,6 +5,21 @@ public:
         vector<vector<int>> ans;
         sort(nums.begin(),nums.end());
 
+        // base case 
+        if(nums.size() < 3)
+        {
+            // There doesn't exists any triplet
+            return {};
+        }
+
+        if(nums[0] > 0)
+        {
+            // all elements further will be > 0 
+            // that means no negative integers
+            // no triple can be formed such that sum = 0
+            return {};
+        }
+
         for(int i = 0; i < nums.size(); i++)
         {
             if(i != 0 and nums[i] == nums[i-1]) 
@@ -37,6 +52,7 @@ public:
                 }
         }
 
+    //     sort(ans.begin(),ans.end());
     //    ans.erase(unique(ans.begin(),ans.end()),ans.end());
         return  ans;
         
