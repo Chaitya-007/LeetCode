@@ -22,6 +22,12 @@ public:
 
         for(int i = 0; i < nums.size(); i++)
         {
+            if(nums[i] > 0)
+            {
+                // because all elements after it will be positive
+                // and no triplet can be formed
+                break;
+            }
             if(i != 0 and nums[i] == nums[i-1]) 
             {
                 continue;
