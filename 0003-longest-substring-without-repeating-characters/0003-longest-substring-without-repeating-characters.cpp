@@ -13,9 +13,11 @@ public:
             return 1;
         }
 
+        int maxlength = 0;
+
         for(int i = 0; i < s.length(); i++)
         {
-            set<char> hashset;
+            unordered_set<char> hashset;
             hashset.insert(s[i]);
             // int count = 1;
             for(int j = i + 1; j < s.length(); j++)
@@ -29,11 +31,14 @@ public:
                 // count++;
             }
 
-            sec.insert(hashset.size());
+            // sec.insert(hashset.size());
+            int n = hashset.size();
+            maxlength = max(maxlength,n);
         }
-        auto itr = sec.end();
-        itr--;
-        return (*itr);
+        // auto itr = sec.end();
+        // itr--;
+        // return (*itr);
+        return maxlength;
         
     }
 };
