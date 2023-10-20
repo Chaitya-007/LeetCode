@@ -13,7 +13,7 @@ public:
             return 1;
         }
 
-        int maxlength = 0;
+        int maxo = 0;
 
         for(int i = 0; i < s.length(); i++)
         {
@@ -33,12 +33,12 @@ public:
 
             // sec.insert(hashset.size());
             int n = hashset.size();
-            maxlength = max(maxlength,n);
+            maxo = max(maxo,n);
         }
         // auto itr = sec.end();
         // itr--;
         // return (*itr);
-        return maxlength;
+        return maxo;
         
     }
 };
