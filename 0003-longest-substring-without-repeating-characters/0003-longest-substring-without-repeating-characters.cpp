@@ -70,26 +70,41 @@ public:
 
         // ********************************
         // using unordered map
-        int left = 0;
-        int right = 0;
+        // int left = 0;
+        // int right = 0;
+        // int maxLength = 0;
+        // unordered_map<char, int> map;
+
+        // while(right < s.length())
+        // {
+        //     if(map.count(s[right]) == 0 || map[s[right]] < left)
+        //     {
+        //         map[s[right]] = right;
+        //         maxLength = max(maxLength, right - left + 1);
+        //     }
+        //     else
+        //     {
+        //         left = map[s[right]] + 1;
+        //         map[s[right]] = right;
+        //     }
+        //     right++;
+        // }
+
+        // return maxLength;
+
+        int n = s.length();
         int maxLength = 0;
-        unordered_map<char, int> map;
-
-        while(right < s.length())
-        {
-            if(map.count(s[right]) == 0 || map[s[right]] < left)
-            {
-                map[s[right]] = right;
-                maxLength = max(maxLength, right - left + 1);
+        vector<int> charIndex(128, -1);
+        int left = 0;
+        
+        for (int right = 0; right < n; right++) {
+            if (charIndex[s[right]] >= left) {
+                left = charIndex[s[right]] + 1;
             }
-            else
-            {
-                left = map[s[right]] + 1;
-                map[s[right]] = right;
-            }
-            right++;
+            charIndex[s[right]] = right;
+            maxLength = max(maxLength, right - left + 1);
         }
-
+        
         return maxLength;
         
     }
