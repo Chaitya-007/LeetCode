@@ -11,7 +11,7 @@ public:
             negative = true;
         }
 
-        while(temp > 0)
+        while(temp)
         {
             rem = temp%10;
             temp = temp/10;
