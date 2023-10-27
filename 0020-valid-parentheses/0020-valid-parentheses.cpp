@@ -3,6 +3,9 @@ public:
     bool isValid(string s) {
         stack<char>st;
 
+        // t.c = O(n)
+        // s.c = O(n)
+
         for(int i = 0; i < s.length(); i++)
         {
             if(s[i] == '(')
