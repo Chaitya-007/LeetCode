@@ -58,14 +58,26 @@ public:
         // // }
         // return result;
 
-        int sum=0;
-        for(int i=0;i<32;i++){
-            int c=0;
-            for(int val : nums){
-                if(val & (1<<i)) c++;
+        int count = 0;
+        int sum = 0;
+
+        for(int i = 0; i < 32; i++)
+        {
+            count = 0;
+            for(int &x : nums)
+            {
+                if(x & (1<<i))
+                {
+                    count++;
+                }
             }
-            if(c >= k) sum += pow(2,i);
+
+            if(count >= k)
+            {
+                sum += (1<<i);
+            }
         }
+
         return sum;
     }
 };
