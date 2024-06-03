@@ -46,13 +46,14 @@ public:
             if(nums[i] == 1)
             {
                 cnt++;
+                maxcount = max(maxcount,cnt);
             }
             else
             {
                 cnt = 0;
             }
 
-            maxcount = max(maxcount,cnt);
+            
         }
 
         return maxcount;
