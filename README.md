@@ -8,6 +8,7 @@
 | [0283-move-zeroes](https://github.com/Chaitya-007/LeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Chaitya-007/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0907-koko-eating-bananas](https://github.com/Chaitya-007/LeetCode/tree/master/0907-koko-eating-bananas) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Chaitya-007/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Two Pointers
 |  |
 | ------- |
@@ -20,3 +21,4 @@
 |  |
 | ------- |
 | [0907-koko-eating-bananas](https://github.com/Chaitya-007/LeetCode/tree/master/0907-koko-eating-bananas) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Chaitya-007/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
