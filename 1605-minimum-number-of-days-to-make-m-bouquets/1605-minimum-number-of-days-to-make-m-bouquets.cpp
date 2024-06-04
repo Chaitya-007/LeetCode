@@ -1,26 +1,15 @@
 class Solution {
 public:
 
-    int adjacentFlower(vector<int>& vec, int m, int k, long long mid )
+    int adjacentFlower(vector<int>& vec, int m, int k, long long day )
     {
         int n = vec.size();
-        vector<int> copy(n,0);
          int cnt = 0;
         int pair = 0;
 
-        // for(int i = 0 ; i < n; i++)
-        // {
-        //     if(vec[i] <= mid)
-        //     {
-        //         copy[i] = 1;
-        //     }
-        // }
-
-       
-
         for(int i = 0; i < n; i++)
         {
-            if(vec[i] <= mid)
+            if(vec[i] <= day)
             {
                 cnt++;
             }
@@ -56,6 +45,17 @@ public:
         }
 
         long long ans = 0ll;
+
+        // Brute Force
+        // for(int i = low; i <= high; i++)
+        // {
+        //     if(adjacentFlower(bloomDay,m,k,i))
+        //     {
+        //         return i;
+        //     }
+        // }
+
+        // return -1;
 
         while(low <= high)
         {
