@@ -6,6 +6,7 @@
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chaitya-007/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0283-move-zeroes](https://github.com/Chaitya-007/LeetCode/tree/master/0283-move-zeroes) |
+| [0410-split-array-largest-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/Chaitya-007/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0907-koko-eating-bananas](https://github.com/Chaitya-007/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Chaitya-007/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -20,11 +21,21 @@
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chaitya-007/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0410-split-array-largest-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0410-split-array-largest-sum) |
 # Binary Search
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0907-koko-eating-bananas](https://github.com/Chaitya-007/LeetCode/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Chaitya-007/LeetCode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/Chaitya-007/LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Chaitya-007/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/Chaitya-007/LeetCode/tree/master/1646-kth-missing-positive-number) |
+# Greedy
+|  |
+| ------- |
+| [0410-split-array-largest-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0410-split-array-largest-sum) |
+# Prefix Sum
+|  |
+| ------- |
+| [0410-split-array-largest-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0410-split-array-largest-sum) |
