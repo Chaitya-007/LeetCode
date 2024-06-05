@@ -70,6 +70,6 @@ public:
 
         }
 
-        return ans;
+        return low; // or return low
     }
 };
