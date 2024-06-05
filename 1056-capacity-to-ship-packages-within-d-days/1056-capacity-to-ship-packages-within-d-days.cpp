@@ -65,6 +65,6 @@ public:
 
         }
 
-        return ans; // or  return low
+        return low; // or  return low
     }
 };
