@@ -27,34 +27,52 @@ public:
 
         // *******************************************************
         // M-2
-        int low = 0;
-        int cnt = 0;
-        int ind = 0;
-        int n = arr.size();
+        // T.C -> O(N)
+        // S.C -> O(1)
+        // int low = 0;
+        // int cnt = 0;
+        // int ind = 0;
+        // int n = arr.size();
 
-        while(cnt < k)
+        // while(cnt < k)
+        // {
+        //     low++;
+        //     if(ind < n)
+        //     {
+        //         if(low != arr[ind])
+        //         {
+        //             cnt++;
+        //         }
+        //         else
+        //         {
+        //             ind++;
+        //         }
+        //     }
+        //     else
+        //     {
+        //         cnt++;
+        //     }
+        // }
+
+        // return low;
+
+        // *********************************************************
+
+        // M - 3
+        int n = arr.size();
+        for(int i = 0; i < n; i++)
         {
-            low++;
-            if(ind < n)
+            if(arr[i] <= k)
             {
-                if(low != arr[ind])
-                {
-                    cnt++;
-                }
-                else
-                {
-                    ind++;
-                }
+                k++;
             }
             else
             {
-                cnt++;
+                break;
             }
         }
 
-        return low;
-    
-        
+        return k;
         
     }
 };
