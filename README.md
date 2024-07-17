@@ -64,6 +64,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Chaitya-007/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0136-single-number](https://github.com/Chaitya-007/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 ## Two Pointers
 |  |
@@ -80,6 +81,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Chaitya-007/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 ## Sorting
 |  |
