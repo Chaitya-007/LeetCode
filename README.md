@@ -76,6 +76,7 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
+| [3412-permutation-difference-between-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
 ## Binary Search
 |  |
 | ------- |
@@ -94,4 +95,5 @@
 |  |
 | ------- |
 | [3379-score-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/3379-score-of-a-string) |
+| [3412-permutation-difference-between-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
 <!---LeetCode Topics End-->
