@@ -5,7 +5,16 @@ class Solution {
 
         for(int i = 0; i < s.length(); i++)
         {
-           cnt = s.charAt(i) == 'R' ? ++cnt : --cnt;
+        //    cnt = s.charAt(i) == 'R' ? ++cnt : --cnt; // use preincrement
+
+            if(s.charAt(i) == 'R')
+            {
+                cnt++;
+            }
+            else
+            {
+                cnt--;
+            }
 
             if(cnt == 0)
             {
