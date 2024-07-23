@@ -2,21 +2,32 @@ class Solution {
 
     public static boolean checkPalindrome(String str)
     {
-        int l = 0;
-        int r = str.length() - 1;
+        // M 1
+        // int l = 0;
+        // int r = str.length() - 1;
 
-        while(l < r)
+        // while(l < r)
+        // {
+        //     if(str.charAt(l) != str.charAt(r))
+        //     {
+        //         return false;
+        //     }
+
+        //     l++;
+        //     r--;
+        // }
+
+        // return true;
+
+        StringBuilder sb = new StringBuilder(str);
+        sb.reverse();
+        String newstr = sb.toString();
+        if(newstr.equals(str))
         {
-            if(str.charAt(l) != str.charAt(r))
-            {
-                return false;
-            }
-
-            l++;
-            r--;
+            return true;
         }
 
-        return true;
+        return false;
     }
 
     public String firstPalindrome(String[] words) {
