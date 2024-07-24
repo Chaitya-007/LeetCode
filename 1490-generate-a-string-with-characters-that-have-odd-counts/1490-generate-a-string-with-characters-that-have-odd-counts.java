@@ -7,7 +7,7 @@ class Solution {
         {
             while(n > 0)
             {
-                str += 'a';
+                str += "a";
                 n--;
             }
         }
@@ -16,10 +16,10 @@ class Solution {
             n = n - 1;
            while(n > 0)
            {
-            str += 'a';
+            str += "a";
             n--;
            }
-           str += 'b';
+           str += "b";
         }
         return str;
     }
