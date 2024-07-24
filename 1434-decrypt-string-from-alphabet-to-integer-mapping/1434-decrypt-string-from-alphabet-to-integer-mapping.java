@@ -1,55 +1,21 @@
 class Solution {
     public String freqAlphabets(String s) {
-        
-        char ch = 'a';
-        int i = 1;
-        
-        HashMap<String, Character> mp = new HashMap<String, Character>();
-        while(ch < 'j')
+
+        StringBuilder sb = new StringBuilder("");
+     for(int i = s.length() - 1; i >= 0; i--)
+     {
+        if(s.charAt(i) == '#')
         {
-            String str = String.valueOf(i);
-            mp.put(str,ch);
-            ch++;
-            i++;
+            sb.append((char) ( 'a' + (s.charAt(i - 1) - '0') + 10*(s.charAt(i-2) - '0') - 1 ));
+            i = i - 2;
         }
-
-        ch = 'j';
-        i = 10;
-
-        while(ch <= 'z')
+        else
         {
-            String str = String.valueOf(i);
-            mp.put(str,ch);
-            ch++;
-            i++;
+            sb.append((char) ('a' + (s.charAt(i) - '0') - 1));
         }
-       
+     }   
 
-        for(Map.Entry<String, Character> e : mp.entrySet())
-        {
-            System.out.println(e);
-        }
-
-        StringBuilder res = new StringBuilder("");
-
-        for(int j = s.length() - 1; j >= 0; j--)
-        {
-            if(s.charAt(j) != '#')
-            {
-                String str = String.valueOf(s.charAt(j));
-                res.append(mp.get(str));
-            }
-            else
-            {
-                String str = s.substring(j-2,j);
-                res.append(mp.get(str));
-                j = j - 2;
-            }
-        }
-
-        res.reverse();
-
-        // System.out.println(cha);
-        return res.toString();
+     sb.reverse();
+     return sb.toString();
     }
 }
