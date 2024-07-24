@@ -110,6 +110,7 @@
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Chaitya-007/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/Chaitya-007/LeetCode/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
