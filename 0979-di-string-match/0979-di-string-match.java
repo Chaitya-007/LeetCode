@@ -15,14 +15,12 @@ class Solution {
             if(s.charAt(i) == 'I')
             {
                 
-                arr[index] = inc;
-                index++;
+                arr[i] = inc;
                 inc++;
             }
             else
             {
-                arr[index] = dec;
-                index++;
+                arr[i] = dec;
                 dec--;
             }
         }
