@@ -1,0 +1,37 @@
+class Solution {
+    public String sortString(String s) {
+        
+        int[] freq = new int[26];
+        Arrays.fill(freq,0);
+
+        for(char ch : s.toCharArray())
+        {
+            freq[ch - 'a'] += 1;
+        }
+
+        StringBuilder sb = new StringBuilder("");
+        while(sb.length() != s.length())
+        {
+            for(int i = 0; i < freq.length; i++)
+            {
+                if(freq[i] != 0)
+                {
+                    sb.append((char)('a' + i));
+                    freq[i] -= 1;
+                }
+            }
+
+        for(int i = 25; i >= 0; i--)
+        {
+            if(freq[i] != 0)
+            {
+                sb.append((char)('a' + i));
+                freq[i] -= 1;
+            }
+        }
+        }
+
+        return sb.toString();
+    
+    }
+}
