@@ -8,7 +8,8 @@ class Solution {
             map.put(str, !map.containsKey(str));
         }
 
-        System.out.println(map);
+        // System.out.println(map);
+        // map = {"d": true, "b": false, "c": false, "a": true}
 
         int i = 0;
         for(String str : arr)
