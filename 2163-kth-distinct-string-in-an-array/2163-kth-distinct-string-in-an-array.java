@@ -1,11 +1,14 @@
 class Solution {
     public String kthDistinct(String[] arr, int k) {
+        // Map<String,Boolean> map = new LinkedHashMap<String,Boolean>();
         Map<String,Boolean> map = new LinkedHashMap<String,Boolean>();
 
         for(String str : arr)
         {
             map.put(str, !map.containsKey(str));
         }
+
+        System.out.println(map);
 
         int i = 0;
         for(String str : arr)
