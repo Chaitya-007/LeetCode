@@ -71,6 +71,7 @@
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/Chaitya-007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2341-count-prefixes-of-a-given-string](https://github.com/Chaitya-007/LeetCode/tree/master/2341-count-prefixes-of-a-given-string) |
@@ -136,6 +137,7 @@
 | [1823-determine-if-string-halves-are-alike](https://github.com/Chaitya-007/LeetCode/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1894-merge-strings-alternately](https://github.com/Chaitya-007/LeetCode/tree/master/1894-merge-strings-alternately) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Chaitya-007/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/Chaitya-007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2341-count-prefixes-of-a-given-string](https://github.com/Chaitya-007/LeetCode/tree/master/2341-count-prefixes-of-a-given-string) |
@@ -165,6 +167,7 @@
 ## Simulation
 |  |
 | ------- |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/Chaitya-007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 ## Trie
 |  |
