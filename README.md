@@ -142,6 +142,7 @@
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2341-count-prefixes-of-a-given-string](https://github.com/Chaitya-007/LeetCode/tree/master/2341-count-prefixes-of-a-given-string) |
+| [2346-largest-3-same-digit-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2365-percentage-of-letter-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2365-percentage-of-letter-in-string) |
 | [2589-maximum-value-of-a-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2589-maximum-value-of-a-string-in-an-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
