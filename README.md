@@ -154,6 +154,7 @@
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/Chaitya-007/LeetCode/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 | [3379-score-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/3379-score-of-a-string) |
 | [3412-permutation-difference-between-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
+| [3468-find-the-encrypted-string](https://github.com/Chaitya-007/LeetCode/tree/master/3468-find-the-encrypted-string) |
 ## Greedy
 |  |
 | ------- |
