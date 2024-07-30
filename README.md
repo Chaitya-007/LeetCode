@@ -67,6 +67,7 @@
 | [0075-sort-colors](https://github.com/Chaitya-007/LeetCode/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/Chaitya-007/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
+| [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
@@ -126,6 +127,7 @@
 | ------- |
 | [0344-reverse-string](https://github.com/Chaitya-007/LeetCode/tree/master/0344-reverse-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Chaitya-007/LeetCode/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1341-split-a-string-in-balanced-strings) |
