@@ -99,6 +99,7 @@
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Chaitya-007/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
@@ -141,6 +142,7 @@
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/Chaitya-007/LeetCode/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1894-merge-strings-alternately](https://github.com/Chaitya-007/LeetCode/tree/master/1894-merge-strings-alternately) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Chaitya-007/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Chaitya-007/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Chaitya-007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -172,6 +174,7 @@
 | [1341-split-a-string-in-balanced-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1341-split-a-string-in-balanced-strings) |
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/Chaitya-007/LeetCode/tree/master/1823-determine-if-string-halves-are-alike) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Chaitya-007/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Simulation
 |  |
