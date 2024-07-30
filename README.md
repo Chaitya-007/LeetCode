@@ -135,6 +135,7 @@
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
 | [1490-generate-a-string-with-characters-that-have-odd-counts](https://github.com/Chaitya-007/LeetCode/tree/master/1490-generate-a-string-with-characters-that-have-odd-counts) |
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
+| [1666-make-the-string-great](https://github.com/Chaitya-007/LeetCode/tree/master/1666-make-the-string-great) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/Chaitya-007/LeetCode/tree/master/1823-determine-if-string-halves-are-alike) |
@@ -188,5 +189,6 @@
 |  |
 | ------- |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1666-make-the-string-great](https://github.com/Chaitya-007/LeetCode/tree/master/1666-make-the-string-great) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Chaitya-007/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 <!---LeetCode Topics End-->
