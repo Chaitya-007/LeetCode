@@ -145,6 +145,7 @@
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/Chaitya-007/LeetCode/tree/master/1823-determine-if-string-halves-are-alike) |
+| [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/Chaitya-007/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [1894-merge-strings-alternately](https://github.com/Chaitya-007/LeetCode/tree/master/1894-merge-strings-alternately) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Chaitya-007/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Chaitya-007/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
