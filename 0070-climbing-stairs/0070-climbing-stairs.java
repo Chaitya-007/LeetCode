@@ -28,20 +28,20 @@ class Solution {
     // }
 
     // Memoization using table 
-    public int memoTable(int ind,int[] dp)
-    {
-        if(ind == 0 || ind == 1)
-        {
-            return 1;
-        }
+    // public int memoTable(int ind,int[] dp)
+    // {
+    //     if(ind == 0 || ind == 1)
+    //     {
+    //         return 1;
+    //     }
 
-        if(dp[ind] != -1)
-        {
-            return dp[ind];
-        }
+    //     if(dp[ind] != -1)
+    //     {
+    //         return dp[ind];
+    //     }
 
-        return dp[ind] = memoTable(ind - 1,dp) + memoTable(ind - 2,dp);
-    }
+    //     return dp[ind] = memoTable(ind - 1,dp) + memoTable(ind - 2,dp);
+    // }
 
     public int climbStairs(int n) {
         // Recusrive Solution
@@ -55,9 +55,21 @@ class Solution {
     // return result;
 
     // Memoization using Array
+    // int[] dp = new int[n+1];
+    // Arrays.fill(dp,-1);
+    // int result = memoTable(n,dp);
+    // return result;
+
+    // Tabulation
     int[] dp = new int[n+1];
-    Arrays.fill(dp,-1);
-    int result = memoTable(n,dp);
-    return result;
+    dp[0] = 1;
+    dp[1] = 1;
+
+    for(int i = 2; i <= n; i++)
+    {
+        dp[i] = dp[i-1] + dp[i-2];
+    }
+
+    return dp[n];
     }
 }
