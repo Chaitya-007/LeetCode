@@ -12,34 +12,35 @@ class Solution {
     // }
 
     // Memoizattion using map
-    // public int memo(int ind, Map<Integer,Integer> map)
-    // {
-    //     if(ind == 0 || ind == 1)
-    //     {
-    //         return 1;
-    //     }
+    public int memo(int ind, Map<Integer,Integer> map)
+    {
+        if(ind == 0 || ind == 1)
+        {
+            return 1;
+        }
 
-    //     if(map.containsKey(ind))
-    //     {
-    //     return map.get(ind);
-    //     }
+        if(!map.containsKey(ind))
+        {
+          map.put(ind,memo(ind - 1,map) + memo(ind - 2,map));
+        }
 
-    //     return  map.put(ind,memo(ind - 1,map) + memo(ind - 2,map));
-    // }
-
-    public int memo(int ind, Map<Integer, Integer> map) {
-    if (ind == 0 || ind == 1) {
-        return 1;
-    }
-
-    if (map.containsKey(ind)) {
         return map.get(ind);
     }
 
-    int value = memo(ind - 1, map) + memo(ind - 2, map);
-    map.put(ind, value);
-    return value;
-}
+    // or write this way
+//     public int memo(int ind, Map<Integer, Integer> map) {
+//     if (ind == 0 || ind == 1) {
+//         return 1;
+//     }
+
+//     if (map.containsKey(ind)) {
+//         return map.get(ind);
+//     }
+
+//     int value = memo(ind - 1, map) + memo(ind - 2, map);
+//     map.put(ind, value);
+//     return value;
+// }
 
 
     // Memoization using table 
