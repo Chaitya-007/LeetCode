@@ -11,20 +11,36 @@ class Solution {
     //    return (DpOnStairs(ind - 1) + DpOnStairs(ind - 2));
     // }
 
-    // Memoizattion
-    public int memo(int ind, Map<Integer,Integer> map)
+    // Memoizattion using map
+    // public int memo(int ind, Map<Integer,Integer> map)
+    // {
+    //     if(ind == 0 || ind == 1)
+    //     {
+    //         return 1;
+    //     }
+
+    //     if(!map.containsKey(ind))
+    //     {
+    //         map.put(ind,memo(ind - 1,map) + memo(ind - 2,map));
+    //     }
+
+    //     return map.get(ind);
+    // }
+
+    // Memoization using table 
+    public int memoTable(int ind,int[] dp)
     {
         if(ind == 0 || ind == 1)
         {
             return 1;
         }
 
-        if(!map.containsKey(ind))
+        if(dp[ind] != -1)
         {
-            map.put(ind,memo(ind - 1,map) + memo(ind - 2,map));
+            return dp[ind];
         }
 
-        return map.get(ind);
+        return dp[ind] = memoTable(ind - 1,dp) + memoTable(ind - 2,dp);
     }
 
     public int climbStairs(int n) {
@@ -32,10 +48,16 @@ class Solution {
     //  int result = DpOnStairs(n);
     //  return result;   
 
-    // Memoization
-    Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+    // Memoization using Map
+    // Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 
-    int result = memo(n,map);
+    // int result = memo(n,map);
+    // return result;
+
+    // Memoization using Array
+    int[] dp = new int[n+1];
+    Arrays.fill(dp,-1);
+    int result = memoTable(n,dp);
     return result;
     }
 }
