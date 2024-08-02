@@ -12,20 +12,20 @@ class Solution {
     // }
 
     // Memoizattion using map
-    public int memo(int ind, Map<Integer,Integer> map)
-    {
-        if(ind == 0 || ind == 1)
-        {
-            return 1;
-        }
+    // public int memo(int ind, Map<Integer,Integer> map)
+    // {
+    //     if(ind == 0 || ind == 1)
+    //     {
+    //         return 1;
+    //     }
 
-        if(!map.containsKey(ind))
-        {
-          map.put(ind,memo(ind - 1,map) + memo(ind - 2,map));
-        }
+    //     if(!map.containsKey(ind))
+    //     {
+    //       map.put(ind,memo(ind - 1,map) + memo(ind - 2,map));
+    //     }
 
-        return map.get(ind);
-    }
+    //     return map.get(ind);
+    // }
 
     // or write this way
 //     public int memo(int ind, Map<Integer, Integer> map) {
@@ -65,10 +65,10 @@ class Solution {
     //  return result;   
 
     // Memoization using Map
-    Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+    // Map<Integer,Integer> map = new HashMap<Integer,Integer>();
 
-    int result = memo(n,map);
-    return result;
+    // int result = memo(n,map);
+    // return result;
 
     // Memoization using Array
     // int[] dp = new int[n+1];
@@ -89,16 +89,16 @@ class Solution {
     // return dp[n];
 
     // Using Space Optimization
-    // int prev = 1;
-    // int prev2 = 1;
+    int prev = 1;
+    int prev2 = 1;
 
-    // for(int i = 2; i <= n; i++)
-    // {
-    //     int curr = prev + prev2;
-    //     prev2 = prev;
-    //     prev = curr;
-    // }
+    for(int i = 2; i <= n; i++)
+    {
+        int curr = prev + prev2;
+        prev2 = prev;
+        prev = curr;
+    }
 
-    // return prev;
+    return prev;
     }
 }
