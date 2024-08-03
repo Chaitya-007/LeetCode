@@ -11,28 +11,58 @@
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-        // Brute Force
-        if(head == null)
-        {
-            return null;
-        }
 
-        HashMap<ListNode, Integer> map = new HashMap<ListNode,Integer>();
-        int ind = 0;
+        // Optimal Solution
+        // T.c -> O(N)
+        // S.C -> O(1)
+        ListNode slow = head;
+        ListNode fast = head;
 
-        ListNode temp = head;
-        while(temp != null)
+        while(fast != null && fast.next != null)
         {
-            if(map.containsKey(temp))
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if(slow == fast)
             {
-                return temp;
+                slow = head;
+
+                while(slow != fast)
+                {
+                    slow = slow.next;
+                    fast = fast.next;
+                }
+
+                return slow;
             }
-            map.put(temp,ind);
-            ind++;
-            temp = temp.next;
         }
 
         return null;
+
+        // Brute Force
+        // T.C -> O(N*logn)
+        // S.C -> O(N)
+        // if(head == null)
+        // {
+        //     return null;
+        // }
+
+        // HashMap<ListNode, Integer> map = new HashMap<ListNode,Integer>();
+        // int ind = 0;
+
+        // ListNode temp = head;
+        // while(temp != null)
+        // {
+        //     if(map.containsKey(temp))
+        //     {
+        //         return temp;
+        //     }
+        //     map.put(temp,ind);
+        //     ind++;
+        //     temp = temp.next;
+        // }
+
+        // return null;
 
 
     }
