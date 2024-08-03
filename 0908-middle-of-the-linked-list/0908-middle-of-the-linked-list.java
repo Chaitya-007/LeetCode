@@ -9,22 +9,52 @@
  * }
  */
 class Solution {
+
+    public int countNodes(ListNode head)
+    {
+        int cnt = 0;
+        ListNode ptr = head;
+        while(ptr != null)
+        {
+            cnt++;
+            ptr = ptr.next;
+        }
+
+        return cnt;
+    }
+
     public ListNode middleNode(ListNode head) {
-        if(head == null)
+        // Brute Force
+        int n = countNodes(head);
+        int position = (n/2) + 1;
+
+        ListNode temp = head;
+
+        while(position > 1)
         {
-            return null;
+            position--;
+            temp = temp.next;
+
         }
 
-        ListNode slow = head;
-        ListNode fast = head;
+        return temp;
 
-        while(fast != null && fast.next != null)
-        {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
+        // Optimal
+        // if(head == null)
+        // {
+        //     return null;
+        // }
 
-        return slow;
+        // ListNode slow = head;
+        // ListNode fast = head;
+
+        // while(fast != null && fast.next != null)
+        // {
+        //     slow = slow.next;
+        //     fast = fast.next.next;
+        // }
+
+        // return slow;
 
     }
 }
