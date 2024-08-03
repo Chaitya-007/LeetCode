@@ -30,11 +30,15 @@ class Solution {
 
         ListNode temp = head;
 
-        while(position > 1)
+        while(temp != null)
         {
             position--;
-            temp = temp.next;
+            if(position == 0)
+            {
+                break;
+            }
 
+            temp = temp.next;
         }
 
         return temp;
