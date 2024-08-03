@@ -15,6 +15,11 @@ public class Solution {
         // Optimal Solution
         // T.c -> O(N)
         // S.C -> O(1)
+
+        if(head == null)
+        {
+            return null;
+        }
         ListNode slow = head;
         ListNode fast = head;
 
