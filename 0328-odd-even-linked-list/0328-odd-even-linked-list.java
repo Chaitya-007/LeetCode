@@ -11,46 +11,66 @@
 class Solution {
     public ListNode oddEvenList(ListNode head) {
 
-        // Brute Force
+        // Optimal Solution
         if(head == null || head.next == null)
         {
             return head;
         }
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        // for odd positon
-        ListNode fast = head;
-        while(fast != null && fast.next != null)
+        ListNode odd = head;
+        ListNode even = head.next;
+        ListNode evenHead = even;
+        while(even != null && even.next != null)
         {
-            list.add(fast.val);
-            fast = fast.next.next;
-        }
-        if(fast != null)
-        {
-            list.add(fast.val);
+            odd.next = odd.next.next;
+            even.next = even.next.next;
+
+            odd = odd.next;
+            even = even.next;
         }
 
-        // for even position
-        fast = head.next;
-        while(fast != null && fast.next != null)
-        {
-            list.add(fast.val);
-            fast = fast.next.next;
-        }
-        if(fast != null)
-        {
-            list.add(fast.val);
-        }
-
-        fast = head;
-        int i = 0;
-        while(fast != null)
-        {
-            fast.val = list.get(i);
-            i++;
-            fast = fast.next;
-        }
-
+        odd.next = evenHead;
         return head;
+
+        // Brute Force
+        // if(head == null || head.next == null)
+        // {
+        //     return head;
+        // }
+        // ArrayList<Integer> list = new ArrayList<Integer>();
+        // // for odd positon
+        // ListNode fast = head;
+        // while(fast != null && fast.next != null)
+        // {
+        //     list.add(fast.val);
+        //     fast = fast.next.next;
+        // }
+        // if(fast != null)
+        // {
+        //     list.add(fast.val);
+        // }
+
+        // // for even position
+        // fast = head.next;
+        // while(fast != null && fast.next != null)
+        // {
+        //     list.add(fast.val);
+        //     fast = fast.next.next;
+        // }
+        // if(fast != null)
+        // {
+        //     list.add(fast.val);
+        // }
+
+        // fast = head;
+        // int i = 0;
+        // while(fast != null)
+        // {
+        //     fast.val = list.get(i);
+        //     i++;
+        //     fast = fast.next;
+        // }
+
+        // return head;
 
 
         // Self solution
