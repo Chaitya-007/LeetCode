@@ -33,65 +33,65 @@ public class Solution {
         // Naive Approach
         // T.C -> O(n1 * logN) + O(n2 * logN)
         // S.C -> O(N1) or O(N2)
-        // if(headA == null && headB == null)
-        // {
-        //     return null;
-        // }
-
-        // HashMap<ListNode, Integer> map = new HashMap<ListNode, Integer>();
-
-        // ListNode ptra = headA;
-        // ListNode ptrb = headB;
-
-        // while(ptra != null)
-        // {
-        //     map.put(ptra,1);
-        //     ptra = ptra.next;
-        // }
-
-        // while(ptrb != null)
-        // {
-        //     if(map.containsKey(ptrb))
-        //     {
-        //         return ptrb;
-        //     }
-        //     ptrb = ptrb.next;
-        // }
-
-        // return null;
-
-        // Using Two Approach
-        // T.C -> O(N1) + O(N2) + O(n2 - N1) + O(N2 , whichever is small let's consider N2 as small)
         if(headA == null || headB == null)
         {
             return null;
         }
-        int n1 = 0;
-        int n2 = 0;
-        ListNode tempA = headA;
-        ListNode tempB = headB;
 
-        while(tempA != null)
+        HashMap<ListNode, Integer> map = new HashMap<ListNode, Integer>();
+
+        ListNode ptra = headA;
+        ListNode ptrb = headB;
+
+        while(ptra != null)
         {
-            n1++;
-            tempA = tempA.next;
+            map.put(ptra,1);
+            ptra = ptra.next;
         }
 
-        while(tempB != null)
+        while(ptrb != null)
         {
-            n2++;
-            tempB = tempB.next;
+            if(map.containsKey(ptrb))
+            {
+                return ptrb;
+            }
+            ptrb = ptrb.next;
         }
 
-        tempA = headA; // Set the pointers to head again
-        tempB = headB; // Set the pointers to head again
+        return null;
 
-        if(n1 < n2)
-        {
-            return collisionPoint(tempA,tempB,n2 - n1);
-        }
+        // Using Two Approach
+        // T.C -> O(N1) + O(N2) + O(n2 - N1) + O(N2 , whichever is small let's consider N2 as small)
+        // if(headA == null || headB == null)
+        // {
+        //     return null;
+        // }
+        // int n1 = 0;
+        // int n2 = 0;
+        // ListNode tempA = headA;
+        // ListNode tempB = headB;
 
-        return collisionPoint(tempB,tempA,n1 - n2);
+        // while(tempA != null)
+        // {
+        //     n1++;
+        //     tempA = tempA.next;
+        // }
+
+        // while(tempB != null)
+        // {
+        //     n2++;
+        //     tempB = tempB.next;
+        // }
+
+        // tempA = headA; // Set the pointers to head again
+        // tempB = headB; // Set the pointers to head again
+
+        // if(n1 < n2)
+        // {
+        //     return collisionPoint(tempA,tempB,n2 - n1);
+        // }
+
+        // return collisionPoint(tempB,tempA,n1 - n2);
 
         // Optimal Solution
         // T.C -> O(N1 + N2)
