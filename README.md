@@ -101,6 +101,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Chaitya-007/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Chaitya-007/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/Chaitya-007/LeetCode/tree/master/0075-sort-colors) |
@@ -156,6 +157,7 @@
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0344-reverse-string](https://github.com/Chaitya-007/LeetCode/tree/master/0344-reverse-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Chaitya-007/LeetCode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
@@ -242,6 +244,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0070-climbing-stairs](https://github.com/Chaitya-007/LeetCode/tree/master/0070-climbing-stairs) |
 ## Memoization
 |  |
