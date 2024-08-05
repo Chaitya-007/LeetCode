@@ -126,25 +126,7 @@ public:
            
         
     // }
-
-    // **************************
-    // Dp approach
-
-//     string longestPalindrome(string s)
-//     {
-//         if(s.length() == 1)
-//         {
-//             return s;
-//         }
-//         vector<vector<bool>> dp(s.size(), vector<bool>(s.size()));
-//         // Initializing diagonals true
-//         for(int i = 0; i < s.size(); i++)
-//         {
-//             dp[i][i] = true;
-//         }
-//         int ans = 1;
-//         int ansarray[2];
-//          // j is the starting point of the target string, and i is the ending point.
+// 
 // // // dp[i][j] represents whether the string starting at i and ending at j is a palindrome.
 // // // dp[j + 1][i - 1] represents whether the middle part excluding the starting and ending points is a palindrome.
 // // // For example: b aca b
@@ -152,46 +134,11 @@ public:
 // // // dp[j + 1][i - 1] represents aca in this case.
 // // // If the 'aca' part is true and the starting and ending points are equal, then the new string is also a palindrome.
 // // // b aca b = aca + b=b
-        
-//         for(int i = 1; i < s.size(); i++)
-//         {
-//             for(int j = 0; j < i; j++)
-//             {
-//                 if(s[i] != s[j])
-//                 {
-//                     dp[j][i] = false;
-//                 }
-//                 else
-//                 {
-//                     if(i == j + 1 || dp[j+1][i-1] == true)
-//                     {
-//                         dp[j][i] = true;
-
-//                         if(ans < (i - j + 1))
-//                         {
-//                             ans = (i - j + 1);
-//                             ansarray[0] = i; // ending index
-//                             ansarray[1] = j; // starting index
-//                         }
-//                     }
-
-//                     else
-//                     {
-//                         dp[j][i] == false;
-//                     }
-//                 }
-//             }
-//         }
-
-//         return s.substr(ansarray[1],ans);
-
-
-// ***********************************************************
 // Easy dp approach
     int n = s.length();
-    vector<vector<int>> dp(n,vector<int>(n,0));
     string str;
-    int maxlen = 0;
+    int ans = 0;
+    vector<vector<int>> dp(n,vector<int>(n,0));
 
     for(int diff = 0; diff < n; diff++)
     {
@@ -219,21 +166,19 @@ public:
                 }
             }
 
-        if(dp[i][j] > 0)
-        {
-            if(maxlen < (j - i + 1))
+            if(dp[i][j] > 0)
             {
+                if(ans < j - i + 1)
+                {
 
-            maxlen = j - i + 1;
-            str = s.substr(i,maxlen);
+                ans = max(ans,j - i + 1);
+                str = s.substr(i,ans);
+                }
             }
         }
-
-        }
-
     }
 
-    return str;
+    return str;;
 
     }
 
