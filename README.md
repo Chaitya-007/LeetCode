@@ -84,6 +84,7 @@
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
+| [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 | [1524-string-matching-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
@@ -270,6 +271,7 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Chaitya-007/LeetCode/tree/master/0547-number-of-provinces) |
+| [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
@@ -278,4 +280,8 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Chaitya-007/LeetCode/tree/master/0547-number-of-provinces) |
+## Matrix
+|  |
+| ------- |
+| [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 <!---LeetCode Topics End-->
