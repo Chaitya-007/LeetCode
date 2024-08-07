@@ -32,24 +32,44 @@ public:
         // return fundp(n-1,m-1,text1,text2,dp);
 
         // tabulation
-        vector<vector<int>> dp(n + 1, vector<int> (m + 1, 0));
+        // vector<vector<int>> dp(n + 1, vector<int> (m + 1, 0));
 
-        for(int j = 0; j <= m; j++) dp[0][j] = 0; // if i = 0 (from string s1) then j can be anything from j = 0 to m (from string s2)
+        // for(int j = 0; j <= m; j++) dp[0][j] = 0; // if i = 0 (from string s1) then j can be anything from j = 0 to m (from string s2)
 
-        for(int i = 0; i <= n; i++) dp[i][0] = 0; // if j = 0 (from string s2) then i can be anything from i = 0 to n (from string s1)
+        // for(int i = 0; i <= n; i++) dp[i][0] = 0; // if j = 0 (from string s2) then i can be anything from i = 0 to n (from string s1)
+
+        // for(int i = 1; i <= n; i++)
+        // {
+        //     for(int j = 1; j <= m; j++)
+        //     {
+        //         if(s1[i-1] == s2[j-1]) 
+        //         dp[i][j] = 1 + dp[i - 1][j - 1];
+        //         else
+        //         dp[i][j] = max(dp[i][j-1],dp[i-1][j]);
+        //     }
+        // }
+
+        // return dp[n][m];
+
+        // Space optimization
+        vector<int> prev(m+1,0);
+        vector<int> curr(m+1,0);
+        for(int j = 0; j <= m; j++) prev[j] = 0;
 
         for(int i = 1; i <= n; i++)
         {
             for(int j = 1; j <= m; j++)
             {
-                if(s1[i-1] == s2[j-1]) 
-                dp[i][j] = 1 + dp[i - 1][j - 1];
+                if(s1[i - 1] == s2[j - 1])
+                curr[j] = 1 + prev[j - 1];
+
                 else
-                dp[i][j] = max(dp[i][j-1],dp[i-1][j]);
+                curr[j] = max(prev[j],curr[j-1]);
             }
+            prev = curr;
         }
 
-        return dp[n][m];
+        return prev[m];
         
     }
 };
