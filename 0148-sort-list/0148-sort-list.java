@@ -10,35 +10,29 @@
  */
 class Solution {
 
-    public ListNode MergeTwoLists(ListNode list1, ListNode list2)
+    public ListNode merge(ListNode left, ListNode right)
     {
-        ListNode dummyNode = new ListNode(0,null);
+        ListNode dummyNode = new ListNode(-1);
         ListNode temp = dummyNode;
 
-        while(list1 != null && list2 != null)
+        while(left != null && right != null)
         {
-            if(list1.val <= list2.val)
+            if(left.val <= right.val)
             {
-                temp.next = list1;
-                temp = list1;
-                list1 = list1.next;
+                temp.next = left;
+                temp = left;
+                left = left.next;
             }
             else
             {
-                temp.next = list2;
-                temp = list2;
-                list2 = list2.next;
+                temp.next = right;
+                temp = right;
+                right = right.next;
             }
         }
 
-        if(list1 != null)
-        {
-            temp.next = list1;
-        }
-        else
-        {
-            temp.next = list2;
-        }
+        if(left != null) temp.next = left;
+        else temp.next = right;
 
         return dummyNode.next;
     }
@@ -46,9 +40,8 @@ class Solution {
     public ListNode getMiddle(ListNode head)
     {
         ListNode slow = head;
-        ListNode fast = head.next; // set it as one step ahead
-        // becase 1 -> 2 -> 3 -> 4
-        //  middle = 2
+        ListNode fast = head.next;
+
         while(fast != null && fast.next != null)
         {
             slow = slow.next;
@@ -59,18 +52,20 @@ class Solution {
     }
 
     public ListNode sortList(ListNode head) {
+        
         if(head == null || head.next == null)
         {
             return head;
         }
 
-        ListNode middleNode = getMiddle(head);
+        ListNode middle = getMiddle(head);
         ListNode leftHead = head;
-        ListNode rightHead = middleNode.next;
-        middleNode.next = null;
+        ListNode rightHead = middle.next;
+        middle.next = null;
 
         leftHead = sortList(leftHead);
         rightHead = sortList(rightHead);
-        return MergeTwoLists(leftHead,rightHead);
+        ListNode result = merge(leftHead,rightHead);
+        return result;
     }
 }
