@@ -68,6 +68,7 @@
 | [0002-add-two-numbers](https://github.com/Chaitya-007/LeetCode/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/Chaitya-007/LeetCode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
+| [2032-largest-odd-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 ## Recursion
 |  |
 | ------- |
@@ -189,6 +190,7 @@
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/Chaitya-007/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [1894-merge-strings-alternately](https://github.com/Chaitya-007/LeetCode/tree/master/1894-merge-strings-alternately) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Chaitya-007/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
+| [2032-largest-odd-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Chaitya-007/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Chaitya-007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -219,6 +221,7 @@
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1341-split-a-string-in-balanced-strings) |
+| [2032-largest-odd-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 ## Counting
 |  |
 | ------- |
