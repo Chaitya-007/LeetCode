@@ -16,33 +16,33 @@ public class Solution {
         // T.c -> O(N)
         // S.C -> O(1)
 
-        if(head == null)
-        {
-            return null;
-        }
-        ListNode slow = head;
-        ListNode fast = head;
+        // if(head == null)
+        // {
+        //     return null;
+        // }
+        // ListNode slow = head;
+        // ListNode fast = head;
 
-        while(fast != null && fast.next != null)
-        {
-            slow = slow.next;
-            fast = fast.next.next;
+        // while(fast != null && fast.next != null)
+        // {
+        //     slow = slow.next;
+        //     fast = fast.next.next;
 
-            if(slow == fast)
-            {
-                slow = head;
+        //     if(slow == fast)
+        //     {
+        //         slow = head;
 
-                while(slow != fast)
-                {
-                    slow = slow.next;
-                    fast = fast.next;
-                }
+        //         while(slow != fast)
+        //         {
+        //             slow = slow.next;
+        //             fast = fast.next;
+        //         }
 
-                return slow;
-            }
-        }
+        //         return slow;
+        //     }
+        // }
 
-        return null;
+        // return null;
 
         // Brute Force
         // T.C -> O(N*logn)
@@ -69,6 +69,32 @@ public class Solution {
 
         // return null;
 
+        if(head == null)
+        {
+            return head;
+        }
 
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while(fast != null && fast.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if(slow == fast)
+            {
+                slow = head;
+                while(slow != fast)
+                {
+                    slow = slow.next;
+                    fast = fast.next;
+                }
+
+                return slow;
+            }
+        }
+
+        return null;
     }
 }
