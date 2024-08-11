@@ -42,14 +42,18 @@ public:
         int n = word1.length();
         int m = word2.length();
 
+        // Recursion
         // return fun(n-1,m-1,word1,word2);
 
+        // Memoization
         // vector<vector<int>> dp(n,vector<int>(m,-1));
         // return funMemo(n-1,m-1,word1,word2,dp);
 
+            // Memoization using one shift indexing
             // vector<vector<int>> dp(n+1,vector<int>(m+1,-1));
             // return funMemoModified(n,m,word1,word2,dp);
 
+            // Tabulation
             vector<vector<int>> dp(n + 1, vector<int>(m+1,0));
             for(int j = 0; j <= m; j++) dp[0][j] = j;
             for(int i = 0; i <= n; i++) dp[i][0] = i;
@@ -70,6 +74,33 @@ public:
             }
 
             return dp[n][m];
+
+            // Space optimaiztion
+            vector<int> prev(m+1,0);
+            vector<int> curr(m+1,0);
+
+            for(int j = 0; j <= m; j++) prev[0] = j;
+
+            for(int i = 1; i <= n; i++)
+            {
+                curr[0] = i;
+                for(int j = 1; j <= m; j++)
+                {
+                    if(word1[i-1] == word2[j-1])
+                    {
+                        curr[j] = 1 + prev[j-1];
+                    }
+                    else
+                    {
+                        curr[j] = 1 + min(prev[j-1],min(curr[j-1],prev[j]));
+                    }
+                }
+
+                prev = curr;
+            }
+
+            return prev[m];
+
 
     }
 };
