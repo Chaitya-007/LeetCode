@@ -167,6 +167,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/Chaitya-007/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0115-distinct-subsequences](https://github.com/Chaitya-007/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0151-reverse-words-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/Chaitya-007/LeetCode/tree/master/0344-reverse-string) |
 | [0516-longest-palindromic-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
@@ -268,6 +269,7 @@
 | [0005-longest-palindromic-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Chaitya-007/LeetCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Chaitya-007/LeetCode/tree/master/0070-climbing-stairs) |
+| [0115-distinct-subsequences](https://github.com/Chaitya-007/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0416-partition-equal-subset-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
