@@ -45,7 +45,7 @@ public:
             return dp[i][j] = funMemoModified(i-1,j-1,s,t,dp) + funMemoModified(i-1,j,s,t,dp);
         }
 
-        return dp[i][j] = funMemo(i-1,j,s,t,dp);
+        return dp[i][j] = funMemoModified(i-1,j,s,t,dp);
     }
 
 
@@ -59,7 +59,7 @@ public:
         // return funMemo(n-1,m-1,s,t,dp); 
 
         vector<vector<int>> dp(n + 1,vector<int>(m + 1,-1));
-        return funMemo(n,m,s,t,dp);
+        return funMemoModified(n,m,s,t,dp);
 
     }
 };
