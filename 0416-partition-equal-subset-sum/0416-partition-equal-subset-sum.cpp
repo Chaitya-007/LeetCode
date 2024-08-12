@@ -69,7 +69,7 @@ public:
 
         for(int ind = 1; ind < n; ind++)
         {
-            for(int target = 0; target <= (totalSum/2); target++)
+            for(int target = 1; target <= (totalSum/2); target++)
             {
                 bool notTake = dp[ind - 1][target];
                 bool take = false;
@@ -79,7 +79,7 @@ public:
                     take = dp[ind - 1][target - nums[ind]];
                 }
 
-                return dp[ind][target] = notTake | take;
+              dp[ind][target] = notTake | take;
             }
         }
 
