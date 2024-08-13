@@ -50,7 +50,7 @@ public:
         //  vector<vector<int>> dp(n+1,vector<int> (m+1,-1));
         //  return fundpOpt(n,m,word1,word2,dp);
 
-        vector<vector<int>> dp(n+1,vector<int> (m+1,-1));
+        vector<vector<int>> dp(n+1,vector<int> (m+1,0));
         for(int i = 0; i <= n; i++) dp[i][0] = i;
         for(int j = 0; j <= m; j++) dp[0][j] = j;
 
