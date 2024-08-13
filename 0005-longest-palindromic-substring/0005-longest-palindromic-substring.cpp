@@ -136,10 +136,9 @@ public:
 // // // b aca b = aca + b=b
 // Easy dp approach
     int n = s.length();
-    string str;
+    string str = "";
     int ans = 0;
     vector<vector<int>> dp(n,vector<int>(n,0));
-
     for(int diff = 0; diff < n; diff++)
     {
         for(int i = 0, j = i + diff; j < n; i++,j++)
@@ -168,17 +167,16 @@ public:
 
             if(dp[i][j] > 0)
             {
-                if(ans < j - i + 1)
+                if(ans < (j - i + 1))
                 {
-
-                ans = max(ans,j - i + 1);
-                str = s.substr(i,ans);
+                    ans = max(ans,j-i+1);
+                    str = s.substr(i,ans);
                 }
             }
         }
     }
 
-    return str;;
+    return str;
 
     }
 
