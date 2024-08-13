@@ -117,19 +117,22 @@ public:
          vector<int> curr(m+1,false);
          prev[0] = true;
 
+         for(int j = 1; j <= m; j++)
+        {
+            bool flag = true;
+            for(int m = 1; m <= j; m++) // change
+            {
+                if(p[m-1] != '*') // change
+                flag = false;
+            }
+            prev[j] = flag;
+        }
+
         for(int i = 1; i <= n; i++)
         {
             curr[0] = false;
             for(int j = 1; j <= m; j++)
             {
-                bool flag = true;
-                for(int m = 1; m <= j; m++) // change
-                {
-                    if(p[m-1] != '*') // change
-                    flag = false;
-                }
-                prev[j] = flag;
-
                 if(p[j-1] == '*')
                  curr[j] = prev[j] | curr[j-1];
                 else if(s[i-1] == p[j-1] || p[j-1] == '?')
