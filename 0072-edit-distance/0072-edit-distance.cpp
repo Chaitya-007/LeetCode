@@ -25,14 +25,31 @@ public:
         return dp[i][j] = 1 + min(fundp(i-1,j-1,s,t,dp),min(fundp(i,j-1,s,t,dp),fundp(i-1,j,s,t,dp)));
     }
 
+    int fundpOpt(int i, int j, string s, string t,vector<vector<int>> &dp)
+    {
+        if(j == 0) return i; // very very important
+        if(i == 0) return j; // very very important
+
+        if(dp[i][j] != -1) return dp[i][j];
+
+        if(s[i-1] == t[j-1])
+        return dp[i][j] = fundpOpt(i-1,j-1,s,t,dp);
+
+        return dp[i][j] = 1 + min(fundpOpt(i-1,j-1,s,t,dp),min(fundpOpt(i,j-1,s,t,dp),fundpOpt(i-1,j,s,t,dp)));
+    }
+
     int minDistance(string word1, string word2) {
      int n = word1.length();
      int m = word2.length();
 
     //  return fun(n-1,m-1,word1,word2);   
 
-        vector<vector<int>> dp(n,vector<int> (m,-1));
-        return fundp(n-1,m-1,word1,word2,dp);
+        // vector<vector<int>> dp(n,vector<int> (m,-1));
+        // return fundp(n-1,m-1,word1,word2,dp);
+
+         vector<vector<int>> dp(n+1,vector<int> (m+1,-1));
+         return fundpOpt(n,m,word1,word2,dp);
+         
 
     }
 };
