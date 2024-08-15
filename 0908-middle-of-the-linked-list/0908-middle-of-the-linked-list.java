@@ -24,24 +24,41 @@ class Solution {
     }
 
     public ListNode middleNode(ListNode head) {
-        // Brute Force
-        int n = countNodes(head);
-        int position = (n/2) + 1;
 
-        ListNode temp = head;
-
-        while(temp != null)
+        if(head == null) 
         {
-            position--;
-            if(position == 0)
-            {
-                break;
-            }
-
-            temp = temp.next;
+            return head;
         }
 
-        return temp;
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while(fast != null && fast.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+
+        // Brute Force
+        // int n = countNodes(head);
+        // int position = (n/2) + 1;
+
+        // ListNode temp = head;
+
+        // while(temp != null)
+        // {
+        //     position--;
+        //     if(position == 0)
+        //     {
+        //         break;
+        //     }
+
+        //     temp = temp.next;
+        // }
+
+        // return temp;
 
         // Optimal
         // if(head == null)
