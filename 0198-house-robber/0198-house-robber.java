@@ -27,9 +27,32 @@ class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
         // return fun(n-1,nums);
-        int[] dp = new int[n];
-        Arrays.fill(dp,-1);
 
-        return fundp(n-1,nums,dp);
+        // Memoization
+        // int[] dp = new int[n];
+        // Arrays.fill(dp,-1);
+
+        // return fundp(n-1,nums,dp);
+
+        // Tabulation
+        int[] dp = new int[n];
+        Arrays.fill(dp,0);
+        dp[0] = nums[0];
+        int neg = 0;
+
+        for(int ind = 1; ind < n; ind++)
+        {
+            int take = nums[ind];
+            if(ind > 1) 
+            {
+                take += dp[ind-2];
+            }
+            int notTake = dp[ind-1];
+            dp[ind] = Math.max(take,notTake);
+        }
+
+        return dp[n-1];
+
+
     }
 }
