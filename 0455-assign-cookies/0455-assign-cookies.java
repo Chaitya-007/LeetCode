@@ -1,35 +1,21 @@
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
+        // Strivers approach
+        int m = s.length;
         int n = g.length;
-        int[] visited = new int[n];
-        Arrays.fill(visited,0);
-        int cnt = 0;
-
-        for(int i = 0; i < s.length; i++)
+        Arrays.sort(g);
+        Arrays.sort(s);
+        int l = 0;
+        int r = 0;
+        while(l < m && r < n)
         {
-            int maxo = Integer.MIN_VALUE;
-            int ind = -1;
-
-            for(int j = 0; j < g.length; j++)
+            if(s[l] >= g[r])
             {
-                if(visited[j] != 1 && s[i] >= g[j])
-                {
-                    if(maxo < g[j])
-                    {
-                        maxo = g[j];
-                        ind = j;
-                        
-                    }
-                }
+                r++;
             }
-
-            if(ind != -1)
-            {
-            visited[ind] = 1;
-            cnt++;
-            }
+            l++;
         }
 
-        return cnt;
+        return r;
     }
 }
