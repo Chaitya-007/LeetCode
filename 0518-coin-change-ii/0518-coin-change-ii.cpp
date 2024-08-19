@@ -5,8 +5,7 @@ public:
     {
         if(ind == 0)
         {
-        if(target == 0 || target%arr[0] == 0) return 1;
-            else return 0;
+        return (target%arr[0] == 0);
         }
 
         int notTake = fun(ind - 1, target, arr);
@@ -23,8 +22,7 @@ public:
     {
         if(ind == 0)
         {
-        if(target == 0 || target%arr[0] == 0) return 1;
-            else return 0;
+        return (target%arr[0] == 0);
         }
 
         if(dp[ind][target] != -1) return dp[ind][target];
@@ -43,8 +41,8 @@ public:
         int n = coins.size();
         // return fun(n - 1, amount, coins);
 
-        // vector<vector<int>> dp(n, vector<int> (amount + 1, -1));
-        // return fundp(n-1, amount, coins, dp);
+        vector<vector<int>> dp(n, vector<int> (amount + 1, -1));
+        return fundp(n-1, amount, coins, dp);
 
         // vector<vector<int>> dp(n, vector<int> (amount + 1, 0));
         // dp[0][0] = 1;
@@ -73,34 +71,34 @@ public:
 
         // return dp[n-1][amount];
 
-        vector<int> prev(amount + 1, 0);
-        vector<int> curr(amount + 1, 0);
-        prev[0] = 1;
-        for(int target = 1; target <= amount; target++)
-        {
-            if(target%coins[0] == 0)
-            {
-                prev[target] = 1;
-            }
-        }
+        // vector<int> prev(amount + 1, 0);
+        // vector<int> curr(amount + 1, 0);
+        // prev[0] = 1;
+        // for(int target = 1; target <= amount; target++)
+        // {
+        //     if(target%coins[0] == 0)
+        //     {
+        //         prev[target] = 1;
+        //     }
+        // }
 
-        for(int ind = 1; ind < n; ind++)
-        {
-            for(int target = 0; target <= amount; target++)
-            {
-                 int notTake = prev[target];
-                int take = 0;
-                if(coins[ind] <= target)
-                {
-                    take = curr[ target - coins[ind]];
-                }
+        // for(int ind = 1; ind < n; ind++)
+        // {
+        //     for(int target = 0; target <= amount; target++)
+        //     {
+        //          int notTake = prev[target];
+        //         int take = 0;
+        //         if(coins[ind] <= target)
+        //         {
+        //             take = curr[ target - coins[ind]];
+        //         }
 
-                 curr[target] = take + notTake;
-            }
+        //          curr[target] = take + notTake;
+        //     }
 
-            prev = curr;
-        }
+        //     prev = curr;
+        // }
 
-        return prev[amount];
+        // return prev[amount];
     }
 };
