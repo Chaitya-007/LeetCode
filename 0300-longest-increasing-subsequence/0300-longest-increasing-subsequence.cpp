@@ -5,14 +5,15 @@ public:
     {
         if(ind == n) return 0;
 
-        int len = fun(ind+1, prev_ind, n, nums);
+        int notTake = fun(ind+1, prev_ind, n, nums);
+        int take = INT_MIN;
 
         if(prev_ind == -1 || nums[ind] > nums[prev_ind])
         {
-            len = max(len, 1 + fun(ind+1, ind, n, nums));
+            take = 1 + fun(ind+1, ind, n, nums);
         }
 
-        return len;
+        return max(take,notTake);
     }
 
     int fundp(int ind, int prev_ind, int n, vector<int> &nums, vector<vector<int>> &dp)
@@ -21,14 +22,15 @@ public:
 
         if(dp[ind][prev_ind + 1] != -1) return dp[ind][prev_ind + 1];
 
-        int len = fundp(ind+1, prev_ind, n, nums, dp);
+        int notTake = fundp(ind+1, prev_ind, n, nums, dp);
+        int take = INT_MIN;
 
         if(prev_ind == -1 || nums[ind] > nums[prev_ind])
         {
-            len = max(len, 1 + fundp(ind+1, ind, n, nums, dp));
+            take = 1 + fundp(ind+1, ind, n, nums, dp);
         }
 
-        return dp[ind][prev_ind + 1] = len;
+        return dp[ind][prev_ind + 1] = max(notTake,take);
     }
 
     int lengthOfLIS(vector<int>& nums) {
@@ -38,5 +40,24 @@ public:
 
         vector<vector<int>> dp(n, vector<int> (n+1,-1));
         return fundp(0,-1,n,nums,dp);  
+
+        // vector<vector<int>> dp(n + 1, vector<int> (n + 1, 0));
+
+        // for(int ind = n - 1; ind >= 0; ind--)
+        // {
+        //     for(int prev_ind = ind - 1; prev_ind >= 0; prev_ind--)
+        //     {
+        //           int len = dp[ind+1][prev_ind + 1];
+
+        //         if(prev_ind == -1 || nums[ind] > nums[prev_ind])
+        //         {
+        //             len = max(len, 1 + dp[ind+1][ind + 1]);
+        //         }
+
+        //          dp[ind][prev_ind + 1] = len;
+        //     }
+        // }
+
+        // return dp[0][-1 + 1];
     }
 };
