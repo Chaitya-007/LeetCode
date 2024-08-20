@@ -38,26 +38,28 @@ public:
         int n = nums.size();
         // return fun(0,-1,n,nums); 
 
-        vector<vector<int>> dp(n, vector<int> (n+1,-1));
-        return fundp(0,-1,n,nums,dp);  
+        // vector<vector<int>> dp(n, vector<int> (n+1,-1));
+        // return fundp(0,-1,n,nums,dp);  
 
         // vector<vector<int>> dp(n + 1, vector<int> (n + 1, 0));
+        vector<int> dp(n,1);
+        int maxi = -1;
 
-        // for(int ind = n - 1; ind >= 0; ind--)
-        // {
-        //     for(int prev_ind = ind - 1; prev_ind >= 0; prev_ind--)
-        //     {
-        //           int len = dp[ind+1][prev_ind + 1];
+        for(int i = 0; i < n; i++)
+        {
+            for(int prev = 0; prev < i; prev++)
+            {
+                if(nums[prev] < nums[i])
+                {
+                    dp[i] = max(1 + dp[prev], dp[i]);
+                }
+            }
 
-        //         if(prev_ind == -1 || nums[ind] > nums[prev_ind])
-        //         {
-        //             len = max(len, 1 + dp[ind+1][ind + 1]);
-        //         }
+            maxi = max(maxi,dp[i]);
+        }
 
-        //          dp[ind][prev_ind + 1] = len;
-        //     }
-        // }
+        return maxi;
 
-        // return dp[0][-1 + 1];
+        
     }
 };
