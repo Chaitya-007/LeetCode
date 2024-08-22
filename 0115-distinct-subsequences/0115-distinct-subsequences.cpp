@@ -95,6 +95,7 @@ public:
 
          for(int i = 1; i <= n; i++)
          {
+            curr[0] = 1;
             for(int j = 1; j <= m; j++)
             {
                  if(s[i-1] == t[j-1])
