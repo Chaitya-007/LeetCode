@@ -24,21 +24,21 @@ public:
 
         if(s[i-1] == t[j-1])
         {
-            return funOpt(i-1,j-1,s,t,dp);
+            return dp[i][j] = funOpt(i-1,j-1,s,t,dp);
         }
 
-        return  1 + min(funOpt(i-1,j-1,s,t,dp), min(funOpt(i-1,j,s,t,dp), funOpt(i,j-1,s,t,dp) ));
+        return  dp[i][j] = 1 + min(funOpt(i-1,j-1,s,t,dp), min(funOpt(i-1,j,s,t,dp), funOpt(i,j-1,s,t,dp) ));
     }
 
     int minDistance(string word1, string word2) {
         int n = word1.length();
         int m = word2.length();
 
-        vector<vector<int>> dp(n, vector<int> (m, -1));
-        return fun(n-1,m-1,word1,word2,dp);
+        // vector<vector<int>> dp(n, vector<int> (m, -1));
+        // return fun(n-1,m-1,word1,word2,dp);
 
-        //  vector<vector<int>> dp(n + 1, vector<int> (m + 1, -1));
-        // return funOpt(n,m,word1,word2,dp);
+         vector<vector<int>> dp(n + 1, vector<int> (m + 1, -1));
+        return funOpt(n,m,word1,word2,dp);
 
         // vector<vector<int>> dp(n + 1, vector<int> (m + 1, 0));
         // for(int i = 0; i <= n; i++)
