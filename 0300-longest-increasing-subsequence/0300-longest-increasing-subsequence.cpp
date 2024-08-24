@@ -59,6 +59,7 @@ public:
         // }
 
         // return maxi;
+     
         int maxi = 0;
 
         for(int i = 0; i < n; i++)
@@ -67,14 +68,13 @@ public:
             {
                 if(nums[prev] < nums[i])
                 {
-                    dp[i] = max(1 + dp[prev],dp[i]);
+                    dp[i] = max(1+dp[prev], dp[i]);
                 }
             }
             maxi = max(maxi,dp[i]);
         }
 
         return maxi;
-
         
     }
 };
