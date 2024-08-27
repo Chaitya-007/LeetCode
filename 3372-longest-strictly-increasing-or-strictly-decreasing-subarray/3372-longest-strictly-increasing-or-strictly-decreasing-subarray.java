@@ -5,47 +5,39 @@ class Solution {
         {
             return 1;
         }
-        int maxInc = 1;
-        for(int i = 0; i < n; i++)
+
+        int l = 0;
+        int r = 1;
+        int inc = 1;
+        int dec = 1;
+        int maxCount = 1;
+
+        while(r < n)
         {
-            int cnt = 1;
-            int ele = nums[i];
-            for(int j = i + 1; j < n; j++)
+            if(nums[l] < nums[r])
             {
-                if(ele < nums[j])
-                {
-                    cnt++;
-                    ele = nums[j];
-                }
-                else
-                {
-                    break;
-                }
+                dec = 1;
+                inc++;
+                l = r;
+                r++;
+                maxCount = Math.max(inc,maxCount);
             }
-            maxInc = Math.max(maxInc,cnt);
+            else if(nums[l] > nums[r])
+            {
+                inc = 1;
+                dec++;
+                l = r;
+                r++;
+                maxCount = Math.max(dec,maxCount);
+            }
+            else
+            {
+                inc = 1;
+                dec = 1;
+                r++;
+            }
         }
 
-        int maxDec = 1;
-        for(int i = 0; i < n; i++)
-        {
-            int cnt = 1;
-            int ele = nums[i];
-            for(int j = i + 1; j < n; j++)
-            {
-                if(ele > nums[j])
-                {
-                    cnt++;
-                    ele = nums[j];
-                }
-                else
-                {
-                    break;
-                }
-            }
-            maxDec = Math.max(maxDec,cnt);
-        }
-
-    return Math.max(maxInc,maxDec);
+        return maxCount;
     }
-
 }
