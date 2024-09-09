@@ -83,6 +83,7 @@
 | [0053-maximum-subarray](https://github.com/Chaitya-007/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Chaitya-007/LeetCode/tree/master/0075-sort-colors) |
 | [0136-single-number](https://github.com/Chaitya-007/LeetCode/tree/master/0136-single-number) |
+| [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Chaitya-007/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0213-house-robber-ii) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
@@ -140,6 +141,7 @@
 | [0141-linked-list-cycle](https://github.com/Chaitya-007/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Chaitya-007/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -173,6 +175,7 @@
 | ------- |
 | [0075-sort-colors](https://github.com/Chaitya-007/LeetCode/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/Chaitya-007/LeetCode/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 ## String
@@ -244,6 +247,7 @@
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1341-split-a-string-in-balanced-strings) |
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/Chaitya-007/LeetCode/tree/master/1823-determine-if-string-halves-are-alike) |
@@ -310,6 +314,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/Chaitya-007/LeetCode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/Chaitya-007/LeetCode/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 ## Merge Sort
 |  |
 | ------- |
