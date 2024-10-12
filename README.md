@@ -182,6 +182,7 @@
 | [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
+| [2887-sort-vowels-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
 ## String
 |  |
 | ------- |
@@ -236,6 +237,7 @@
 | [2825-minimize-string-length](https://github.com/Chaitya-007/LeetCode/tree/master/2825-minimize-string-length) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [2881-split-strings-by-separator](https://github.com/Chaitya-007/LeetCode/tree/master/2881-split-strings-by-separator) |
+| [2887-sort-vowels-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/Chaitya-007/LeetCode/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 | [3353-existence-of-a-substring-in-a-string-and-its-reverse](https://github.com/Chaitya-007/LeetCode/tree/master/3353-existence-of-a-substring-in-a-string-and-its-reverse) |
 | [3379-score-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/3379-score-of-a-string) |
