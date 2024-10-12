@@ -68,6 +68,7 @@
 | [0002-add-two-numbers](https://github.com/Chaitya-007/LeetCode/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/Chaitya-007/LeetCode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
+| [1761-count-sorted-vowel-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 | [2032-largest-odd-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2481-strictly-palindromic-number](https://github.com/Chaitya-007/LeetCode/tree/master/2481-strictly-palindromic-number) |
 ## Recursion
@@ -315,6 +316,7 @@
 | [1170-shortest-common-supersequence](https://github.com/Chaitya-007/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Chaitya-007/LeetCode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1761-count-sorted-vowel-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Memoization
 |  |
@@ -368,4 +370,8 @@
 |  |
 | ------- |
 | [2481-strictly-palindromic-number](https://github.com/Chaitya-007/LeetCode/tree/master/2481-strictly-palindromic-number) |
+## Combinatorics
+|  |
+| ------- |
+| [1761-count-sorted-vowel-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 <!---LeetCode Topics End-->
