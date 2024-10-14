@@ -93,6 +93,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Chaitya-007/LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0518-coin-change-ii) |
@@ -149,6 +150,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/Chaitya-007/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
