@@ -238,6 +238,7 @@
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2361-calculate-digit-sum-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2361-calculate-digit-sum-of-a-string) |
 | [2365-percentage-of-letter-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2365-percentage-of-letter-in-string) |
+| [2470-removing-stars-from-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 | [2487-optimal-partition-of-string](https://github.com/Chaitya-007/LeetCode/tree/master/2487-optimal-partition-of-string) |
 | [2589-maximum-value-of-a-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2589-maximum-value-of-a-string-in-an-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
@@ -281,6 +282,7 @@
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Chaitya-007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Chaitya-007/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2361-calculate-digit-sum-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2361-calculate-digit-sum-of-a-string) |
+| [2470-removing-stars-from-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Chaitya-007/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3540-hash-divided-string](https://github.com/Chaitya-007/LeetCode/tree/master/3540-hash-divided-string) |
@@ -301,6 +303,7 @@
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1666-make-the-string-great](https://github.com/Chaitya-007/LeetCode/tree/master/1666-make-the-string-great) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Chaitya-007/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2470-removing-stars-from-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Chaitya-007/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## String Matching
 |  |
