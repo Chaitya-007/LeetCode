@@ -7,7 +7,7 @@ class Solution {
         int leftcnt = 0;
         int rightcnt = 0;
 
-        String vowel = "aeiouAEIOU";
+        String vowel = "aeiouAEIOU"; // can also use HashSet and contains method
 
         for(int i = 0; i < s.length(); i++)
         {
