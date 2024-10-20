@@ -19,6 +19,7 @@ class Solution {
 
         // return true;
 
+        // M2
         StringBuilder sb = new StringBuilder(str);
         sb.reverse();
         String newstr = sb.toString();
