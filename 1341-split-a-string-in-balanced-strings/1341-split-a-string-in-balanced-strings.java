@@ -3,9 +3,11 @@ class Solution {
         int str_count = 0;
         int cnt = 0;
 
-        for(int i = 0; i < s.length(); i++)
+        for(int i = 0; i < s.length(); i++) // for each => do not use of string iteration
         {
         //    cnt = s.charAt(i) == 'R' ? ++cnt : --cnt; // use preincrement
+
+
 
             if(s.charAt(i) == 'R')
             {
