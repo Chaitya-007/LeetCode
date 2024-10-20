@@ -1,25 +1,33 @@
 class Solution {
     public String kthDistinct(String[] arr, int k) {
-        Map<String,Boolean> map = new LinkedHashMap<String,Boolean>();
-        
 
-        for(String str : arr)
+        Map<String, Boolean> map = new LinkedHashMap<String, Boolean>();
+
+        for(int i = 0; i < arr.length; i++)
         {
-            map.put(str, !map.containsKey(str));
+            if(map.containsKey(arr[i]))
+            {
+                map.put(arr[i], false);
+            }
+            else
+            {
+                map.put(arr[i],true);
+            }
         }
 
-        // System.out.println(map);
-        // map = {"d": true, "b": false, "c": false, "a": true}
-
-        int i = 0;
-        for(String str : arr)
+        for(Map.Entry<String, Boolean> e : map.entrySet())
         {
-            if(map.get(str) && ++i == k)
+            if(e.getValue())
             {
-                return str;
+                k--;
+            }
+            if(k==0)
+            {
+                return e.getKey();
             }
         }
 
         return "";
+        
     }
 }
