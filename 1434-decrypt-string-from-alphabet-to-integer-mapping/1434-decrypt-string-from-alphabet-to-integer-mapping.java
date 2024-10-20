@@ -6,7 +6,7 @@ class Solution {
      {
         if(s.charAt(i) == '#')
         {
-            sb.append((char) ( 'a' + (s.charAt(i - 1) - '0') + 10*(s.charAt(i-2) - '0') - 1 ));
+            sb.append((char) ( 'a' +  + 10*(s.charAt(i-2) - '0') + (s.charAt(i - 1) - '0') - 1 ));
             i = i - 2;
         }
         else
