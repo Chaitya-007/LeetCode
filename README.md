@@ -286,6 +286,7 @@
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/Chaitya-007/LeetCode/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2177-check-whether-two-strings-are-almost-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/2177-check-whether-two-strings-are-almost-equivalent) |
+| [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
 | [2654-count-the-number-of-vowel-strings-in-range](https://github.com/Chaitya-007/LeetCode/tree/master/2654-count-the-number-of-vowel-strings-in-range) |
 ## Simulation
 |  |
