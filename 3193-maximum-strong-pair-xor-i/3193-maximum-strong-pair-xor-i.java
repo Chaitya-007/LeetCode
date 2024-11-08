@@ -1,24 +1,24 @@
 class Solution {
     public int maximumStrongPairXor(int[] nums) {
-        int xor = 0;
+        int result = 0;
+
         for(int i = 0; i < nums.length; i++)
         {
-            for(int j = i + 1; j < nums.length; j++)
+            int x = nums[i];
+            for(int j = i; j < nums.length; j++)
             {
-                if(nums[i] != nums[j])
+                int y = nums[j];
+                if(Math.abs(x - y) <= Math.min(x,y))
                 {
-                if(Math.abs(nums[i] - nums[j]) <= Math.min(nums[i],nums[j]))
-                {
-                    int res = (nums[i] ^ nums[j]);
-                    if(xor < res)
+                    int xor = (x^y);
+                    if(result < xor)
                     {
-                        xor = res;
+                        result = xor;
                     }
-                }
                 }
             }
         }
 
-        return xor;
+        return result;
     }
 }
