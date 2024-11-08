@@ -4,34 +4,44 @@ class Solution {
         int[] freq = new int[26];
         Arrays.fill(freq,0);
 
-        for(char ch : s.toCharArray())
+        for(int i = 0; i < s.length(); i++)
         {
-            freq[ch - 'a'] += 1;
+            int ind = (int)(s.charAt(i) - 'a');
+            freq[ind] = freq[ind] + 1;
         }
 
-        StringBuilder sb = new StringBuilder("");
-        while(sb.length() != s.length())
+        int n = s.length();
+
+        String str = "";
+
+        while(str.length() < n)
         {
-            for(int i = 0; i < freq.length; i++)
+            for(int i = 0; i < 26; i++)
             {
-                if(freq[i] != 0)
+                if(freq[i] > 0)
                 {
-                    sb.append((char)('a' + i));
-                    freq[i] -= 1;
+                    char ch = (char)(i + 'a');
+                    freq[i] = freq[i] - 1;
+                    str += ch;
                 }
             }
 
-        for(int i = 25; i >= 0; i--)
-        {
-            if(freq[i] != 0)
+            if(str.length() == n)
             {
-                sb.append((char)('a' + i));
-                freq[i] -= 1;
+                break;
+            }
+
+            for(int i = 25; i >= 0; i--)
+            {
+                if(freq[i] > 0)
+                {
+                    char ch = (char)(i + 'a');
+                    freq[i] = freq[i] - 1;
+                    str += ch;
+                }
             }
         }
-        }
 
-        return sb.toString();
-    
+        return str;
     }
 }
