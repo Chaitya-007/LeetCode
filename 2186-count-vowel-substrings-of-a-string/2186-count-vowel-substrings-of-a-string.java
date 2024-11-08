@@ -1,31 +1,22 @@
 class Solution {
     public int countVowelSubstrings(String word) {
         String vowel = "aeiou";
+        int n = word.length();
         int cnt = 0;
 
-
-        for(int i = 0; i <= (word.length() - 5); i++)
+        for(int i = 0; i < n; i++)
         {
-        HashSet<Character> set = new HashSet<Character>();
-            for(int j = i ; j < word.length(); j++)
+            Set<Character> hset = new HashSet<Character>();
+            for(int j = i; j < n; j++)
             {
-                char ch = word.charAt(j);
-
-                if(vowel.contains(String.valueOf(ch)))
+                if(vowel.indexOf(word.charAt(j)) >= 0)
                 {
-                    System.out.println("Element = " + word.charAt(j));
-                    set.add(ch);
-                    int len = set.size();
+                    hset.add(word.charAt(j));
+                    int len = hset.size();
                     if(len == 5)
                     {
                         cnt++;
-                        System.out.println("cnt = " + cnt);
                     }
-                }
-                else if(set.size() > 0)
-                {
-                    System.out.println("breaked");
-                    break;
                 }
                 else
                 {
