@@ -1,38 +1,30 @@
 class Solution {
     public int maximumValue(String[] strs) {
-        
-        // String str = "0123456789";
-        // StringBuilder sb = new StringBuilder("");
-        // HashMap<Character> set = new HashMap<Characher>();
-
-        // for(char ch = 'a'; i <= 'z'; i++)
-        // {
-        //     set.add(ch);
-        // }
 
         int maxo = 0;
-
-        for(String word : strs)
+        for(String str : strs)
         {
-            boolean flag = false;
-            for(int i = 0; i < word.length(); i++)
+            int n = str.length();
+            int num = 0;
+
+            for(int i = 0; i < n; i++)
             {
-                if('a' <= word.charAt(i) && word.charAt(i) <= 'z')
+                char ch = str.charAt(i);
+                if('0' <= ch && ch <= '9')
                 {
-                    flag = true;
+                    int val = (int)(ch - '0');
+                    num = val + ((num)*10);
+                }
+                else
+                {
+                    num = str.length();
                     break;
                 }
             }
 
-            if(flag)
+            if(maxo < num)
             {
-                int value = word.length();
-                maxo = Math.max(maxo,value);
-            }
-            else
-            {
-                int num = Integer.valueOf(word);
-                maxo = Math.max(maxo,num);
+                maxo = num;
             }
         }
 
