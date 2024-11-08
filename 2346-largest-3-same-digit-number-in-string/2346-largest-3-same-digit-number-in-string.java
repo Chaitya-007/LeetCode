@@ -1,31 +1,59 @@
 class Solution {
-    public String largestGoodInteger(String num) {
 
-        int p = 0;
-        int q = 1;
-        int r = 2;
+    public static int convert(String str, int l, int r)
+    {
+        int num = 0;
+        for(int i = l; i <= r; i++)
+        {
+            char ch = str.charAt(i);
+            int val = (int)(ch - '0');
+            num = val + (num*10);
+        }
+
+        return num;
+    }
+
+
+    public String largestGoodInteger(String num) {
+        int l = 0;
+        int r = 1;
         int n = num.length();
         int maxo = -1;
 
-        while(r < n)
+        while(l < n && r < n)
         {
-            char cha = num.charAt(p);
-            char chb = num.charAt(q);
-            char chc = num.charAt(r);
-            if(cha == chb && chb == chc)
+            if(num.charAt(l) != num.charAt(r))
             {
-                String str = num.substring(p,r+1);
-                int number = Integer.valueOf(str);
-                maxo = Math.max(maxo,number);
+                l++;
+                r++;
             }
-            p++;
-            q++;
-            r++;
-        }
+            else
+            {
+                while(l < n && r < n)
+                {
+                    if((r - l) == 2 && num.charAt(l) == num.charAt(r))
+                    {
+                        int val = convert(num, l, r);
+                        if(maxo < val)
+                        {
+                            maxo = val;
+                        }
+                        l = r + 1;
+                        r = l + 1;
+                        break;
+                    }
 
-        if(maxo == 0)
-        {
-            return "000";
+                    if(num.charAt(l) == num.charAt(r))
+                    {
+                        r++;
+                    }
+                    else
+                    {
+                        l++;
+                        break;
+                    }
+                }
+            }
         }
 
         if(maxo == -1)
@@ -33,9 +61,20 @@ class Solution {
             return "";
         }
 
-        String str = String.valueOf(maxo);
+        if(maxo == 0)
+        {
+            return "000";
+        }
+
+        String str = "";
+        while(maxo > 0)
+        {
+            int rem = maxo%10;
+            maxo = maxo/10;
+            char ch = (char)(rem + '0');
+            str += ch;
+        }
 
         return str;
-        
     }
 }
