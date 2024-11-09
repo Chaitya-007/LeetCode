@@ -211,6 +211,7 @@
 | [0516-longest-palindromic-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Chaitya-007/LeetCode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0583-delete-operation-for-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
+| [0812-rotate-string](https://github.com/Chaitya-007/LeetCode/tree/master/0812-rotate-string) |
 | [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Chaitya-007/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
@@ -330,6 +331,7 @@
 ## String Matching
 |  |
 | ------- |
+| [0812-rotate-string](https://github.com/Chaitya-007/LeetCode/tree/master/0812-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/1524-string-matching-in-an-array) |
 ## Dynamic Programming
 |  |
