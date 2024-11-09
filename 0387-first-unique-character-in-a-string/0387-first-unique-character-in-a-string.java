@@ -16,25 +16,11 @@ class Solution {
         }
      }
 
-     char key = ' ';
-
-     for(Map.Entry<Character, Integer> e : map.entrySet())
-     {
-        if(e.getValue() == 1)
-        {
-            key = e.getKey();
-            break;
-        }
-     }
-
-     if(key == ' ')
-     {
-        return -1;
-     }
 
         for(int i = 0; i < n; i++)
         {
-            if(key == s.charAt(i))
+            char ch = s.charAt(i);
+            if(map.get(ch) == 1)
             {
                 return i;
             }
