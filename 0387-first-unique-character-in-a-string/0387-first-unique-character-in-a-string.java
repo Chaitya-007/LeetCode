@@ -1,32 +1,26 @@
 class Solution {
     public int firstUniqChar(String s) {
-     Map<Character, Integer> map = new LinkedHashMap<Character, Integer>();
-    int n = s.length();
+        int[] freq = new int[26];
+        Arrays.fill(freq,0);
+        int n = s.length();
+        char[] charray = s.toCharArray();
 
-     for(int i = 0; i < s.length(); i++)
-     {
-        char ch = s.charAt(i);
-        if(map.containsKey(ch))
+        for(char ch :  charray)
         {
-            map.put(ch, map.get(ch) + 1);
+            int ind = (int)(ch - 'a');
+            freq[ind] = freq[ind] + 1;
         }
-        else
-        {
-            map.put(ch,1);
-        }
-     }
-
 
         for(int i = 0; i < n; i++)
         {
             char ch = s.charAt(i);
-            if(map.get(ch) == 1)
+            int ind = (int)(ch - 'a');
+            if(freq[ind] == 1)
             {
                 return i;
             }
         }
 
-     return -1;
-
+        return -1;
     }
 }
