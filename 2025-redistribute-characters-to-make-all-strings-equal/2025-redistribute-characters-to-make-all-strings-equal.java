@@ -1,34 +1,35 @@
 class Solution {
     public boolean makeEqual(String[] words) {
-        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
 
-        for(String str : words)
+        int n = words.length;
+
+        for(int i = 0; i < n; i++)
         {
-            for(int i = 0; i < str.length(); i++)
+            String str = words[i];
+
+            for(int j = 0; j < str.length(); j++)
             {
-                char ch = str.charAt(i);
+                char ch = str.charAt(j);
                 if(map.containsKey(ch))
                 {
                     map.put(ch, map.get(ch) + 1);
                 }
                 else
                 {
-                    map.put(ch,1);
+                    map.put(ch, 1);
                 }
             }
         }
 
-        int len = words.length;
-
-        for(int num : map.values())
+        for(Integer i : map.values())
         {
-            if(num%(len) != 0)
+            if(i%n != 0)
             {
                 return false;
             }
         }
 
         return true;
-        
     }
 }
