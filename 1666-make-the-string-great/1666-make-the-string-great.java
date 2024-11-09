@@ -1,56 +1,40 @@
 class Solution {
     public String makeGood(String s) {
-        if(s.length() == 0)
-        {
-            return s;
-        }
-
-        // StringBuilder sb = new StringBuilder("");
-
-        // for(int i = 0; i < s.length(); i++)
-        // {
-        //     int len = sb.length();
-
-        //     if(len > 0)
-        //     {
-        //         int num = Math.abs(s.charAt(i) - sb.charAt(len - 1));
-        //         if(num == 32)
-        //         {
-        //             sb.deleteCharAt(len - 1);
-        //         }
-        //         else
-        //         {
-        //             sb.append(s.charAt(i));
-        //         }
-        //     }
-        //     else
-        //     {
-        //         sb.append(s.charAt(i));
-        //     }
-        // }
-
-        // return sb.toString();
-
+        int n = s.length();
         Stack<Character> st = new Stack<Character>();
 
-        for(int i = 0; i < s.length(); i++)
+        for(int i = 0; i < n; i++)
         {
             char ch = s.charAt(i);
-
             if(st.isEmpty())
             {
                 st.push(ch);
             }
             else
             {
-                int num = Math.abs(ch - st.peek());
-                if(num == 32)
+                if('A' <= ch && ch <= 'Z')
                 {
-                    st.pop();
+                    char val = (char) (ch + 32);
+                    if(val == st.peek())
+                    {
+                        st.pop();
+                    }
+                    else
+                    {
+                        st.push(ch);
+                    }
                 }
                 else
                 {
+                    char val = (char) (ch - 32);
+                    if(val == st.peek())
+                    {
+                        st.pop();
+                    }
+                    else
+                    {
                     st.push(ch);
+                    }
                 }
             }
         }
@@ -59,12 +43,11 @@ class Solution {
 
         while(!st.isEmpty())
         {
-            char ch = st.peek();
-            sb.append(ch);
+            sb.append(st.peek());
             st.pop();
         }
 
-        sb.reverse();
-        return sb.toString();
+        return sb.reverse().toString();
+        
     }
 }
