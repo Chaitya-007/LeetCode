@@ -1,36 +1,34 @@
 class Solution {
     public int minOperations(String s) {
-
-// check notes section
-        int first = 0;
-        int second = 0;
+        int minop1 = 0;
+        int minop2 = 0;
 
         for(int i = 0; i < s.length(); i++)
         {
             if(i%2 == 0)
             {
-                if(s.charAt(i) == '1')
+                if(s.charAt(i) == '0')
                 {
-                    first++;
+                    minop2++;
                 }
                 else
                 {
-                    second++;
+                    minop1++;
                 }
             }
             else
             {
-                if(s.charAt(i) == '1')
+                if(s.charAt(i) == '0')
                 {
-                    second++;
+                    minop1++;
                 }
                 else
                 {
-                    first++;
+                    minop2++;
                 }
             }
         }
 
-        return Math.min(first,second);
+        return Math.min(minop1,minop2);
     }
 }
