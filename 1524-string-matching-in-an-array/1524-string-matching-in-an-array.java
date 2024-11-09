@@ -1,8 +1,8 @@
 class Solution {
     public List<String> stringMatching(String[] words) {
-        Set<String> list = new LinkedHashSet<String>();
-        List<String> result = new ArrayList<String>();
-        
+        List<String> list = new ArrayList<String> ();
+        Set<String> hashset = new HashSet<String>();
+
         for(int i = 0; i < words.length; i++)
         {
             String str = words[i];
@@ -10,20 +10,20 @@ class Solution {
             {
                 if(i != j)
                 {
-                    if(words[j].contains(str))
+                    String temp = words[j];
+                    if(temp.indexOf(str) >= 0)
                     {
-                        list.add(str);
+                        hashset.add(str);
                     }
                 }
             }
-
         }
 
-        for(String sub : list)
+        for(String str : hashset)
         {
-            result.add(sub);
+            list.add(str);
         }
 
-        return result;
+        return list;
     }
 }
