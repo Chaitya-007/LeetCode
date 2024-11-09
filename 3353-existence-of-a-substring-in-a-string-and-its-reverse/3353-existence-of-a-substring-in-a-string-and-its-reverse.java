@@ -1,24 +1,22 @@
 class Solution {
     public boolean isSubstringPresent(String s) {
+     StringBuilder sb = new StringBuilder(s);
+     String rev = sb.reverse().toString();
 
-        StringBuilder sb = new StringBuilder(s);
+     int n = s.length();
 
-        sb.reverse();
+     for(int i = 0; i < n; i++)
+     {
+        String str = s.substring(i, Math.min(n, i + 2));
 
-        
-
-        for(int i = 0; i < s.length(); i++)
+        if(str.length() == 2 && rev.indexOf(str) >= 0)
         {
-            String t = s.substring(i,Math.min(i+2,s.length()));
-
-            if(t.length() == 2 && sb.indexOf(t) >= 0)
-            {
-                // System.out.println(t);
-                return true;
-            }
+            return true;
         }
+     }   
 
-        return false;
+     return false;
+
 
     }
 }
