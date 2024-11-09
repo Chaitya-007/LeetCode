@@ -229,6 +229,7 @@
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
 | [1490-generate-a-string-with-characters-that-have-odd-counts](https://github.com/Chaitya-007/LeetCode/tree/master/1490-generate-a-string-with-characters-that-have-odd-counts) |
 | [1524-string-matching-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/1524-string-matching-in-an-array) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
 | [1666-make-the-string-great](https://github.com/Chaitya-007/LeetCode/tree/master/1666-make-the-string-great) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
@@ -422,6 +423,7 @@
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Database
 |  |
 | ------- |
