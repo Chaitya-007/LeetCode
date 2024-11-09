@@ -1,32 +1,15 @@
 class Solution {
     public String largestOddNumber(String num) {
-        
-        int n = num.length();
-
-       
-        // does not contain any leading zeroes => written in constraints
-        // for(i = 0; i < n; i++)
-        // {
-        //     if(num.charAt(i) != '0')
-        //     {
-        //         break;
-        //     }
-        // }
-
-       
-
-        String temp = "";
-
-        for(int i = 0; i < n; i++)
+    
+        for(int i = num.length() - 1; i >= 0; i--)
         {
-            int digit = (num.charAt(i) - '0');
-            if(digit%2 == 1)
+            int val = (int) (num.charAt(i) - '0');
+            if(val%2 != 0)
             {
-                 temp = num.substring(0,i+1);
+                return num.substring(0,i+1);
             }
         }
 
-        return temp;
-
+        return "";
     }
 }
