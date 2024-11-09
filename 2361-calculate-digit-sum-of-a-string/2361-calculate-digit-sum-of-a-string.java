@@ -1,20 +1,44 @@
 class Solution {
 
+    public static String digStr(String str)
+    {
+        int sum = 0;
+        for(int i = 0; i < str.length(); i++)
+        {
+            int num = (int)(str.charAt(i) - '0');
+            sum += num;
+        }
+
+        if(sum == 0)
+        {
+            return "0";
+        }
+
+        StringBuilder sb = new StringBuilder("");
+        while(sum > 0)
+        {
+            int rem = sum%10;
+            sum = sum/10;
+            char ch = (char) (rem + '0');
+            sb.append(ch);
+        }
+
+        return sb.reverse().toString();
+    }
+
     public String digitSum(String s, int k) {
         while(s.length() > k)
         {
-            String ns = "";
-            for(int i = 0; i < s.length(); i+=k)
+            StringBuilder sb = new StringBuilder("");
+
+            for(int i = 0; i < s.length(); i = i + k)
             {
-                String t = s.substring(i,Math.min(i+k,s.length()));
-                int sum = 0;
-                for(int j = 0; j < t.length(); j++)
-                {
-                    sum += (t.charAt(j) - '0');
-                }
-                ns += sum;
+                String str = s.substring(i, Math.min(s.length(), i + k));
+                String dig = digStr(str);
+                sb.append(dig);
             }
-            s = ns;
+
+            s = sb.toString();
         }
 
         return s;
