@@ -251,6 +251,7 @@
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Chaitya-007/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/Chaitya-007/LeetCode/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Chaitya-007/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2154-minimum-moves-to-convert-string](https://github.com/Chaitya-007/LeetCode/tree/master/2154-minimum-moves-to-convert-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2177-check-whether-two-strings-are-almost-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/2177-check-whether-two-strings-are-almost-equivalent) |
 | [2186-count-vowel-substrings-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2186-count-vowel-substrings-of-a-string) |
@@ -289,6 +290,7 @@
 | [1341-split-a-string-in-balanced-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2032-largest-odd-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Chaitya-007/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2154-minimum-moves-to-convert-string](https://github.com/Chaitya-007/LeetCode/tree/master/2154-minimum-moves-to-convert-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Chaitya-007/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2487-optimal-partition-of-string](https://github.com/Chaitya-007/LeetCode/tree/master/2487-optimal-partition-of-string) |
 ## Counting
