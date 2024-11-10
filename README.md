@@ -281,6 +281,7 @@
 | [3412-permutation-difference-between-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
 | [3468-find-the-encrypted-string](https://github.com/Chaitya-007/LeetCode/tree/master/3468-find-the-encrypted-string) |
 | [3540-hash-divided-string](https://github.com/Chaitya-007/LeetCode/tree/master/3540-hash-divided-string) |
+| [3617-find-the-original-typed-string-i](https://github.com/Chaitya-007/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
 ## Greedy
 |  |
 | ------- |
