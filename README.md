@@ -105,6 +105,7 @@
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 | [1524-string-matching-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/1524-string-matching-in-an-array) |
+| [1580-shuffle-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/1580-shuffle-the-array) |
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
