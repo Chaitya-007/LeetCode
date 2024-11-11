@@ -104,6 +104,7 @@
 | [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/Chaitya-007/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1524-string-matching-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1580-shuffle-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/1580-shuffle-the-array) |
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
@@ -166,6 +167,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/Chaitya-007/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
