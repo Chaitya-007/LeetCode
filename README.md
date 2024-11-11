@@ -123,6 +123,7 @@
 | [2547-odd-string-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2547-odd-string-difference) |
 | [2589-maximum-value-of-a-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2589-maximum-value-of-a-string-in-an-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
+| [2639-separate-the-digits-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2639-separate-the-digits-in-an-array) |
 | [2654-count-the-number-of-vowel-strings-in-range](https://github.com/Chaitya-007/LeetCode/tree/master/2654-count-the-number-of-vowel-strings-in-range) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [2881-split-strings-by-separator](https://github.com/Chaitya-007/LeetCode/tree/master/2881-split-strings-by-separator) |
@@ -329,6 +330,7 @@
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Chaitya-007/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2361-calculate-digit-sum-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2361-calculate-digit-sum-of-a-string) |
 | [2470-removing-stars-from-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2470-removing-stars-from-a-string) |
+| [2639-separate-the-digits-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2639-separate-the-digits-in-an-array) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Chaitya-007/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3540-hash-divided-string](https://github.com/Chaitya-007/LeetCode/tree/master/3540-hash-divided-string) |
