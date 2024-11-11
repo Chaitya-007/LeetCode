@@ -1,39 +1,18 @@
 class Solution {
     public int countPairs(int[] nums, int k) {
-        Map<Integer,ArrayList<Integer>> map= new HashMap<>();
-        int res=0;
-        for(int i=0;i<nums.length;i++)
+        int cnt = 0;
+        int n = nums.length;
+        for(int i = 0; i < n; i++)
         {
-            if(map.containsKey(nums[i]))
+            for(int j = i + 1; j < n; j++)
             {
-                map.get(nums[i]).add(i);
-            }
-            else
-            {
-                map.put(nums[i],new ArrayList<Integer>());
-                map.get(nums[i]).add(i);
-            }
-        }
-        for(Integer key:map.keySet())
-        {
-            Map<Integer,Integer> gcds=new HashMap<>();
-            for(Integer it:map.get(key))
-            {
-                int gcdi=gcd(it,k);
-                for(Integer gcdj:gcds.keySet())
+                if((nums[i] == nums[j]) && ((i*j)%k == 0))
                 {
-                    res+= (gcdi*gcdj %k!=0) ?0: gcds.get(gcdj);
+                    cnt++;
                 }
-                gcds.put(gcdi,gcds.getOrDefault(gcdi,0)+1);
             }
         }
-        return res;
+
+        return cnt;
     }
-    static int gcd(int a, int b)
-	{
-	    if (b == 0)
-	        return a;
-	    return gcd(b, a % b);
-	     
-	}
 }
