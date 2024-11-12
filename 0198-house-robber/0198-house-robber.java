@@ -26,23 +26,44 @@ class Solution {
         Arrays.fill(dp,-1);
         // return fun(n-1,nums,dp);
 
-        dp[0] = nums[0];
+        // dp[0] = nums[0];
+
+        // for(int ind = 1; ind < n; ind++)
+        // {
+        // int not_pick = dp[ind - 1];
+
+        
+        // int pick = nums[ind];
+        // if(ind >=2) 
+        // {
+        // pick += dp[ind-2];
+
+        // }
+
+        //  dp[ind] = Math.max(not_pick,pick);
+        // }
+
+        // return dp[n-1];
+        int prev = nums[0];
+        int prev2 = 0;
 
         for(int ind = 1; ind < n; ind++)
         {
-        int not_pick = dp[ind - 1];
+        int not_pick = prev;
 
         
         int pick = nums[ind];
         if(ind >=2) 
         {
-        pick += dp[ind-2];
+        pick += prev2;
 
         }
 
-         dp[ind] = Math.max(not_pick,pick);
+         int curr = Math.max(not_pick,pick);
+         prev2 = prev;
+         prev = curr;
         }
 
-        return dp[n-1];
+        return prev;
     }
 }
