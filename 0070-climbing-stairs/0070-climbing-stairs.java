@@ -20,15 +20,27 @@ class Solution {
         Arrays.fill(dp,-1);
         // return fun(n,dp);
 
-        dp[0] = 1;
-        dp[1] = 1;
+        // dp[0] = 1;
+        // dp[1] = 1;
+
+        // for(int ind = 2; ind <= n; ind++)
+        // {
+        //     dp[ind] = dp[ind - 1] + dp[ind - 2];
+        // }
+
+        // return dp[n];
+
+        int prev = 1;
+        int prev2 = 1;
 
         for(int ind = 2; ind <= n; ind++)
         {
-            dp[ind] = dp[ind - 1] + dp[ind - 2];
+            int curr = prev + prev2;
+            prev2 = prev;
+            prev = curr;
         }
 
-        return dp[n];
+        return prev;
 
     }
 }
