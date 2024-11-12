@@ -24,6 +24,25 @@ class Solution {
         int n = nums.length;
         int[] dp = new int[n];
         Arrays.fill(dp,-1);
-        return fun(n-1,nums,dp);
+        // return fun(n-1,nums,dp);
+
+        dp[0] = nums[0];
+
+        for(int ind = 1; ind < n; ind++)
+        {
+        int not_pick = dp[ind - 1];
+
+        
+        int pick = nums[ind];
+        if(ind >=2) 
+        {
+        pick += dp[ind-2];
+
+        }
+
+         dp[ind] = Math.max(not_pick,pick);
+        }
+
+        return dp[n-1];
     }
 }
