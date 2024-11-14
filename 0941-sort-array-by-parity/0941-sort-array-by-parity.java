@@ -6,14 +6,23 @@ class Solution {
 
         while(l < r)
         {
-            if(nums[r]%2 == 0)
+            if(nums[l]%2 == 0 && nums[r]%2 == 0)
+            {
+                l++;
+            }
+            else if(nums[l]%2 == 0 && nums[r]%2 != 0)
+            {
+                l++;
+            }
+            else if(nums[l]%2 != 0 && nums[r]%2 == 0)
             {
                 int temp = nums[r];
                 nums[r] = nums[l];
                 nums[l] = temp;
                 l++;
+
             }
-            else
+            else if(nums[l]%2 != 0 && nums[r]%2 != 0)
             {
                 r--;
             }
