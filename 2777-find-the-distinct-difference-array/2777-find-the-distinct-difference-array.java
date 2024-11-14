@@ -1,20 +1,31 @@
 class Solution {
     public int[] distinctDifferenceArray(int[] nums) {
-        Set<Integer> h1 = new HashSet<Integer>();
+        Map<Integer,Integer> prefixmap = new HashMap<Integer,Integer>();
+        Map<Integer,Integer> suffixmap = new HashMap<Integer,Integer>();
 
-        for(int i = 0; i < nums.length; i++)
+        for(int val : nums)
         {
-            h1.add(nums[i]);
-        Set<Integer> h2 = new HashSet<Integer>();
+            suffixmap.put(val, suffixmap.getOrDefault(val,0) + 1);
+        }
 
-            for(int j = i + 1; j < nums.length; j++)
-            {
-                h2.add(nums[j]);
-            }
+        int i = 0;
+        for(int val : nums)
+        {
+            prefixmap.put(val,prefixmap.getOrDefault(val,0) + 1);  
+            suffixmap.put(val, suffixmap.get(val) - 1);
 
-            nums[i] = (h1.size() - h2.size());
+                if(suffixmap.get(val) == 0)
+                {
+                    suffixmap.remove(val);
+                }
+
+            nums[i] = (prefixmap.size() - suffixmap.size());
+            i++;
+            
         }
 
         return nums;
+
+
     }
 }
