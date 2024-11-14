@@ -72,6 +72,7 @@
 | [2032-largest-odd-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Chaitya-007/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2481-strictly-palindromic-number](https://github.com/Chaitya-007/LeetCode/tree/master/2481-strictly-palindromic-number) |
+| [2748-calculate-delayed-arrival-time](https://github.com/Chaitya-007/LeetCode/tree/master/2748-calculate-delayed-arrival-time) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Chaitya-007/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Recursion
 |  |
