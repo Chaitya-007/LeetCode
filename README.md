@@ -144,6 +144,7 @@
 | [3193-maximum-strong-pair-xor-i](https://github.com/Chaitya-007/LeetCode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Chaitya-007/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3429-special-array-i) |
+| [3605-construct-the-minimum-bitwise-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -222,6 +223,7 @@
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Chaitya-007/LeetCode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Chaitya-007/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3605-construct-the-minimum-bitwise-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
 ## Sorting
 |  |
 | ------- |
