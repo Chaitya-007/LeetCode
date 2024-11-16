@@ -1,59 +1,32 @@
 class Solution {
     public int[] resultsArray(int[] nums, int k) {
+        List<Integer> list = new ArrayList<Integer>();
         int n = nums.length;
-        
-        if(n == 1) 
-        {
-            int[] ans = {nums[0]};
-            return ans;
-        }
-        
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        
+        int[] res = new int[n - k + 1];
+
         for(int i = 0; i <= (n - k); i++)
         {
-            int r = i + 1;
-            int cnt = 1;
-            boolean flag = true;;
-
-            while(cnt <= (k-1))
+            boolean flag = true;
+            int first = nums[i];
+            for(int j = i + 1; j < (i + k); j++)
             {
-                if(nums[r] - nums[r-1] != 1)
+                if(nums[j] - nums[j - 1] != 1)
                 {
                     flag = false;
                     break;
                 }
-                else
-                {
-                    r++;
-                }
-                cnt++;
-                
             }
-            
-            if(flag)
+
+            if(flag == true)
             {
-                list.add(nums[r-1]);
+                res[i] = nums[i+k-1];
             }
             else
             {
-                list.add(-1);
+                res[i] = -1;
             }
-            
-            
         }
-        
-        
-        
-        int[] ans = new int[list.size()];
-        int i = 0;
-        
-        for(Integer num: list)
-        {
-            ans[i] = num;
-            i++;
-        }
-        
-        return ans;
+
+        return res;
     }
 }
