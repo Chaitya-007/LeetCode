@@ -108,6 +108,7 @@
 | [0941-sort-array-by-parity](https://github.com/Chaitya-007/LeetCode/tree/master/0941-sort-array-by-parity) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/Chaitya-007/LeetCode/tree/master/1001-n-repeated-element-in-size-2n-array) |
+| [1019-squares-of-a-sorted-array](https://github.com/Chaitya-007/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 | [1217-relative-sort-array](https://github.com/Chaitya-007/LeetCode/tree/master/1217-relative-sort-array) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Chaitya-007/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -168,6 +169,7 @@
 | [0908-middle-of-the-linked-list](https://github.com/Chaitya-007/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [0941-sort-array-by-parity](https://github.com/Chaitya-007/LeetCode/tree/master/0941-sort-array-by-parity) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
+| [1019-squares-of-a-sorted-array](https://github.com/Chaitya-007/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/Chaitya-007/LeetCode/tree/master/1894-merge-strings-alternately) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Chaitya-007/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -243,6 +245,7 @@
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/Chaitya-007/LeetCode/tree/master/0561-array-partition) |
 | [0941-sort-array-by-parity](https://github.com/Chaitya-007/LeetCode/tree/master/0941-sort-array-by-parity) |
+| [1019-squares-of-a-sorted-array](https://github.com/Chaitya-007/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1217-relative-sort-array](https://github.com/Chaitya-007/LeetCode/tree/master/1217-relative-sort-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
