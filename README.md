@@ -137,6 +137,7 @@
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
 | [2639-separate-the-digits-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2639-separate-the-digits-in-an-array) |
 | [2654-count-the-number-of-vowel-strings-in-range](https://github.com/Chaitya-007/LeetCode/tree/master/2654-count-the-number-of-vowel-strings-in-range) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Chaitya-007/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2777-find-the-distinct-difference-array](https://github.com/Chaitya-007/LeetCode/tree/master/2777-find-the-distinct-difference-array) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [2881-split-strings-by-separator](https://github.com/Chaitya-007/LeetCode/tree/master/2881-split-strings-by-separator) |
@@ -172,6 +173,7 @@
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Chaitya-007/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2481-strictly-palindromic-number](https://github.com/Chaitya-007/LeetCode/tree/master/2481-strictly-palindromic-number) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Chaitya-007/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Hash Table
 |  |
 | ------- |
@@ -201,6 +203,7 @@
 | [2487-optimal-partition-of-string](https://github.com/Chaitya-007/LeetCode/tree/master/2487-optimal-partition-of-string) |
 | [2547-odd-string-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2547-odd-string-difference) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Chaitya-007/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2777-find-the-distinct-difference-array](https://github.com/Chaitya-007/LeetCode/tree/master/2777-find-the-distinct-difference-array) |
 | [2825-minimize-string-length](https://github.com/Chaitya-007/LeetCode/tree/master/2825-minimize-string-length) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
