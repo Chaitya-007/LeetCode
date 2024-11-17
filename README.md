@@ -107,6 +107,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/Chaitya-007/LeetCode/tree/master/0561-array-partition) |
 | [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0941-sort-array-by-parity](https://github.com/Chaitya-007/LeetCode/tree/master/0941-sort-array-by-parity) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/Chaitya-007/LeetCode/tree/master/1001-n-repeated-element-in-size-2n-array) |
@@ -228,6 +229,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0300-longest-increasing-subsequence) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/Chaitya-007/LeetCode/tree/master/2210-find-target-indices-after-sorting-array) |
 ## Bit Manipulation
@@ -401,6 +403,7 @@
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Chaitya-007/LeetCode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Stack
@@ -508,6 +511,7 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Database
 |  |
@@ -517,6 +521,7 @@
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 ## Tree
 |  |
 | ------- |
@@ -536,6 +541,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Chaitya-007/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/Chaitya-007/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Binary Tree
 |  |
@@ -559,4 +565,8 @@
 |  |
 | ------- |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Chaitya-007/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 <!---LeetCode Topics End-->
