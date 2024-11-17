@@ -137,6 +137,7 @@
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Chaitya-007/LeetCode/tree/master/2421-maximum-number-of-pairs-in-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/Chaitya-007/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2547-odd-string-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2547-odd-string-difference) |
+| [2566-number-of-unequal-triplets-in-array](https://github.com/Chaitya-007/LeetCode/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2589-maximum-value-of-a-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2589-maximum-value-of-a-string-in-an-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
 | [2639-separate-the-digits-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2639-separate-the-digits-in-an-array) |
@@ -211,6 +212,7 @@
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/Chaitya-007/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2487-optimal-partition-of-string](https://github.com/Chaitya-007/LeetCode/tree/master/2487-optimal-partition-of-string) |
 | [2547-odd-string-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2547-odd-string-difference) |
+| [2566-number-of-unequal-triplets-in-array](https://github.com/Chaitya-007/LeetCode/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Chaitya-007/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2777-find-the-distinct-difference-array](https://github.com/Chaitya-007/LeetCode/tree/master/2777-find-the-distinct-difference-array) |
@@ -257,6 +259,7 @@
 | [2210-find-target-indices-after-sorting-array](https://github.com/Chaitya-007/LeetCode/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Chaitya-007/LeetCode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/Chaitya-007/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2566-number-of-unequal-triplets-in-array](https://github.com/Chaitya-007/LeetCode/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2887-sort-vowels-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
 ## String
 |  |
