@@ -120,6 +120,7 @@
 | [1580-shuffle-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/1580-shuffle-the-array) |
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1755-defuse-the-bomb](https://github.com/Chaitya-007/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2048-build-array-from-permutation](https://github.com/Chaitya-007/LeetCode/tree/master/2048-build-array-from-permutation) |
@@ -404,6 +405,7 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1755-defuse-the-bomb](https://github.com/Chaitya-007/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Chaitya-007/LeetCode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Stack
