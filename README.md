@@ -140,6 +140,7 @@
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Chaitya-007/LeetCode/tree/master/2421-maximum-number-of-pairs-in-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/Chaitya-007/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2547-odd-string-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2547-odd-string-difference) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Chaitya-007/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Chaitya-007/LeetCode/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2589-maximum-value-of-a-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2589-maximum-value-of-a-string-in-an-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
@@ -215,6 +216,7 @@
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/Chaitya-007/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2487-optimal-partition-of-string](https://github.com/Chaitya-007/LeetCode/tree/master/2487-optimal-partition-of-string) |
 | [2547-odd-string-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2547-odd-string-difference) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Chaitya-007/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Chaitya-007/LeetCode/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Chaitya-007/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -406,6 +408,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1755-defuse-the-bomb](https://github.com/Chaitya-007/LeetCode/tree/master/1755-defuse-the-bomb) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Chaitya-007/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Chaitya-007/LeetCode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Stack
