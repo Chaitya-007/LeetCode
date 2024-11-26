@@ -499,6 +499,7 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Chaitya-007/LeetCode/tree/master/0547-number-of-provinces) |
+| [3189-find-champion-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3189-find-champion-ii) |
 ## Matrix
 |  |
 | ------- |
