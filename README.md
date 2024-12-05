@@ -198,6 +198,7 @@
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Chaitya-007/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2232-adding-spaces-to-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
+| [2414-move-pieces-to-obtain-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2481-strictly-palindromic-number](https://github.com/Chaitya-007/LeetCode/tree/master/2481-strictly-palindromic-number) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Chaitya-007/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Chaitya-007/LeetCode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
@@ -348,6 +349,7 @@
 | [2365-percentage-of-letter-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2365-percentage-of-letter-in-string) |
 | [2372-rearrange-characters-to-make-target-string](https://github.com/Chaitya-007/LeetCode/tree/master/2372-rearrange-characters-to-make-target-string) |
 | [2391-strong-password-checker-ii](https://github.com/Chaitya-007/LeetCode/tree/master/2391-strong-password-checker-ii) |
+| [2414-move-pieces-to-obtain-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Chaitya-007/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 | [2487-optimal-partition-of-string](https://github.com/Chaitya-007/LeetCode/tree/master/2487-optimal-partition-of-string) |
