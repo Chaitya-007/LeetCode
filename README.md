@@ -126,6 +126,7 @@
 | [1755-defuse-the-bomb](https://github.com/Chaitya-007/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Chaitya-007/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1972-rotating-the-box](https://github.com/Chaitya-007/LeetCode/tree/master/1972-rotating-the-box) |
 | [2048-build-array-from-permutation](https://github.com/Chaitya-007/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/Chaitya-007/LeetCode/tree/master/2058-concatenation-of-array) |
@@ -255,6 +256,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Chaitya-007/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Chaitya-007/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/Chaitya-007/LeetCode/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Chaitya-007/LeetCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
