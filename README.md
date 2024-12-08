@@ -299,6 +299,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0006-zigzag-conversion](https://github.com/Chaitya-007/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0014-longest-common-prefix](https://github.com/Chaitya-007/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0044-wildcard-matching](https://github.com/Chaitya-007/LeetCode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Chaitya-007/LeetCode/tree/master/0072-edit-distance) |
