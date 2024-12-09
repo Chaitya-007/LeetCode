@@ -167,6 +167,7 @@
 | [3193-maximum-strong-pair-xor-i](https://github.com/Chaitya-007/LeetCode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3347-distribute-elements-into-two-arrays-i) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Chaitya-007/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3427-special-array-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3429-special-array-i) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Chaitya-007/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -262,6 +263,7 @@
 | [2164-two-best-non-overlapping-events](https://github.com/Chaitya-007/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/Chaitya-007/LeetCode/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Chaitya-007/LeetCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3427-special-array-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3427-special-array-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -578,6 +580,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [3427-special-array-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3427-special-array-ii) |
 ## Database
 |  |
 | ------- |
