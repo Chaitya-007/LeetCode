@@ -248,6 +248,7 @@
 | [2825-minimize-string-length](https://github.com/Chaitya-007/LeetCode/tree/master/2825-minimize-string-length) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Chaitya-007/LeetCode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3353-existence-of-a-substring-in-a-string-and-its-reverse](https://github.com/Chaitya-007/LeetCode/tree/master/3353-existence-of-a-substring-in-a-string-and-its-reverse) |
 | [3412-permutation-difference-between-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
 ## Binary Search
@@ -263,6 +264,7 @@
 | [2164-two-best-non-overlapping-events](https://github.com/Chaitya-007/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/Chaitya-007/LeetCode/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Chaitya-007/LeetCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3427-special-array-ii) |
 ## Bit Manipulation
 |  |
@@ -378,6 +380,7 @@
 | [2887-sort-vowels-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/Chaitya-007/LeetCode/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Chaitya-007/LeetCode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3353-existence-of-a-substring-in-a-string-and-its-reverse](https://github.com/Chaitya-007/LeetCode/tree/master/3353-existence-of-a-substring-in-a-string-and-its-reverse) |
 | [3379-score-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/3379-score-of-a-string) |
 | [3412-permutation-difference-between-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
@@ -420,6 +423,7 @@
 | [2421-maximum-number-of-pairs-in-array](https://github.com/Chaitya-007/LeetCode/tree/master/2421-maximum-number-of-pairs-in-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
 | [2654-count-the-number-of-vowel-strings-in-range](https://github.com/Chaitya-007/LeetCode/tree/master/2654-count-the-number-of-vowel-strings-in-range) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Simulation
 |  |
 | ------- |
@@ -453,6 +457,7 @@
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Chaitya-007/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Chaitya-007/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/Chaitya-007/LeetCode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Stack
 |  |
