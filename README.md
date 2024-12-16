@@ -73,6 +73,7 @@
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Chaitya-007/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2481-strictly-palindromic-number](https://github.com/Chaitya-007/LeetCode/tree/master/2481-strictly-palindromic-number) |
 | [2748-calculate-delayed-arrival-time](https://github.com/Chaitya-007/LeetCode/tree/master/2748-calculate-delayed-arrival-time) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Chaitya-007/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Recursion
 |  |
@@ -175,6 +176,7 @@
 | [3429-special-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3429-special-array-i) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Chaitya-007/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3605-construct-the-minimum-bitwise-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
 ## Two Pointers
 |  |
@@ -450,6 +452,7 @@
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3347-distribute-elements-into-two-arrays-i) |
 | [3540-hash-divided-string](https://github.com/Chaitya-007/LeetCode/tree/master/3540-hash-divided-string) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Chaitya-007/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Trie
 |  |
@@ -634,6 +637,7 @@
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Chaitya-007/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Chaitya-007/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2868-continuous-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/2868-continuous-subarrays) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Binary Tree
 |  |
 | ------- |
