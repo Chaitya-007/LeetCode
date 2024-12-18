@@ -121,6 +121,7 @@
 | [1468-check-if-n-and-its-double-exist](https://github.com/Chaitya-007/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1524-string-matching-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Chaitya-007/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1580-shuffle-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/1580-shuffle-the-array) |
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -482,6 +483,7 @@
 | [0234-palindrome-linked-list](https://github.com/Chaitya-007/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [1078-remove-outermost-parentheses](https://github.com/Chaitya-007/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Chaitya-007/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1666-make-the-string-great](https://github.com/Chaitya-007/LeetCode/tree/master/1666-make-the-string-great) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Chaitya-007/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Chaitya-007/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -679,4 +681,8 @@
 |  |
 | ------- |
 | [2201-valid-arrangement-of-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Chaitya-007/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 <!---LeetCode Topics End-->
