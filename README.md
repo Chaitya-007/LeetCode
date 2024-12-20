@@ -541,6 +541,7 @@
 | ------- |
 | [0547-number-of-provinces](https://github.com/Chaitya-007/LeetCode/tree/master/0547-number-of-provinces) |
 | [2201-valid-arrangement-of-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -549,6 +550,7 @@
 | [0787-sliding-puzzle](https://github.com/Chaitya-007/LeetCode/tree/master/0787-sliding-puzzle) |
 | [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Chaitya-007/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Chaitya-007/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Chaitya-007/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Union Find
@@ -621,6 +623,7 @@
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Chaitya-007/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Design
 |  |
 | ------- |
@@ -650,6 +653,7 @@
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Chaitya-007/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Data Stream
 |  |
 | ------- |
