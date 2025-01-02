@@ -1,43 +1,42 @@
 class Solution {
     public String largestGoodInteger(String num) {
-        int p = 0;
-        int q = 1;
-        int r = 2;
-        int maxo = -1;
+
+        int res = -1;
         int n = num.length();
 
-        while(r < n)
+        for(int i = 0; i <= (n - 3); i++)
         {
-            char ch1 = num.charAt(p);
-            char ch2 = num.charAt(q);
-            char ch3 = num.charAt(r);
+            String str = num.substring(i, Math.min(i+3,n));
 
-            if(ch1 == ch2 && ch2 == ch3)
+            char p = str.charAt(0);
+            char q = str.charAt(1);
+            char r = str.charAt(2);
+
+            if(p == q && q == r)
             {
-                String temp = num.substring(p,r+1);
-                int val = Integer.valueOf(temp);
-                if(maxo < val)
-                {
-                    maxo = val;
-                }
+                int val = ( (int)(p - '0')*100 ) + ((int)(q-'0')*10) + (int)(r-'0');
+                res = Math.max(res,val); 
             }
-
-            p++;
-            q++;
-            r++;
         }
 
-        if(maxo == -1)
+        if(res == 0)
+        {
+            return "000";
+        }
+        else if(res == -1)
         {
             return "";
         }
 
-        if(maxo == 0)
+        StringBuilder sb = new StringBuilder("");
+        while(res > 0)
         {
-            return "000";
+            int rem = res%10;
+            res = res/10;
+            sb.append((char)(rem + '0'));
         }
 
-        String str = String.valueOf(maxo);
-        return str;
+        return sb.toString();
+        
     }
 }
