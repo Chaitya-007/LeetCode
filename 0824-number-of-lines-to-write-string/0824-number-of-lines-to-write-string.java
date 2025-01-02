@@ -1,27 +1,27 @@
 class Solution {
     public int[] numberOfLines(int[] widths, String s) {
-        int curr = 0;
-        int row = 1;
+        int lines = 1;
+        int sum = 0;
 
-        for(int i = 0; i < s.length(); i++)
+        for(char ch : s.toCharArray())
         {
-            char ch = s.charAt(i);
-            int ind = (int) (ch - 'a');
-            if(curr + widths[ind] <= 100)
+            int ind = (int)(ch - 'a');
+
+            if(sum + widths[ind] <= 100)
             {
-                curr += widths[ind];
+                sum += widths[ind];
             }
             else
             {
-                row++;
-                curr = widths[ind];
+                lines++;
+                sum = widths[ind];
             }
         }
 
-        int[] arr = new int[2];
-        arr[0] = row;
-        arr[1] = curr;
+        int[] ans = new int[2];
+        ans[0] = lines;
+        ans[1] = sum;
 
-        return arr;
+        return ans;
     }
 }
