@@ -1,27 +1,40 @@
 class Solution {
     public String makeFancyString(String s) {
-        StringBuilder str = new StringBuilder("");
-         str.append(s.charAt(0));
+        Stack<Character> st = new Stack<Character>();
         int cnt = 1;
-        int n = s.length();
 
-        for(int i = 1; i < n; i++)
+        for(char ch : s.toCharArray())
         {
-            if(s.charAt(i) == s.charAt(i - 1))
+            if(st.isEmpty())
             {
-                cnt++;
-                if(cnt < 3)
-                {
-                    str.append(s.charAt(i));
-                }
+                st.push(ch);
             }
             else
             {
-                cnt = 1;
-                str.append(s.charAt(i));
+                if(st.peek() == ch)
+                {
+                    cnt++;
+                    if(cnt<=2)
+                    {
+                        st.push(ch);
+                    }
+                }
+                else
+                {
+                    st.push(ch);
+                    cnt = 1;
+                }
             }
         }
 
-        return str.toString();
+        StringBuilder sb = new StringBuilder("");
+        while(!st.isEmpty())
+        {
+            sb.append(st.peek());
+            st.pop();
+        }
+
+        return sb.reverse().toString();
+        
     }
 }
