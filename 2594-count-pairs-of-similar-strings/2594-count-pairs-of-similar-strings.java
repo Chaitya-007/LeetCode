@@ -1,51 +1,31 @@
 class Solution {
-
-    public static String hash(String str)
-    {
-        Set<Character> hset = new TreeSet<Character>();
-
-        StringBuilder sb = new StringBuilder("");
-
-        for(int i = 0;  i < str.length(); i++)
-        {
-            hset.add(str.charAt(i));
-        }
-
-        for(Character ch : hset)
-        {
-            sb.append(ch);
-        }
-
-        return sb.toString();
-    }
-
     public int similarPairs(String[] words) {
-        
-        Map<String, Integer> hmap = new HashMap<String, Integer>();
+
+        int cnt = 0;
 
         for(int i = 0; i < words.length; i++)
         {
-            String hashStr = hash(words[i]);
-
-            if(hmap.containsKey(hashStr))
+        HashSet<Character> hset1 = new HashSet<Character>();
+            for(char ch : words[i].toCharArray())
             {
-                hmap.put(hashStr, hmap.get(hashStr) + 1);
+                hset1.add(ch);
             }
-            else
+            for(int j = i + 1; j < words.length; j++)
             {
-                hmap.put(hashStr, 1);
+        HashSet<Character> hset2 = new HashSet<Character>();
+                for(char ch : words[j].toCharArray())
+                {
+                    hset2.add(ch);
+                }
+                if(hset1.equals(hset2))
+                {
+                    cnt++;
+                }
             }
 
         }
 
-        int sum = 0;
+            return cnt;
 
-        for(Integer i : hmap.values())
-        {
-            int val = ((i*(i-1))/2);
-            sum += val;
-        }
-
-        return sum;
     }
 }
