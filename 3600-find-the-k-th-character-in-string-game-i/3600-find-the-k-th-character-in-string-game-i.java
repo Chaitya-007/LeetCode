@@ -1,32 +1,37 @@
 class Solution {
     public char kthCharacter(int k) {
-        StringBuilder sb = new StringBuilder("a");
-
-        while(sb.length() < k)
+        
+        StringBuilder sb = new StringBuilder("");
+        String s = "a";
+        int n;
+        while(s.length() < k)
         {
-            StringBuilder next = new StringBuilder("");
-            int n = sb.length();
+            sb.setLength(0);
+            sb.append(s);
 
-            for(int i = 0; i < n; i++)
+            for(int i = 0; i < s.length(); i++)
             {
-                char ch = sb.charAt(i);
-
-                if(ch == 'z')
+                if(s.charAt(i) == 'z')
                 {
-                    next.append('a');
+                    sb.append('a');
                 }
                 else
                 {
-                    char next_char = (char) (sb.charAt(i) + 1);
-                    sb.append(next_char);
+                    char ch = (char)(s.charAt(i) + 1);
+                    sb.append(ch);
                 }
+
+                if(sb.length() == k)
+                {
+                    return sb.charAt(sb.length() - 1);
+                }
+
             }
 
-            sb.append(next);
+            s = sb.toString();
+           
         }
 
-        return sb.charAt(k-1);
-
-
+        return 'a';
     }
 }
