@@ -1,15 +1,14 @@
 class Solution {
     public int vowelStrings(String[] words, int left, int right) {
-
-        String str = "aeiou";
+        String vowel = "aeiou";
         int cnt = 0;
-        
+
         for(int i = left; i <= right; i++)
         {
-            char start = words[i].charAt(0);
-            char end = words[i].charAt(words[i].length() - 1);
-            
-            if(str.indexOf(start) >= 0 && str.indexOf(end) >= 0)
+            int n = words[i].length();
+            char first = words[i].charAt(0);
+            char last = words[i].charAt(n-1);
+            if(vowel.indexOf(first) >= 0 && vowel.indexOf(last) >= 0 )
             {
                 cnt++;
             }
