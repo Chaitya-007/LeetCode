@@ -1,47 +1,40 @@
 class Solution {
     public String sortString(String s) {
-        
         int[] freq = new int[26];
         Arrays.fill(freq,0);
 
-        for(int i = 0; i < s.length(); i++)
+        for(char ch : s.toCharArray())
         {
-            int ind = (int)(s.charAt(i) - 'a');
-            freq[ind] = freq[ind] + 1;
+            int ind = (int)(ch - 'a');
+            freq[ind] += 1;
         }
 
-        int n = s.length();
+        StringBuilder result = new StringBuilder("");
 
-        String str = "";
-
-        while(str.length() < n)
+        while(result.length() != s.length())
         {
             for(int i = 0; i < 26; i++)
             {
-                if(freq[i] > 0)
+                if(freq[i] != 0)
                 {
-                    char ch = (char)(i + 'a');
-                    freq[i] = freq[i] - 1;
-                    str += ch;
+                    char ch = (char) (i + 'a');
+                    freq[i] -= 1;
+                    result.append(ch);
                 }
-            }
-
-            if(str.length() == n)
-            {
-                break;
             }
 
             for(int i = 25; i >= 0; i--)
             {
-                if(freq[i] > 0)
+                if(freq[i] != 0)
                 {
-                    char ch = (char)(i + 'a');
-                    freq[i] = freq[i] - 1;
-                    str += ch;
+                    char ch = (char) (i + 'a');
+                    freq[i] -= 1;
+                    result.append(ch);
                 }
             }
+            
         }
 
-        return str;
+        return result.toString();
     }
 }
