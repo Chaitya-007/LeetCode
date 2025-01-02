@@ -1,57 +1,57 @@
 class Solution {
 
-    public static String convert(String str)
+    public static int convert(String s)
     {
-        int n = str.length();
-        String result = "";
-        for(int i = 0; i < n; i++)
+        int sum = 0;
+        // StringBuilder sb = new StringBuilder
+
+        for(char ch : s.toCharArray())
         {
+            int val = (int) ((ch - 'a') + 1);
 
-        String temp = "";   
-            int num = (int)((str.charAt(i) - 'a') + 1);
-            while(num > 0)
+            if(val > 9)
             {
-                int rem = num%10;
-                num = num/10;
-                char ch = (char)(rem + '0');
-                temp = ch + temp;
+                
+                int add = 0;
+                while(val > 0)
+                {
+                    add += (val%10);
+                    val = val/10;
+                }
+                val = add;
             }
-            result += temp;
-
+            sum += val;
         }
 
-        return result;
+        return sum;
     }
 
     public int getLucky(String s, int k) {
         
-        String newStr = convert(s);
-
-        int sum = 0;
-        // Transform 1
-        for(int i = 0; i < newStr.length(); i++)
-        {
-            int num = (int) (newStr.charAt(i) - '0');
-            sum += num;
-        }
-
-        // one transform done
+        // Transform 1 done
+        int num = convert(s);
         k--;
+        System.out.println(num);
+        int sum = 0;
 
-        int temp = sum;
         while(k > 0)
         {
-            sum = 0;
-            while(temp > 0)
-            {
-                int rem = temp%10;
-                sum += rem;
-                temp = temp/10;
-            }
-            temp = sum;
             k--;
+
+            while(num > 0)
+            {
+                int rem = num%10;
+                num = num/10;
+                sum += rem;
+            }
+
+            num = sum;
+            sum = 0;
+
         }
 
-        return temp;
+        return num;
+
+
     }
 }
