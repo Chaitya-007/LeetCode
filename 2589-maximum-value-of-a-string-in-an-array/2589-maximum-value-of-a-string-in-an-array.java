@@ -1,33 +1,34 @@
 class Solution {
-    public int maximumValue(String[] strs) {
 
-        int maxo = 0;
-        for(String str : strs)
+    public static int getValue(String s)
+    {
+        int num = 0;
+        for(char ch : s.toCharArray())
         {
-            int n = str.length();
-            int num = 0;
-
-            for(int i = 0; i < n; i++)
+            if('a' <= ch && ch <= 'z')
             {
-                char ch = str.charAt(i);
-                if('0' <= ch && ch <= '9')
-                {
-                    int val = (int)(ch - '0');
-                    num = val + ((num)*10);
-                }
-                else
-                {
-                    num = str.length();
-                    break;
-                }
+                return s.length();
             }
-
-            if(maxo < num)
+            else
             {
-                maxo = num;
+                int val = (int)(ch - '0');
+                num = num*10 + val;
             }
         }
 
-        return maxo;
+        return num;
+    }
+
+    public int maximumValue(String[] strs) {
+        
+        int result = 0;
+
+        for(String str : strs)
+        {
+            int ans = getValue(str);
+            result = Math.max(result,ans);
+        }
+
+        return result;
     }
 }
