@@ -612,6 +612,7 @@
 |  |
 | ------- |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/Chaitya-007/LeetCode/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
+| [1908-recyclable-and-low-fat-products](https://github.com/Chaitya-007/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
 ## Queue
 |  |
 | ------- |
