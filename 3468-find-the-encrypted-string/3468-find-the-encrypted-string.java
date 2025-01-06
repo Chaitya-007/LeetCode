@@ -1,12 +1,11 @@
 class Solution {
     public String getEncryptedString(String s, int k) {
-        int n = s.length();
         StringBuilder sb = new StringBuilder("");
+        int n = s.length();
 
         for(int i = 0; i < n; i++)
         {
-            int ind = (i+k)%n;
-            char ch = s.charAt(ind);
+            char ch = s.charAt((i + k)%n);
             sb.append(ch);
         }
 
