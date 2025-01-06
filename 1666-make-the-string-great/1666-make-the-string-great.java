@@ -1,23 +1,30 @@
 class Solution {
     public String makeGood(String s) {
-        int n = s.length();
         Stack<Character> st = new Stack<Character>();
+        StringBuilder sb = new StringBuilder("");
 
-        for(int i = 0; i < n; i++)
+        for(char ch : s.toCharArray())
         {
-            char ch = s.charAt(i);
             if(st.isEmpty())
             {
                 st.push(ch);
             }
             else
             {
-                if('A' <= ch && ch <= 'Z')
+                if('A'<= ch && ch <= 'Z')
                 {
-                    char val = (char) (ch + 32);
-                    if(val == st.peek())
+                    char topval = st.peek();
+                    if('a' <= topval && topval <= 'z')
                     {
-                        st.pop();
+                        int diff = (int)(topval - ch);
+                        if(diff == 32)
+                        {
+                            st.pop();
+                        }
+                        else
+                        {
+                            st.push(ch);
+                        }
                     }
                     else
                     {
@@ -26,28 +33,34 @@ class Solution {
                 }
                 else
                 {
-                    char val = (char) (ch - 32);
-                    if(val == st.peek())
+                     char topval = st.peek();
+                    if('A' <= topval && topval <= 'Z')
                     {
-                        st.pop();
+                        int diff = (int)(ch - topval);
+                        if(diff == 32)
+                        {
+                            st.pop();
+                        }
+                        else
+                        {
+                            st.push(ch);
+                        }
                     }
                     else
                     {
+
                     st.push(ch);
                     }
                 }
             }
         }
 
-        StringBuilder sb = new StringBuilder("");
-
         while(!st.isEmpty())
         {
-            sb.append(st.peek());
+            sb.insert(0,st.peek());
             st.pop();
         }
 
-        return sb.reverse().toString();
-        
+        return sb.toString();
     }
 }
