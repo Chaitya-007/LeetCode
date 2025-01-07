@@ -8,9 +8,10 @@ class Solution {
         }
 
         int res = k - 1;
+
         while(res > 0)
         {
-            pq.poll();
+            pq.remove();
             res--;
         }
 
