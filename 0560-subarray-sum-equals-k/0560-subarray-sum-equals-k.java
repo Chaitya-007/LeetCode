@@ -1,11 +1,10 @@
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        HashMap<Integer, Integer> hmap = new HashMap<Integer, Integer>();
-
+        HashMap<Integer, Integer> hmap = new HashMap<Integer, Integer> ();
         hmap.put(0,1);
         int sum = 0;
+        int cnt = 0;
         int n = nums.length;
-        int maxCount = 0;
 
         for(int i = 0; i < n; i++)
         {
@@ -15,12 +14,12 @@ class Solution {
 
             if(hmap.containsKey(rem))
             {
-                maxCount += hmap.get(rem);
+                cnt += hmap.get(rem);
             }
 
             hmap.put(sum,hmap.getOrDefault(sum,0) + 1);
-        }   
+        }
 
-        return maxCount;
+        return cnt;
     }
 }
