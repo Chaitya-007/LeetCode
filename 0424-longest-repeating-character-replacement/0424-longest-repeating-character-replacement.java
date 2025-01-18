@@ -23,21 +23,21 @@ class Solution {
             else
             {
 
-                while(((r - l + 1) - maxf) > k)
+                if(((r - l + 1) - maxf) > k)
                 {
                     hmap.put(s.charAt(l), hmap.get(s.charAt(l)) - 1);
                      
-                    maxf =  0;
+                    // maxf =  0;
 
                     if(hmap.get(s.charAt(l)) == 0)
                     {
                         hmap.remove(s.charAt(l));
                     }
 
-                    for(Integer val : hmap.values())
-                    {
-                        maxf = Math.max(maxf,val);
-                    }
+                    // for(Integer val : hmap.values())
+                    // {
+                    //     maxf = Math.max(maxf,val);
+                    // }
 
                     l++;
 
