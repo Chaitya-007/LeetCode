@@ -13,10 +13,8 @@ class Solution {
             {
                 zeroes++;
             }
-
-            if(zeroes > k)
-            {
-                while(zeroes > k)
+   
+                if(zeroes > k)
                 {
                     if(nums[l] == 0)
                     {
@@ -25,7 +23,6 @@ class Solution {
 
                     l++;
                 }
-            }
 
             int len = r - l + 1;
             maxLen = Math.max(maxLen,len);
