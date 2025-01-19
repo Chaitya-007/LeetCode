@@ -11,11 +11,19 @@ class Solution {
         m.put('M', 1000);
         
         int ans = 0;
+        int n = s.length();
         
-        for (int i = 0; i < s.length(); i++) {
-            if (i < s.length() - 1 && m.get(s.charAt(i)) < m.get(s.charAt(i + 1))) {
-                ans -= m.get(s.charAt(i));
-            } else {
+        for(int i = 0; i < n; i++)
+        {
+            if(i != n - 1 && (m.get(s.charAt(i)) < m.get(s.charAt(i+1))))
+            {
+                
+                
+                    ans -= (m.get(s.charAt(i)));
+                
+            }
+            else
+            {
                 ans += m.get(s.charAt(i));
             }
         }
