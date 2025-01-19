@@ -118,6 +118,7 @@
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/Chaitya-007/LeetCode/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/Chaitya-007/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Chaitya-007/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Chaitya-007/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -238,6 +239,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/Chaitya-007/LeetCode/tree/master/1001-n-repeated-element-in-size-2n-array) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Chaitya-007/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Chaitya-007/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1217-relative-sort-array](https://github.com/Chaitya-007/LeetCode/tree/master/1217-relative-sort-array) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Chaitya-007/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -445,6 +447,7 @@
 | [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0387-first-unique-character-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Chaitya-007/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1341-split-a-string-in-balanced-strings) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
@@ -495,6 +498,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Chaitya-007/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Chaitya-007/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1755-defuse-the-bomb](https://github.com/Chaitya-007/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Chaitya-007/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
