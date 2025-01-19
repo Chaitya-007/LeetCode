@@ -66,6 +66,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Chaitya-007/LeetCode/tree/master/0002-add-two-numbers) |
+| [0013-roman-to-integer](https://github.com/Chaitya-007/LeetCode/tree/master/0013-roman-to-integer) |
 | [0070-climbing-stairs](https://github.com/Chaitya-007/LeetCode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 | [1761-count-sorted-vowel-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
@@ -223,6 +224,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Chaitya-007/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/Chaitya-007/LeetCode/tree/master/0013-roman-to-integer) |
 | [0141-linked-list-cycle](https://github.com/Chaitya-007/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Chaitya-007/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -332,6 +334,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Chaitya-007/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/Chaitya-007/LeetCode/tree/master/0006-zigzag-conversion) |
+| [0013-roman-to-integer](https://github.com/Chaitya-007/LeetCode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Chaitya-007/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0044-wildcard-matching](https://github.com/Chaitya-007/LeetCode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Chaitya-007/LeetCode/tree/master/0072-edit-distance) |
