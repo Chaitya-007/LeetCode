@@ -184,6 +184,7 @@
 | [3429-special-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3429-special-array-i) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Chaitya-007/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3533-snake-in-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/3533-snake-in-matrix) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3605-construct-the-minimum-bitwise-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
 ## Two Pointers
@@ -424,6 +425,7 @@
 | [3379-score-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/3379-score-of-a-string) |
 | [3412-permutation-difference-between-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
 | [3468-find-the-encrypted-string](https://github.com/Chaitya-007/LeetCode/tree/master/3468-find-the-encrypted-string) |
+| [3533-snake-in-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/3533-snake-in-matrix) |
 | [3540-hash-divided-string](https://github.com/Chaitya-007/LeetCode/tree/master/3540-hash-divided-string) |
 | [3617-find-the-original-typed-string-i](https://github.com/Chaitya-007/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
 ## Greedy
@@ -487,6 +489,7 @@
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [2886-faulty-keyboard](https://github.com/Chaitya-007/LeetCode/tree/master/2886-faulty-keyboard) |
 | [3347-distribute-elements-into-two-arrays-i](https://github.com/Chaitya-007/LeetCode/tree/master/3347-distribute-elements-into-two-arrays-i) |
+| [3533-snake-in-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/3533-snake-in-matrix) |
 | [3540-hash-divided-string](https://github.com/Chaitya-007/LeetCode/tree/master/3540-hash-divided-string) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Chaitya-007/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
