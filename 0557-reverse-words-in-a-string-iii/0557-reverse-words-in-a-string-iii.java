@@ -1,49 +1,33 @@
 class Solution {
 
-    public static void reverse(char[] str, int left, int right)
+    public void reverse(char[] ch, int l, int r)
     {
-        while(left < right)
+        while(l < r)
         {
-            char temp = str[left];
-            str[left] = str[right];
-            str[right] = temp;
-            left++;
-            right--;
+            char temp = ch[l];
+            ch[l] = ch[r];
+            ch[r] = temp;
+            l++;
+            r--;
         }
     }
 
     public String reverseWords(String s) {
-        // String[] arr = s.split(" ");
-        // String result = "";
-
-        // for(String str : arr)
-        // {
-        //     StringBuilder sb = new StringBuilder(str);
-        //     sb.reverse();
-        //     result += sb.toString() + " ";
-        // }
-
-        // return result.trim(); // removes extra spaces before and leading 
-
-        // M2
-        char []strchar = s.toCharArray();
+        int n = s.length();
+        char[] ch = s.toCharArray();
         int start = 0;
 
-        for(int i = 0; i < s.length(); i++)
+        for(int i = 0; i < n; i++)
         {
-            if(strchar[i] == ' ')
+            if(ch[i] == ' ')
             {
-                reverse(strchar,start,i - 1);
+                reverse(ch,start,i-1);
                 start = i + 1;
             }
-            else if(i == s.length() - 1)
-            {
-                reverse(strchar,start,i);
-            }
         }
-        
+
+        reverse(ch,start,n-1);
         StringBuilder sb = new StringBuilder("");
-        sb.append(strchar);
-        return sb.toString();
+        return sb.append(ch).toString();
     }
 }
