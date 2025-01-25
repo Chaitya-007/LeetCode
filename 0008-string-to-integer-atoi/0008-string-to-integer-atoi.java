@@ -4,43 +4,68 @@ class Solution {
         int n = s.length();
         int num = 0;
 
-        // Skip leading whitespaces
-        while (i < n && s.charAt(i) == ' ') {
+        while(i < n && s.charAt(i) == ' ')
+        {
             i++;
         }
 
-        if (i == n) {
+
+
+        if(i == n)
+        {
             return 0;
         }
 
         char sign = '+';
 
-        // Determine the sign
-        if (s.charAt(i) == '-') {
-            sign = '-';
-            i++;
-        } else if (s.charAt(i) == '+') {
-            i++;
+        if(i < n && Character.isDigit(s.charAt(i)))
+        {
+            while(i < n && s.charAt(i) == '0')
+            {
+                i++;
+            }
+        }
+        else
+        {
+            if(s.charAt(i) == '-')
+            {
+                sign = '-';
+                i++;
+            }
+            else if(s.charAt(i) == '+')
+            {
+                sign = '+';
+                i++;
+            }
+            else
+            {
+                return 0;
+            }
         }
 
-        // Skip leading zeros
-        while (i < n && s.charAt(i) == '0') {
-            i++;
-        }
-
-        while (i < n && Character.isDigit(s.charAt(i))) {
-            int digit = s.charAt(i) - '0';
-
-            // Overflow check
-            if (num > Integer.MAX_VALUE / 10 || 
-                (num == Integer.MAX_VALUE / 10 && digit > Integer.MAX_VALUE % 10)) {
-                return (sign == '-') ? Integer.MIN_VALUE : Integer.MAX_VALUE;
+         while(i < n && s.charAt(i) == '0')
+            {
+                i++;
             }
 
-            num = num * 10 + digit;
+            // System.out.println(s.charAt(i));
+
+        while(i < n && Character.isDigit(s.charAt(i)))
+        {
+            int val = (int)(s.charAt(i) - '0');
+
+            if(num > (Integer.MAX_VALUE/10) || (num == (Integer.MAX_VALUE/10) && val > (Integer.MAX_VALUE%10)) )
+            {
+            return sign == '+' ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            }
+            
+
+            num = (num*10) + val;
             i++;
+
         }
 
-        return sign == '-' ? -num : num;
+        return sign == '+' ? num : (-1*num);
+
     }
 }
