@@ -1,25 +1,43 @@
 class Solution {
-    public int numSubarraysWithSum(int[] nums, int goal) {
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-        map.put(0,1);
-        int sum = 0;
 
-        int res = 0;
-
-        for(int i = 0; i < nums.length; i++)
+    int kthMost(int[] nums,int k)
+    {
+        if(k < 0)
         {
-            sum += nums[i];
+            return 0;
+        }
+        int sum = 0;
+        int l = 0;
+        int r = 0;
+        int maxCount = 0;
+        int n = nums.length;
 
-            int rem = sum - goal;
+        while(r < n)
+        {
+            sum += nums[r];
 
-            if(map.containsKey(rem))
+            if(sum > k)
             {
-                res += map.get(rem);
+                while(sum > k)
+                {
+                    sum -= nums[l];
+                    l++;
+                }
             }
 
-            map.put(sum,map.getOrDefault(sum,0) + 1);
+            if(sum <= k)
+            {
+                int len = r - l + 1;
+                maxCount += len;
+            }
+
+            r++;
         }
 
-        return res;
+        return maxCount;
+    }
+
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        return kthMost(nums,goal) - kthMost(nums,goal-1);
     }
 }
