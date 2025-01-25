@@ -69,6 +69,7 @@
 | [0013-roman-to-integer](https://github.com/Chaitya-007/LeetCode/tree/master/0013-roman-to-integer) |
 | [0070-climbing-stairs](https://github.com/Chaitya-007/LeetCode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1761-count-sorted-vowel-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 | [2032-largest-odd-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Chaitya-007/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
@@ -125,6 +126,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Chaitya-007/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1217-relative-sort-array](https://github.com/Chaitya-007/LeetCode/tree/master/1217-relative-sort-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Chaitya-007/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Chaitya-007/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1524-string-matching-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/1524-string-matching-in-an-array) |
@@ -246,6 +248,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/Chaitya-007/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Chaitya-007/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1217-relative-sort-array](https://github.com/Chaitya-007/LeetCode/tree/master/1217-relative-sort-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Chaitya-007/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Chaitya-007/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
@@ -511,6 +514,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Chaitya-007/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1755-defuse-the-bomb](https://github.com/Chaitya-007/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Chaitya-007/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Chaitya-007/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -652,6 +656,7 @@
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [3427-special-array-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3427-special-array-ii) |
 ## Database
