@@ -8,27 +8,23 @@ class Solution {
         int r = 0;
         int n = nums.length;
         int res = 0;
+        int sum = 0;
 
         while(r < n)
         {
-            if(nums[r]%2 != 0)
-            {
-                cnt++;
-            }
+            
+            sum += (nums[r]%2);
 
-            if(cnt > k)
+            if(sum > k)
             {
-                while(cnt > k)
+                while(sum > k)
                 {
-                    if(nums[l]%2 != 0)
-                    {
-                        cnt--;
-                    }
+                   sum -= (nums[l]%2);
                     l++;
                 }
             }
 
-            if(cnt <= k)
+            if(sum <= k)
             {
                 int len = r - l + 1;
                 res += len;
