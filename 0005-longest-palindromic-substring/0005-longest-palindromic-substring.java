@@ -1,53 +1,63 @@
 class Solution {
-
-    public int check(int l, int r, String s, int[][] dp)
-    {
-        if(l >= r) // you are checking for each valid l and r , l has crossed r means entire string is valid
-        {
-            return 1;
-        }
-
-        if(dp[l][r] != -1)
-        {
-            return dp[l][r];
-        }
-
-        if(s.charAt(l) == s.charAt(r))
-        {
-            return check(l+1,r-1,s,dp);
-        }
-
-        return dp[l][r] = 0;
-
-
-    }
-
     public String longestPalindrome(String s) {
-        int n = s.length();
-     int[][] dp = new int[n][n];
-     for(int i = 0; i < n; i++)
-     {
 
-     Arrays.fill(dp[i],-1);
-     }
-     int startInd = -1;
-     int maxlen = 0;
-
-     for(int i = 0; i < n; i++)
-     {
-        for(int j = i; j < n; j++)
+        if(s.length() <= 1)
         {
-            if(check(i,j,s,dp) == 1)
+            return s;
+        }
+
+
+        String lps = "";
+
+        int n = s.length();
+
+        // start from i = 1 => is most important
+        for(int i = 1; i < n; i++)
+        {
+            // Check for odd length palidrome
+            int low = i;
+            int high = i;
+
+            while(s.charAt(low) == s.charAt(high))
             {
-                if((j - i + 1) > maxlen)
+                low--;
+                high++;
+
+                if(low == -1 || high == s.length())
                 {
-                    maxlen = (j - i + 1);
-                    startInd = i;
+                    break;
                 }
             }
-        }
-     }
 
-     return s.substring(startInd, Math.min(n,startInd + maxlen));
+            String palin = s.substring(low+1,high);
+            if(palin.length() > lps.length())
+            {
+                lps = palin;
+            }
+
+            // Check for even length palindrome
+            low = i - 1;
+            high = i;
+
+            while(s.charAt(low) == s.charAt(high))
+            {
+                low--;
+                high++;
+
+                if(low == -1 || high == s.length())
+                {
+                    break;
+                }
+            }
+
+            palin = s.substring(low+1,high);
+            if(palin.length() > lps.length())
+            {
+                lps = palin;
+            }
+        }
+
+        return lps;
+
     }
 }
