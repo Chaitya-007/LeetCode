@@ -259,6 +259,7 @@
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/Chaitya-007/LeetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Chaitya-007/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/Chaitya-007/LeetCode/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -391,6 +392,7 @@
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/Chaitya-007/LeetCode/tree/master/1823-determine-if-string-halves-are-alike) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/Chaitya-007/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/Chaitya-007/LeetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1894-merge-strings-alternately](https://github.com/Chaitya-007/LeetCode/tree/master/1894-merge-strings-alternately) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Chaitya-007/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2032-largest-odd-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2032-largest-odd-number-in-string) |
@@ -469,6 +471,7 @@
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1823-determine-if-string-halves-are-alike](https://github.com/Chaitya-007/LeetCode/tree/master/1823-determine-if-string-halves-are-alike) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/Chaitya-007/LeetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Chaitya-007/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2133-number-of-pairs-of-strings-with-concatenation-equal-to-target](https://github.com/Chaitya-007/LeetCode/tree/master/2133-number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
