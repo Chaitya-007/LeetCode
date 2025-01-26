@@ -1,61 +1,109 @@
 class Solution {
 
-    void reverseString(char[] str,int start, int end)
+    public void reverse(char[] ch, int l, int r)
     {
-
+        while(l < r)
+        {
+            char temp = ch[l];
+            ch[l] = ch[r];
+            ch[r] = temp;
+            l++;
+            r--;
+        }
     }
 
-    public String reverseWords(String s) 
-    {
-        char[] charArray = s.toCharArray();
-        int start = 0;
-        ArrayList<String> list = new ArrayList<String>();
-        String str = "";
-        
+    public String reverseWords(String s) {
 
-        for(int i = 0; i < s.length(); i++)
+        int n = s.length();
+        // String[] temp = s.split(" ");
+
+        // System.out.println(temp);
+
+        // StringBuilder sb = new StringBuilder("");
+        // for(String str : temp)
+        // {
+        //     // System.out.println(str.length());
+        //     if(str.length() != 0)
+        //     {
+        //         sb.append(str);
+        //         sb.append(" ");
+        //     }
+
+        // }
+
+        List<String> list = new ArrayList<String>();
+
+        int i = 0;
+
+        while(s.charAt(i) == ' ')
         {
-            if(charArray[i] == ' ')
+            i++;
+        }
+
+        StringBuilder sb = new StringBuilder("");
+
+        while(i < n)
+        {
+            if(s.charAt(i) == ' ')
             {
-                if(str.length() != 0)
+                if(sb.length() != 0)
                 {
-                    list.add(str);
-                    str = "";
+                    list.add(sb.toString());  
                 }
+                sb.setLength(0);
+            }
+            else 
+            {
+                sb.append(s.charAt(i));
+            }
+            i++;
+        }
+
+        if(sb.length() != 0)
+        {
+            list.add(sb.toString());
+        }
+
+        int sz = list.size();
+        sb.setLength(0);
+        for(int j = 0; j < sz; j++)
+        {
+            if(j == sz - 1)
+            {
+                sb.append(list.get(j));
             }
             else
             {
-                str += s.charAt(i);
+                sb.append(list.get(j));
+                sb.append(" ");
             }
         }
 
-        if(str.length() != 0)
+        char[] arr = sb.toString().toCharArray();
+
+
+        int start = 0;
+
+        for(int k = 0; k < arr.length ;k++)
         {
-            list.add(str);
-            str = "";
-        }
-        str = "";
-
-        int n = list.size();
-
-        for(int i = 0; i < n; i++)
-        {
-            StringBuilder sb = new StringBuilder(list.get(i));
-            String temp = sb.reverse().toString();
-            if(i == n - 1)
+            if(arr[k] == ' ')
             {
-                str += temp;
+                reverse(arr,start,k-1);
+                start = k + 1;
             }
-            else
-            {
-
-            str += temp + " ";
-            }
-
         }
 
-        StringBuilder result = new StringBuilder(str);
-        return result.reverse().toString();
+        reverse(arr,start,arr.length-1);
 
+        sb.setLength(0);
+
+
+        // StringBuilder sb = new StringBuilder("");
+        sb.append(arr);
+        
+        return sb.reverse().toString();
+
+        // return "";
+        
     }
 }
