@@ -250,6 +250,7 @@
 | [1217-relative-sort-array](https://github.com/Chaitya-007/LeetCode/tree/master/1217-relative-sort-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Chaitya-007/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Chaitya-007/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Chaitya-007/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
@@ -373,6 +374,7 @@
 | [1341-split-a-string-in-balanced-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1341-split-a-string-in-balanced-strings) |
 | [1434-decrypt-string-from-alphabet-to-integer-mapping](https://github.com/Chaitya-007/LeetCode/tree/master/1434-decrypt-string-from-alphabet-to-integer-mapping) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Chaitya-007/LeetCode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Chaitya-007/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1472-increasing-decreasing-string](https://github.com/Chaitya-007/LeetCode/tree/master/1472-increasing-decreasing-string) |
 | [1490-generate-a-string-with-characters-that-have-odd-counts](https://github.com/Chaitya-007/LeetCode/tree/master/1490-generate-a-string-with-characters-that-have-odd-counts) |
@@ -515,6 +517,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/Chaitya-007/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Chaitya-007/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1755-defuse-the-bomb](https://github.com/Chaitya-007/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Chaitya-007/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Chaitya-007/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
