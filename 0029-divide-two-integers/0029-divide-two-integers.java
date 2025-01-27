@@ -2,7 +2,7 @@ class Solution {
     public int divide(int dividend, int divisor) {
         // Handle overflow cases first
         if (dividend == Integer.MIN_VALUE && divisor == -1) 
-            return Integer.MAX_VALUE;
+            return Integer.MAX_VALUE; // because INT_MIN is larger than INT_MAX
             
         // Handle edge cases
         if (dividend == Integer.MIN_VALUE && divisor == 1)
