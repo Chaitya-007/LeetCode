@@ -19,9 +19,11 @@ class Solution {
 
         // power of two can never be negative
 
-        if(n < 0) return false;
-        if(n == 0) return false;
+        // if(n < 0) return false;
+        // if(n == 0) return false;
 
-        return (n & (n-1)) == 0 ? true : false;
+        // return (n & (n-1)) == 0 ? true : false;
+
+        return n > 0 && Integer.bitCount(n) == 1;
     }
 }
