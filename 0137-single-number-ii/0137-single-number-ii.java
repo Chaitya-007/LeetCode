@@ -1,5 +1,8 @@
 class Solution {
     public int singleNumber(int[] nums) {
+
+        // T.C => O(N * 32)
+        // S.C => O(1)
         int ans = 0;
 
         for(int bitIndex = 0; bitIndex <= 31 ; bitIndex++)
