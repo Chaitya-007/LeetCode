@@ -96,6 +96,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Chaitya-007/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Chaitya-007/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Chaitya-007/LeetCode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/Chaitya-007/LeetCode/tree/master/0078-subsets) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chaitya-007/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Chaitya-007/LeetCode/tree/master/0136-single-number) |
@@ -309,6 +310,7 @@
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/Chaitya-007/LeetCode/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/Chaitya-007/LeetCode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/Chaitya-007/LeetCode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Chaitya-007/LeetCode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
@@ -655,6 +657,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Chaitya-007/LeetCode/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0494-target-sum) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Chaitya-007/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Brainteaser
