@@ -1,5 +1,12 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
+
+        // T.C => O(2N)
+        // S.C => O(1)
+
+        // make this as long because 
+        // if xor => -2^31
+        // and xor -1 => -2^31 - 1 will overflow
         long xor = 0;
 
         for(int val : nums)
