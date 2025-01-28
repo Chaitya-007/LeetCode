@@ -1,5 +1,7 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
+        // T.C => O(N * logm) + o(m)
+        // S.C => O(m/2) + 1
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
         for(int val : nums)
