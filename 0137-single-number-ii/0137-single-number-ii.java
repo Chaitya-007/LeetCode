@@ -1,20 +1,24 @@
 class Solution {
     public int singleNumber(int[] nums) {
-     HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        int ans = 0;
 
-     for(int val : nums)
-     {
-        map.put(val, map.getOrDefault(val,0) + 1);
-     }
-
-     for(Map.Entry<Integer, Integer> e : map.entrySet())
-     {
-        if(e.getValue() == 1)
+        for(int bitIndex = 0; bitIndex <= 31 ; bitIndex++)
         {
-            return e.getKey();
-        }
-     }
+            int cnt = 0;
+            for(int i = 0; i < nums.length; i++)
+            {
+                if((nums[i] & (1<<bitIndex)) != 0)
+                {
+                    cnt++;
+                }
+            }
 
-     return -1;
+            if(cnt%3 != 0)
+            {
+                ans = ans | (1<<bitIndex);
+            }
+        }
+
+        return ans;
     }
 }
