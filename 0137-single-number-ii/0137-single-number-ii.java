@@ -1,21 +1,14 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        // T.C => O(n*logn) + O(n/3)
-        // S.C => O(1)
+        int ones = 0;
+        int twos = 0;
 
-        Arrays.sort(nums);
-
-        int n = nums.length;
-
-        // Start with index 1
-        for(int i = 1; i < n; i = i + 3)
+        for(int i = 0; i < nums.length; i++)
         {
-            if(nums[i-1] != nums[i])
-            {
-                return nums[i-1];
-            }
+            ones = (ones ^ nums[i]) & (~twos);
+            twos = (twos ^ nums[i]) & (~ones);
         }
 
-        return nums[n-1];
+        return ones;
     }
 }
