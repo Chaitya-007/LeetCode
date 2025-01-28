@@ -14,6 +14,8 @@ class Solution {
             xor ^= val;
         }
 
+        // removes last set bit => xor & (xor - 1)
+        // gives last set bit => (xor & (xor - 1)) ^ xor)
         int rightMost = (int)( (xor & (xor - 1)) ^ xor);
 
         int b1 = 0;
