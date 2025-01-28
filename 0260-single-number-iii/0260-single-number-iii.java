@@ -1,26 +1,31 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        // T.C => O(N * logm) + o(m)
-        // S.C => O(m/2) + 1
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        long xor = 0;
 
         for(int val : nums)
         {
-            map.put(val, map.getOrDefault(val,0) + 1);
+            xor ^= val;
         }
-        
-        int[] arr = new int[2];
-        int ind = 0;
 
-        for(Map.Entry<Integer, Integer> e : map.entrySet())
+        int rightMost = (int)( (xor & (xor - 1)) ^ xor);
+
+        int b1 = 0;
+        int b2 = 0;
+
+        for(int val : nums)
         {
-            if(e.getValue() == 1)
+            if( (val & rightMost) != 0)
             {
-                arr[ind] = e.getKey();
-                ind++;
+                b1 = b1 ^ val;
+            }
+            else
+            {
+                b2 = b2 ^ val;
             }
         }
-        
+
+        int[] arr = {b1,b2};
+
         return arr;
     }
 }
