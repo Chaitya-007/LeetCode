@@ -1,28 +1,12 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        HashMap<Integer, Integer> hm = new HashMap<Integer,Integer>();
+        int ans = 0;
 
-        for(int arrayElement : nums)
+        for(int val : nums)
         {
-            if(hm.containsKey(arrayElement))
-            {
-                hm.put(arrayElement,hm.get(arrayElement)  + 1);
-            }
-            else
-            {
-                hm.put(arrayElement,1);
-            }
+            ans ^= val;
         }
 
-
-        for(Map.Entry<Integer, Integer> e : hm.entrySet())
-        {
-            if(e.getValue() == 1)
-            {
-                return e.getKey();
-            }
-        }
-
-        return -1;
+        return ans;
     }
 }
