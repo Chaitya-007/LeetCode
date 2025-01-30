@@ -25,17 +25,7 @@ class MyQueue {
     }
     
     public int pop() {
-        if(s1.isEmpty())
-        {
-           int x = s2.peek();
-           s2.pop();
-           return x;
-        }
-        while(!s1.isEmpty())
-        {
-            s2.push(s1.peek());
-            s1.pop();
-        }
+        peek();
         int x = s2.peek();
         s2.pop();
         return x;
