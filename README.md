@@ -554,6 +554,7 @@
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Chaitya-007/LeetCode/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/Chaitya-007/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Chaitya-007/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Chaitya-007/LeetCode/tree/master/0394-decode-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Chaitya-007/LeetCode/tree/master/1078-remove-outermost-parentheses) |
@@ -706,6 +707,7 @@
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Chaitya-007/LeetCode/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/Chaitya-007/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0387-first-unique-character-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [2868-continuous-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/2868-continuous-subarrays) |
@@ -719,6 +721,7 @@
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Chaitya-007/LeetCode/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/Chaitya-007/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Chaitya-007/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
