@@ -69,6 +69,7 @@
 | [0013-roman-to-integer](https://github.com/Chaitya-007/LeetCode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/Chaitya-007/LeetCode/tree/master/0029-divide-two-integers) |
 | [0070-climbing-stairs](https://github.com/Chaitya-007/LeetCode/tree/master/0070-climbing-stairs) |
+| [0204-count-primes](https://github.com/Chaitya-007/LeetCode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Chaitya-007/LeetCode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -103,6 +104,7 @@
 | [0137-single-number-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0137-single-number-ii) |
 | [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Chaitya-007/LeetCode/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/Chaitya-007/LeetCode/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -756,6 +758,7 @@
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Chaitya-007/LeetCode/tree/master/0204-count-primes) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Chaitya-007/LeetCode/tree/master/2106-find-greatest-common-divisor-of-array) |
 ## Monotonic Queue
 |  |
@@ -779,4 +782,8 @@
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Chaitya-007/LeetCode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
