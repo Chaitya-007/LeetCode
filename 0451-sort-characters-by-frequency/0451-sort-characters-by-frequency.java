@@ -7,7 +7,7 @@ class Solution {
             map.put(ch, map.getOrDefault(ch,0) + 1);
         }
 
-        Map<Integer, List<Character> > listMap = new TreeMap<Integer, List<Character> >();
+        Map<Integer, List<Character> > listMap = new TreeMap<Integer, List<Character> >(Collections.reverseOrder());
 
         for(Map.Entry<Character, Integer> e : map.entrySet())
         {
@@ -47,7 +47,7 @@ class Solution {
 
         }
 
-        return sb.reverse().toString();
+        return sb.toString();
 
     }
 }
