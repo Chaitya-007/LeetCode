@@ -1,42 +1,50 @@
 class Solution {
 
-    public int f(String s,char A, char B, int k)
+    public int getAns(HashMap<Character, Integer> map, int k)
     {
-        int dis = 0;
-        int maxDis = 0;
-        for(char ch : s.toCharArray())
-        {
-            if(ch == A || ch == B) // if character is our desired direction
-            {
-                dis++;
-            }
-            else // if the character is not of our desired direction
-            {
-                if(k > 0)
-                {
-                    k--;
-                    dis++;
-                }
-                else
-                {
-                    dis--;
-                }
-         
-            }
+        int res = 0;
 
-            maxDis = Math.max(maxDis, dis);
+        {
+            int mn = Math.min(map.get('N'),map.get('S'));
+            int mx = Math.max(map.get('N'),map.get('S'));
+
+            int del = Math.min(mn,k);
+            mn -= del;
+            mx += del;
+            k -= del;
+            res += (mx - mn);
+        }
+        {
+            int mn = Math.min(map.get('E'),map.get('W'));
+            int mx = Math.max(map.get('E'),map.get('W'));
+
+            int del = Math.min(mn,k);
+            mn -= del;
+            mx += del;
+            k -= del;
+            res += (mx - mn);
         }
 
-        return maxDis;
+        return res;
+
     }
 
-
     public int maxDistance(String s, int k) {
+
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+
+        map.put('N',0);
+        map.put('E',0);
+        map.put('S',0);
+        map.put('W',0);
+
         int ans = 0;
-        ans = Math.max(f(s,'N','E',k), ans);
-        ans = Math.max(f(s,'N','W',k), ans);
-        ans = Math.max(f(s,'S','E',k), ans);
-        ans = Math.max(f(s,'S','W',k), ans);
+
+        for(char ch : s.toCharArray())
+        {
+            map.put(ch, map.getOrDefault(ch,0) + 1);
+            ans = Math.max(getAns(map,k),ans);
+        }
 
         return ans;
         
