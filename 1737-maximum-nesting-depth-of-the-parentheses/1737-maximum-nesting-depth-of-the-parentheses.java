@@ -1,23 +1,34 @@
 class Solution {
     public int maxDepth(String s) {
-        int cnt = 0;
-        int maxCount = 0;
+        int ans = -1;
+
         Stack<Character> st = new Stack<Character>();
 
         for(char ch : s.toCharArray())
         {
-            if(ch == '(')
+            if(ch == '(' || ch == ')')
             {
-                cnt++;
+
+            if(st.isEmpty())
+            {
+                st.push(ch);
             }
-            else if(ch == ')')
+            else
             {
-                cnt--;
+                if(ch == '(')
+                {
+                    st.push(ch);
+                }
+                else
+                {
+                    st.pop();
+                }
+            }
             }
 
-            maxCount = Math.max(maxCount,cnt);
+            ans = Math.max(ans,st.size());
         }
 
-        return maxCount;
+        return ans;
     }
 }
