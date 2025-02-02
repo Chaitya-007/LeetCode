@@ -7,40 +7,47 @@ class Solution {
             map.put(ch, map.getOrDefault(ch,0) + 1);
         }
 
-        int n = s.length();
-
-        List<List<Character>> list = new ArrayList<>(n+1);
-
-        for(int i = 0; i <= n; i++)
-        {
-            list.add(new ArrayList<>());
-        }
+        Map<Integer, List<Character> > listMap = new TreeMap<Integer, List<Character> >();
 
         for(Map.Entry<Character, Integer> e : map.entrySet())
         {
-            int ind = e.getValue();
-            list.get(ind).add(e.getKey());
+            int key = e.getValue();
+
+            if(listMap.containsKey(key))
+            {
+
+                List<Character> list = listMap.get(key);
+                list.add(e.getKey());
+                listMap.put(key, list);
+            }
+            else
+            {
+                
+                // map.put(e.getValue(), list);
+                
+                List<Character> list = new ArrayList<Character>();
+                list.add(e.getKey());
+                listMap.put(key,list);
+            }
         }
 
         StringBuilder sb = new StringBuilder("");
 
-        for(int i = n ; i >= 0; i--)
+        for(Map.Entry<Integer, List<Character> > e : listMap.entrySet())
         {
-            if(list.get(i).size() != 0)
+            for(Character ch : e.getValue())
             {
-                for(Character ch : list.get(i))
-                {
-                for(int k = 1; k <= i; k++)
-                {
-                    sb.append(ch);
-                }
 
-                }
+            for(int i = 1; i <= e.getKey(); i++)
+            {
+                sb.append(ch);
             }
+
+            }
+
         }
 
-        return sb.toString();
-
+        return sb.reverse().toString();
 
     }
 }
