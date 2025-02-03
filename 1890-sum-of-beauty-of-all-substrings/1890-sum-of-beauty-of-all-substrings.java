@@ -1,55 +1,35 @@
 class Solution {
 
-    public int getMaxCount(int[] freq)
-    {
-                int maxFreq = 0; 
-
-        for(int i = 0; i < 26; i++)
-        {
-            
-            maxFreq = Math.max(maxFreq,freq[i]);
-
-        }
-
-        return maxFreq;
-    }
-
-    public int getMinCount(int[] freq)
-    {
-        int minFreq = Integer.MAX_VALUE;
-        for(int i = 0; i < 26; i++)
-        {
-            if(freq[i] > 0)
-            {
-            minFreq = Math.min(minFreq,freq[i]);
-
-            }
-        }
-
-        return minFreq;
-
-    }
-
     public int beautySum(String s) {
-        
         int n = s.length();
-        int sum = 0;
+        int maxo = 0;
 
         for(int i = 0; i < n; i++)
         {
             int[] freq = new int[26];
-
             for(int j = i; j < n; j++)
             {
-                    int ind = (int)(s.charAt(j) - 'a');
-                    freq[ind]++;
+             int ind = (int)(s.charAt(j) - 'a');
+             freq[ind]++;
 
-                    sum += (getMaxCount(freq) - getMinCount(freq));
-                
+             int mx = Integer.MIN_VALUE;
+             int mn = Integer.MAX_VALUE;
+
+             for(int k = 0; k < 26; k++)
+             {
+                if(freq[k] > 0)
+                {
+                    mx = Math.max(mx,freq[k]);
+
+                    mn = Math.min(mn, freq[k]);
+                }
+             }  
+
+             maxo += mx - mn;
             }
 
         }
 
-        return sum;
+        return maxo;
     }
 }
