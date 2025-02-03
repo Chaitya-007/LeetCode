@@ -1,34 +1,40 @@
 class Solution {
     public int divide(int dividend, int divisor) {
-        // Handle overflow cases first
-        if (dividend == Integer.MIN_VALUE && divisor == -1) 
-            return Integer.MAX_VALUE; // because INT_MIN is larger than INT_MAX
-            
-        // Handle edge cases
-        if (dividend == Integer.MIN_VALUE && divisor == 1)
-            return Integer.MIN_VALUE;
-            
-        // Convert to long to handle MIN_VALUE case
-        long dvd = Math.abs((long)dividend);
-        long dvs = Math.abs((long)divisor);
-        
-        // Determine sign of result
-        boolean sign = (dividend > 0) == (divisor > 0);
-        
-        long quotient = 0;
-        while (dvd >= dvs) {
-            long temp = dvs;
-            long multiple = 1;
-            
-            while (dvd >= (temp << 1)) {
-                temp <<= 1;
-                multiple <<= 1;
-            }
-            
-            dvd -= temp;
-            quotient += multiple;
+        if(dividend == divisor) return 1;
+
+        // If dividend is Integer.MIN_VALUE then you cannot take their absolute 
+
+        if(dividend == Integer.MIN_VALUE && divisor == -1)
+        {
+            return Integer.MAX_VALUE;
         }
+
+        if(dividend == Integer.MIN_VALUE && divisor == 1)
+        {
+            return Integer.MIN_VALUE;
+        }
+
+        long dd = Math.abs((long)dividend);
+        long ds = Math.abs((long)divisor);
+        int q = 0;
+
+        boolean sign = (dividend >= 0) == (divisor > 0);
+
+        while(dd >= ds)
+        {
+            int cnt = 0;
+            while(dd >= (ds<<(cnt + 1)))
+            {
+                cnt++;
+            }
+
+            dd -= (ds<<cnt);
+            q += (1<<cnt);
+        }
+
+        return sign ? q : -q;
+
+
         
-        return sign ? (int)quotient : (int)(-quotient);
     }
 }
