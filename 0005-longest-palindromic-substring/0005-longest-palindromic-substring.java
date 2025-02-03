@@ -1,63 +1,57 @@
 class Solution {
     public String longestPalindrome(String s) {
-
-        if(s.length() <= 1)
+        if(s.length() == 1)
         {
             return s;
         }
 
-
-        String lps = "";
-
         int n = s.length();
+        StringBuilder lps = new StringBuilder("");
 
-        // start from i = 1 => is most important
         for(int i = 1; i < n; i++)
         {
-            // Check for odd length palidrome
-            int low = i;
-            int high = i;
+            // Odd length palindrome
+            int left = i;
+            int right = i;
 
-            while(s.charAt(low) == s.charAt(high))
+            while(s.charAt(left) == s.charAt(right))
             {
-                low--;
-                high++;
+                left--;
+                right++;
 
-                if(low == -1 || high == s.length())
+                if(left == -1 || right == n)
                 {
                     break;
                 }
             }
 
-            String palin = s.substring(low+1,high);
+            StringBuilder palin = new StringBuilder(s.substring(left + 1, right));
             if(palin.length() > lps.length())
             {
-                lps = palin;
+                lps = new StringBuilder(palin.toString());
             }
 
-            // Check for even length palindrome
-            low = i - 1;
-            high = i;
+            left = i - 1;
+            right = i;
 
-            while(s.charAt(low) == s.charAt(high))
+            while(s.charAt(left) == s.charAt(right))
             {
-                low--;
-                high++;
+                left--;
+                right++;
 
-                if(low == -1 || high == s.length())
+                if(left == -1 || right == n)
                 {
                     break;
                 }
             }
 
-            palin = s.substring(low+1,high);
+            palin = new StringBuilder(s.substring(left + 1, right));
             if(palin.length() > lps.length())
             {
-                lps = palin;
+                lps = new StringBuilder(palin.toString());
             }
         }
 
-        return lps;
-
+        return lps.toString();
     }
 }
