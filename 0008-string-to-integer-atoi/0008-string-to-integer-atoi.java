@@ -4,10 +4,7 @@ class Solution {
         int i = 0;
         int n = s.length();
 
-        if(s.length() == 0)
-        {
-            return 0;
-        }
+      
 
         while(i < n && s.charAt(i) == ' ')
         {
