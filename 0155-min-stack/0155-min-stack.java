@@ -1,5 +1,6 @@
 class MinStack {
-
+// T.C -> O(1)
+// S.C -> O(2 * N)
     Stack<Pair<Integer, Integer>> st;
     int minElement = 0;
 
