@@ -1,46 +1,41 @@
 class MinStack {
-    // Stack<Integer> st = new Stack<Integer>();
-    LinkedList<Integer> ll = new LinkedList<Integer>();
-    // PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
-    Stack<Integer> st = new Stack<Integer>();
+
+    Stack<Pair<Integer, Integer>> st;
+    int minElement = 0;
 
     public MinStack() {
-        
+     st = new Stack<>();   
+    minElement = Integer.MAX_VALUE;
     }
     
     public void push(int val) {
-    //    pq.offer(val);
-    ll.addFirst(val);
-       st.push(val);
+    if(st.isEmpty())
+    {
+        minElement = val;
+     st.push(new Pair<Integer,Integer>(val, val));
+
+    }
+    else
+    {
+       minElement = st.peek().getValue();
+       minElement = Math.min(minElement,val);
+     st.push(new Pair<Integer,Integer>(val, minElement));
+    }
     }
     
     public void pop() {
-    //    pq.poll();
-    ll.pollFirst();
         st.pop();
         
     }
     
     public int top() {
-        return st.peek();
-        
+        int topval = st.peek().getKey();
+        return topval;
     }
     
     public int getMin() {
-    // int mino = Integer.MAX_VALUE;
-    // return pq.peek();
-
-    // int mino = Integer.MAX_VALUE;
-    // for(Integer val : ll)
-    // {
-
-    // }
-
-    int mino = Collections.min(ll);
-    return mino;
-
-    
-        
+        int minVal = st.peek().getValue();
+        return minVal;
     }
 }
 
