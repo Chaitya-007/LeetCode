@@ -120,6 +120,7 @@
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Chaitya-007/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0494-target-sum) |
+| [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/Chaitya-007/LeetCode/tree/master/0561-array-partition) |
@@ -254,6 +255,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/Chaitya-007/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/Chaitya-007/LeetCode/tree/master/1001-n-repeated-element-in-size-2n-array) |
@@ -560,6 +562,7 @@
 | [0232-implement-queue-using-stacks](https://github.com/Chaitya-007/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Chaitya-007/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Chaitya-007/LeetCode/tree/master/0394-decode-string) |
+| [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1078-remove-outermost-parentheses](https://github.com/Chaitya-007/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Chaitya-007/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -789,6 +792,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Chaitya-007/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Bucket Sort
 |  |
