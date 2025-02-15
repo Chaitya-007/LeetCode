@@ -121,6 +121,7 @@
 | [0485-max-consecutive-ones](https://github.com/Chaitya-007/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Chaitya-007/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/Chaitya-007/LeetCode/tree/master/0561-array-partition) |
@@ -563,6 +564,7 @@
 | [0234-palindrome-linked-list](https://github.com/Chaitya-007/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Chaitya-007/LeetCode/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [1078-remove-outermost-parentheses](https://github.com/Chaitya-007/LeetCode/tree/master/1078-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Chaitya-007/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -793,6 +795,7 @@
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Chaitya-007/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Bucket Sort
 |  |
