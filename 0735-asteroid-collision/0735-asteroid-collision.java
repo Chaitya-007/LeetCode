@@ -1,70 +1,46 @@
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
-        Stack<Integer> st = new Stack<Integer>();
+        // T.C -> O(2*N)
+        // S.C -> O(N)
+     Stack<Integer> st = new Stack<Integer>();
+     int n = asteroids.length;
 
-        int n = asteroids.length;
-
-        for(int i = 0; i < n; i++)
+     for(int i = 0; i < n; i++)
+     {
+        if(asteroids[i] > 0) st.push(asteroids[i]);
+        else
         {
-            if(st.isEmpty())
+            while(!st.isEmpty() && st.peek() > 0 && st.peek() < Math.abs(asteroids[i]))
+            {
+                st.pop();
+            }
+
+            if(!st.isEmpty() && st.peek() == Math.abs(asteroids[i]))
+            {
+                st.pop();
+            }
+            else if(st.isEmpty() || st.peek() < 0)
             {
                 st.push(asteroids[i]);
             }
-            else
-            {
-                
-                while(!st.isEmpty())
-                {
-        
-                        if ( (asteroids[i] > 0 && st.peek() > 0) || (asteroids[i] < 0 && st.peek() < 0)  || (asteroids[i] > 0 && st.peek() < 0 ) )
-                        {
-                            st.push(asteroids[i]);
-                            break;
-                        }
-
-                    else
-                    {
-
-                        if(Math.abs(asteroids[i]) == Math.abs(st.peek()))
-                        {
-                            st.pop();
-                            break;
-                        }
-
-                        
-                        else if(Math.abs(asteroids[i]) > Math.abs(st.peek()))
-                        {
-                            while(!st.isEmpty() && (asteroids[i] < 0 && st.peek() > 0) &&  Math.abs(asteroids[i]) > Math.abs(st.peek()))
-                            {
-                            st.pop();
-                            }
-                             if(st.isEmpty()) 
-                             {
-                                st.push(asteroids[i]);
-                                break;
-                             }
-                        }
-                        else
-                        {
-                            break;
-                        }
-                    }
-                }
-
-                
-            }
         }
+     }   
 
-        int[] res = new int[st.size()];
-        int resLen = res.length;
+    //  List<Integer> list = new ArrayList<Integer>();
+     int[] ans = new int[st.size()];
+     n = st.size();
 
-        for(int i = resLen - 1; i >= 0; i--)
-        {
-            res[i] = st.peek();
-            st.pop();
-        }
 
-        return res;
+     while(!st.isEmpty())
+     {
+        n = n - 1;
+        ans[n] = st.peek();
+        st.pop();
+     }
+
+     return ans;
+
+
 
     }
 }
