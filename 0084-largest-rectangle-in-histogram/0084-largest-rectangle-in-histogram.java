@@ -43,6 +43,9 @@ class Solution {
 
     public int largestRectangleArea(int[] heights) {
 
+        // T.C -> O(N)
+        // S.C -> O(2N) + O(2*N)
+
         int maxo = Integer.MIN_VALUE;
         int n = heights.length;
         int[] next = nse(heights);
