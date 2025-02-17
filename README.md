@@ -386,6 +386,7 @@
 | [0345-reverse-vowels-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/Chaitya-007/LeetCode/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/Chaitya-007/LeetCode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Chaitya-007/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
@@ -470,6 +471,7 @@
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Chaitya-007/LeetCode/tree/master/0044-wildcard-matching) |
+| [0402-remove-k-digits](https://github.com/Chaitya-007/LeetCode/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/Chaitya-007/LeetCode/tree/master/0561-array-partition) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
@@ -570,6 +572,7 @@
 | [0232-implement-queue-using-stacks](https://github.com/Chaitya-007/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Chaitya-007/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Chaitya-007/LeetCode/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/Chaitya-007/LeetCode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Chaitya-007/LeetCode/tree/master/0735-asteroid-collision) |
@@ -807,6 +810,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Chaitya-007/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/Chaitya-007/LeetCode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Chaitya-007/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
