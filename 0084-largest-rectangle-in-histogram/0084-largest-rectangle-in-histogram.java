@@ -1,5 +1,9 @@
 class Solution {
     public int largestRectangleArea(int[] heights) {
+
+        // Single pass solution
+        // T.C -> O(2*N)
+        // S.C -> O(N)
         Stack<Integer> st = new Stack<Integer>();
         int n = heights.length;
         int area = Integer.MIN_VALUE;
