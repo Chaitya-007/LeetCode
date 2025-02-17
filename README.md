@@ -168,6 +168,7 @@
 | [2163-kth-distinct-string-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/Chaitya-007/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/Chaitya-007/LeetCode/tree/master/2210-find-target-indices-after-sorting-array) |
+| [2227-sum-of-subarray-ranges](https://github.com/Chaitya-007/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2232-adding-spaces-to-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Chaitya-007/LeetCode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
@@ -579,6 +580,7 @@
 | [1666-make-the-string-great](https://github.com/Chaitya-007/LeetCode/tree/master/1666-make-the-string-great) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Chaitya-007/LeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Chaitya-007/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2227-sum-of-subarray-ranges](https://github.com/Chaitya-007/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Chaitya-007/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Chaitya-007/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -809,6 +811,7 @@
 | [0503-next-greater-element-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Chaitya-007/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Chaitya-007/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [2227-sum-of-subarray-ranges](https://github.com/Chaitya-007/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 ## Bucket Sort
 |  |
 | ------- |
