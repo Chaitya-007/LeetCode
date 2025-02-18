@@ -38,6 +38,8 @@ class Solution {
 
     public int maximalRectangle(char[][] matrix) {
 
+        // T.C -> O(N*M) + O(2*M)
+        // S.C -> O(N*M) + O(N)
         int n = matrix.length;
         int m = matrix[0].length;
 
