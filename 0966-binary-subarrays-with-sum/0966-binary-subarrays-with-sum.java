@@ -1,43 +1,40 @@
 class Solution {
 
-    int kthMost(int[] nums,int k)
+    public int kthMost(int[] arr, int k)
     {
-        if(k < 0)
-        {
-            return 0;
-        }
-        int sum = 0;
+        if(k < 0) return 0;
+        int n = arr.length;
+        int ans = 0;
         int l = 0;
         int r = 0;
-        int maxCount = 0;
-        int n = nums.length;
+        int one = 0;
 
         while(r < n)
         {
-            sum += nums[r];
-
-            if(sum > k)
+            if(arr[r] == 1)
             {
-                while(sum > k)
+                one++;
+            }
+
+            while(one > k)
+            {
+                if(arr[l] == 1)
                 {
-                    sum -= nums[l];
-                    l++;
+                    one--;
                 }
+                l++;
             }
 
-            if(sum <= k)
-            {
-                int len = r - l + 1;
-                maxCount += len;
-            }
-
+            int len = r - l + 1;
+            ans += len;
             r++;
         }
 
-        return maxCount;
+        return ans;
     }
 
     public int numSubarraysWithSum(int[] nums, int goal) {
+        
         return kthMost(nums,goal) - kthMost(nums,goal-1);
     }
 }
