@@ -1,5 +1,8 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
+
+        // T.C -> O(N) * O(1)
+        // S.C -> O(256) => O(1)
         HashMap<Character, Integer> map = new HashMap<Character, Integer>();
 
         int n = s.length();
