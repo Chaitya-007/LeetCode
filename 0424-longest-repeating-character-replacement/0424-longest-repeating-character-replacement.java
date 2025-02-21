@@ -2,7 +2,7 @@ class Solution {
     public int characterReplacement(String s, int k) {
         
 
-        // T.C -> (O(N) + O(N)) * O(26) => assuming that everytime you are updating maxfreq
+        // T.C -> (O(N) + O(N)) => assuming that everytime you are updating maxfreq
         // S.C -> O(26) -> O(1)
         
         int n = s.length();
@@ -22,7 +22,7 @@ class Solution {
 
             int changes = len - maxfreq;
 
-            while(changes > k) // O(N)
+            while(r - l + 1 - maxfreq > k) // O(N)
             {
                 map.put(s.charAt(l), map.get(s.charAt(l)) - 1);
 
@@ -30,18 +30,9 @@ class Solution {
                 {
                     map.remove(s.charAt(l));
                 }
-
-                maxfreq = 0;
-                for(Integer val : map.values()) // O(26)
-                {
-
-                maxfreq = Math.max(maxfreq, val);
-
-                }
-
+                
                 l++;
-
-                changes = (r - l + 1) - maxfreq;
+               
             }
 
             len = r - l + 1;
