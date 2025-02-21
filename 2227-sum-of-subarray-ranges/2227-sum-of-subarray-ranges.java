@@ -46,7 +46,7 @@ class Solution {
     public long sumSubarrayMins(int[] arr) {
 
         // T.C -> O(5*N)
-        // S.C -> O(2*N) (nse -> Stack, index array) + O(2*N) (psee -> Stack, index array) + O(2*N) (prev,next)
+        // S.C -> O(2*N) (nse -> Stack, index array) + O(2*N) (psee -> Stack, index array) + O(2*N) (prev,next) = O(6N)
         int n = arr.length;
         int[] prev = psee(arr); // -> O(2*N)
         int[] next = nse(arr); // -> O(2*N)
@@ -114,6 +114,8 @@ class Solution {
 
     public long sumSubarrayMaxs(int[] arr)
     {
+        // T.C -> O(10N)
+        // S.C -> O(12N)
         int n = arr.length;
         long total = 0;
         int[] prev = pgee(arr);
