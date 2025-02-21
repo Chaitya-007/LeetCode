@@ -1,7 +1,7 @@
 class Solution {
     public int longestOnes(int[] nums, int k) {
 
-        // T.C -> O(2*N)
+        // T.C -> O(N)
         // S.C -> O(1)
 
         int n = nums.length;
@@ -18,7 +18,7 @@ class Solution {
                 cnt++;
             }
 
-            while(cnt > k)
+            if(cnt > k)
             {
                 if(nums[l] == 0)
                 {
@@ -27,8 +27,12 @@ class Solution {
                 l++;
             }
 
+            if(cnt <= k)
+            {
+
             int len = r - l + 1;
             maxlen = Math.max(len,maxlen);
+            }
             r++;
         }
 
