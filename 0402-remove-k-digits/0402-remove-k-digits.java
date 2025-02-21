@@ -1,68 +1,49 @@
 class Solution {
     public String removeKdigits(String num, int k) {
-        // Get rid of larger elements
-        // Keep track of smaller elements
+
+        Stack<Character> st = new Stack<>();
 
         int n = num.length();
-
-        if(k == n)
-        {
-            return "0";
-        }
-
-        Stack<Character> st = new Stack<Character>();
+        if(k == n) return "0";
         int i = 0;
 
-        while(i < n)
+        for(char ch : num.toCharArray())
         {
-            while(k  > 0 && !st.isEmpty() && ( st.peek() - '0') > (num.charAt(i) - '0') )
+            
+            while(k > 0 && !st.isEmpty() && (st.peek() - '0') > (ch - '0') )
             {
                 st.pop();
                 k--;
             }
 
-            st.push(num.charAt(i));
-
-            i++;
-
-            if(k == 0)
-            {
-                break;
-            }
+            st.push(ch);
         }
 
-        while(i < n)
-        {
-            st.push(num.charAt(i));
-            i++;
-        }
+        if(st.isEmpty()) return "0";
 
-        while(k!=0)
+        while(k > 0)
         {
             st.pop();
             k--;
         }
 
-        if (st.isEmpty()) return "0";
-
         StringBuilder sb = new StringBuilder("");
 
         while(!st.isEmpty())
         {
-            sb.append(st.peek());
+            sb.insert(0,st.peek());
             st.pop();
         }
 
-        String str = sb.reverse().toString();
-
-        int t = 0;
-        while(t < str.length() && str.charAt(t) == '0')
+        i = 0;
+        while(i < sb.length() && sb.charAt(i) == '0')
         {
-            t++;
+            i++;
         }
 
-        if(t == str.length()) return "0";
+        if(i == sb.length()) return "0";
 
-        return str.substring(t,str.length());
+        return sb.toString().substring(i,sb.length());
+        
     }
 }
