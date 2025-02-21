@@ -1,5 +1,9 @@
 class Solution {
     public int longestOnes(int[] nums, int k) {
+
+        // T.C -> O(2*N)
+        // S.C -> O(1)
+
         int n = nums.length;
 
         int l = 0;
