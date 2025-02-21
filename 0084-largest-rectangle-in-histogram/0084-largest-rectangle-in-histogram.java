@@ -1,38 +1,65 @@
 class Solution {
-    public int largestRectangleArea(int[] heights) {
 
-        // Single pass solution
-        // T.C -> O(2*N)
-        // S.C -> O(N)
-        Stack<Integer> st = new Stack<Integer>();
-        int n = heights.length;
-        int area = Integer.MIN_VALUE;
+     public int[] nse(int[] arr)
+    {
+        int n = arr.length;
+
+        Stack<Integer> st = new Stack<>();
+        int[] ind = new int[n];
+
+        for(int i = n - 1; i >= 0; i--)
+        {
+            while(!st.isEmpty() && arr[i] <= arr[st.peek()])
+            {
+                st.pop();
+            }
+
+            ind[i] = st.isEmpty() ? n : st.peek();
+
+            st.push(i); 
+        }
+
+        return ind;
+    }
+
+     public int[] pse(int[] arr)
+    {
+        int n = arr.length;
+        Stack<Integer> st = new Stack<>();
+        int[] ind = new int[n];
 
         for(int i = 0; i < n; i++)
         {
-            while(!st.isEmpty() && heights[st.peek()] >= heights[i])
+            while(!st.isEmpty() && arr[st.peek()] >= arr[i])
             {
-                int element = heights[st.peek()];
-                int right = i;
                 st.pop();
-                int left = st.isEmpty() ? -1 : st.peek();
-                int curr = (element * (right - left - 1));
-                area = Math.max(area,curr);
             }
+
+            ind[i] = st.isEmpty() ? -1 : st.peek();
 
             st.push(i);
         }
 
-        while(!st.isEmpty())
+        return ind;
+    }
+
+    public int largestRectangleArea(int[] heights) {
+        int area = 0;
+        int[] prev = pse(heights);
+        int[] next = nse(heights);
+
+        int n = heights.length;
+
+        for(int i = 0; i < n; i++)
         {
-            int right = n;
-            int element = heights[st.peek()];
-            st.pop();
-            int left = st.isEmpty() ? -1 : st.peek();
-            int curr = (element * (right - left - 1));
-            area = Math.max(area,curr);
+            int left = prev[i];
+            int right = next[i];
+
+            int curr = (right - left - 1) * (heights[i]);
+            area = Math.max(curr,area);
         }
 
         return area;
+        
     }
 }
