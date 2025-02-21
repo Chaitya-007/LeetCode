@@ -44,13 +44,16 @@ class Solution {
     }
 
     public int largestRectangleArea(int[] heights) {
+
+        // T.C -> O(5*N)
+        // S.C -> O(2*N) + O(2*N) + O(2*N)(prev,next) -> O(6N)
         int area = 0;
-        int[] prev = pse(heights);
-        int[] next = nse(heights);
+        int[] prev = pse(heights); // T.C -> O(2*N), S.C -> O(2*N)
+        int[] next = nse(heights); // T.C -> O(2*N), S.C -> O(2*N)
 
         int n = heights.length;
 
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i < n; i++) // T.C -> O(N)
         {
             int left = prev[i];
             int right = next[i];
