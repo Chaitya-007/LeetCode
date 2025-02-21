@@ -2,7 +2,7 @@ class Solution {
     public int characterReplacement(String s, int k) {
         
 
-        // T.C -> O(N) + O(N) + O(26)
+        // T.C -> (O(N) + O(N)) * O(26) => assuming that everytime you are updating maxfreq
         // S.C -> O(26) -> O(1)
         
         int n = s.length();
