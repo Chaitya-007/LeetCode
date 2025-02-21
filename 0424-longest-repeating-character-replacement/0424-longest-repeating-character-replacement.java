@@ -2,7 +2,7 @@ class Solution {
     public int characterReplacement(String s, int k) {
         
 
-        // T.C -> (O(N) + O(N))
+        // T.C -> (O(N)) => there was no point in trimming down the length, because it is not giving to contribute to maxlen 
         // S.C -> O(26) -> O(1)
         
         int n = s.length();
@@ -22,7 +22,7 @@ class Solution {
 
             int changes = len - maxfreq;
 
-            while(r - l + 1 - maxfreq > k) // O(N)
+            if(r - l + 1 - maxfreq > k)
             {
                 map.put(s.charAt(l), map.get(s.charAt(l)) - 1);
 
@@ -31,9 +31,7 @@ class Solution {
                     map.remove(s.charAt(l));
                 }
 
-
                 l++;
-
                
             }
 
