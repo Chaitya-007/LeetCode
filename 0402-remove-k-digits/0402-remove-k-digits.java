@@ -19,13 +19,14 @@ class Solution {
             st.push(ch);
         }
 
-        if(st.isEmpty()) return "0";
 
         while(k > 0)
         {
             st.pop();
             k--;
         }
+        
+        if(st.isEmpty()) return "0";
 
         StringBuilder sb = new StringBuilder("");
 
