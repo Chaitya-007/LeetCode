@@ -1,28 +1,29 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        int l = 0;
-        int r = 0;
+        
+        int maxlen = 0;
         int n = s.length();
-        HashMap<Character, Integer> hmap = new HashMap<Character, Integer>();
-        int maxLen = 0;
 
-        while(r < n)
+        for(int i = 0; i < n; i++)
         {
-            if(hmap.containsKey(s.charAt(r)))
+            // HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+            HashSet<Character> set = new HashSet<>();
+
+            for(int j = i;  j < n; j++)
             {
-                if(hmap.get(s.charAt(r)) >= l)
+                if(set.contains(s.charAt(j)) )
                 {
-                    l = 1 + (hmap.get(s.charAt(r)));
+                    break;
+                }
+                else
+                {
+                    set.add(s.charAt(j));
+                    maxlen = Math.max(maxlen,set.size());
                 }
             }
 
-            int len = r - l + 1;
-            maxLen = Math.max(maxLen,len);
-
-            hmap.put(s.charAt(r),r);
-            r++;
         }
-
-        return maxLen;
+            return maxlen;
+        
     }
 }
