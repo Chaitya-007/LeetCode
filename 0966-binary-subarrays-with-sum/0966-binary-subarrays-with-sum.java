@@ -1,29 +1,39 @@
 class Solution {
-    public int numSubarraysWithSum(int[] nums, int goal) {
 
-        // T.C -> O(N) * O(log N)
-        // S.C -> O(N)
-        HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(0,1);
+    public int kthMost(int[] arr, int k)
+    {
+        // T.C -> O(2*N)
+        // S.C -> O(1)
 
-        int cnt = 0;
-        int n = nums.length;
+
+        if(k < 0) return 0;
+        int n = arr.length;
+        int ans = 0;
+        int l = 0;
+        int r = 0;
         int sum = 0;
 
-        for(int i = 0; i < n; i++)
+        while(r < n) // O(N)
         {
-            sum += nums[i];
+            sum += arr[r];
 
-            int rem = sum - goal;
-
-            if(map.containsKey(rem))
+            while(sum > k) // O(N) for worst case scenario
             {
-                cnt += map.get(rem);
+               sum = sum - arr[l];
+                l++;
             }
 
-            map.put(sum,map.getOrDefault(sum,0) + 1);
+            int len = r - l + 1;
+            ans += len;
+            r++;
         }
 
-        return cnt;
+        return ans;
+    }
+
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        // T.C -> O(2*2N)
+        // S.C -> O(1)
+        return kthMost(nums,goal) - kthMost(nums,goal-1);
     }
 }
