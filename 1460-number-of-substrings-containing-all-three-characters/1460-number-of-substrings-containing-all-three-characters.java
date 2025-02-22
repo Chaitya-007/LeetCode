@@ -1,39 +1,30 @@
 class Solution {
     public int numberOfSubstrings(String s) {
 
+        int n = s.length();
         int l = 0;
         int r = 0;
-        int n = s.length();
-
-
-        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
-        int cnt = 0;
-        
+        HashMap<Character, Integer> map = new HashMap<>();
+        int ans = 0;
 
         while(r < n)
         {
-            char ch = s.charAt(r);
-            map.put(ch, r);
+            map.put(s.charAt(r), r);
 
             if(map.size() == 3)
             {
-                int minInd = n;
-
+                int lastSeen = n;
                 for(Integer val : map.values())
                 {
-                    if(minInd > val)
-                    {
-                        minInd = val;
-                    }
+                    lastSeen = Math.min(lastSeen,val);
                 }
-
-                cnt += (minInd + 1);
+                ans += (lastSeen + 1);
             }
 
             r++;
         }
 
-        return cnt;
-
+        return ans;
+        
     }
 }
