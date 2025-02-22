@@ -38,7 +38,7 @@ class Solution {
     }
 
     public int subarraysWithKDistinct(int[] nums, int k) {
-        // T.C -> O(2*2N) * O(1)
+        // T.C -> 2 * ( O(*2N) * O(1) )
         // S.C -> 2 * O(1)
         return kthMost(nums,k) - kthMost(nums,k-1);
         
