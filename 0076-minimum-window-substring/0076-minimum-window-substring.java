@@ -8,7 +8,7 @@ class Solution {
 
         HashMap<Character, Integer> map = new HashMap<>();
         int ans = 0;
-        int minlen = Integer.MAX_VALUE;
+        int minlen = n + 1;
         int startInd = -1;
 
         for(char ch : t.toCharArray())
