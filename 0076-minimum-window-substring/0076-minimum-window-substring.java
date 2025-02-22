@@ -1,6 +1,8 @@
 class Solution {
     public String minWindow(String s, String t) {
 
+        // T.C -> O(2*N) + O(M)
+        // S.C -> O(52) -> O(1)
         int n = s.length();
         int m = t.length();
         int l = 0;
@@ -11,12 +13,12 @@ class Solution {
         int minlen = n + 1;
         int startInd = -1;
 
-        for(char ch : t.toCharArray())
+        for(char ch : t.toCharArray()) // O(M)
         {
             map.put(ch, map.getOrDefault(ch,0) + 1);
         }
 
-        while(r < n)
+        while(r < n) // O(N)
         {
             int freq = map.getOrDefault(s.charAt(r), 0);
             if(freq > 0)
@@ -25,7 +27,7 @@ class Solution {
             }
             map.put(s.charAt(r), map.getOrDefault(s.charAt(r),0) - 1);
 
-            while(ans == m)
+            while(ans == m) // O(N)
             {
                 if(minlen > r - l + 1)
                 {
