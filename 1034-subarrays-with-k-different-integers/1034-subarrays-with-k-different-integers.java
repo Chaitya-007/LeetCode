@@ -2,6 +2,8 @@ class Solution {
 
     public int kthMost(int[] nums, int k)
     {
+        // T.C -> O(2*N) * O(1)
+        // S.C -> O(1)
         if(k < 0) return 0;
 
         int n = nums.length;
@@ -11,11 +13,11 @@ class Solution {
         int r = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        while(r < n)
+        while(r < n) // O(N)
         {
             map.put(nums[r], map.getOrDefault(nums[r], 0) + 1);
 
-            while(map.size() > k)
+            while(map.size() > k) // O(N)
             {
                 map.put(nums[l], map.get(nums[l]) - 1);
                 if(map.get(nums[l]) == 0)
@@ -36,7 +38,8 @@ class Solution {
     }
 
     public int subarraysWithKDistinct(int[] nums, int k) {
-
+        // T.C -> O(2*2N) * O(1)
+        // S.C -> 2 * O(1)
         return kthMost(nums,k) - kthMost(nums,k-1);
         
     }
