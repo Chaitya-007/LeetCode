@@ -2,42 +2,40 @@ class Solution {
 
     public int kthMost(int[] nums,int k)
     {
-        int cnt = 0;
+        // T.C -> O(2N)
+        // S.C -> O(1)
+        if(k < 0) return 0;
 
+        int n = nums.length;
         int l = 0;
         int r = 0;
-        int n = nums.length;
-        int res = 0;
-        int sum = 0;
+        int cnt = 0;
+        int ans = 0;
 
         while(r < n)
         {
-            
-            sum += (nums[r]%2);
+            cnt += (nums[r]&1);
 
-            if(sum > k)
+            while(cnt > k)
             {
-                while(sum > k)
-                {
-                   sum -= (nums[l]%2);
-                    l++;
-                }
+                cnt -= (nums[l]&1);
+                l++;
             }
 
-            if(sum <= k)
-            {
-                int len = r - l + 1;
-                res += len;
-            }
-
+            int len = r - l + 1;
+            ans += len;
             r++;
         }
 
-        return res;
+        return ans;
+
     }
 
-
     public int numberOfSubarrays(int[] nums, int k) {
-        return kthMost(nums,k) - kthMost(nums,k-1);
+
+        // T.C -> O(2*2N)
+        // S.C -> O(1)
+       return kthMost(nums,k) - kthMost(nums,k-1);
+        
     }
 }
