@@ -1,54 +1,49 @@
 class Solution {
     public String minWindow(String s, String t) {
-     int l = 0;
-     int r = 0;
-     int n = s.length();
-     int m = t.length();
 
-     HashMap<Character, Integer> map = new HashMap<Character,Integer>();
-     for(char ch : t.toCharArray())
-     {
-        map.put(ch, map.getOrDefault(ch,0) + 1);
-     }
-     int cnt = 0;
-     int minLen = Integer.MAX_VALUE;
-     int startInd = -1;
+        int n = s.length();
+        int m = t.length();
+        int l = 0;
+        int r = 0;
+
+        HashMap<Character, Integer> map = new HashMap<>();
+        int ans = 0;
+        int minlen = Integer.MAX_VALUE;
+        int startInd = -1;
+
+        for(char ch : t.toCharArray())
+        {
+            map.put(ch, map.getOrDefault(ch,0) + 1);
+        }
 
         while(r < n)
         {
-            int freq = map.getOrDefault(s.charAt(r),0);
+            int freq = map.getOrDefault(s.charAt(r), 0);
             if(freq > 0)
             {
-                cnt++;
+                ans++;
             }
+            map.put(s.charAt(r), map.getOrDefault(s.charAt(r),0) - 1);
 
-            map.put(s.charAt(r),map.getOrDefault(s.charAt(r),0) - 1);
-
-            if(cnt == m)
+            while(ans == m)
             {
-                while(cnt == m)
+                if(minlen > r - l + 1)
                 {
-                    if((r - l + 1) < minLen)
-                    {
-                        minLen = (r - l + 1);
-                        startInd = l;
-                    }
-
-                    map.put(s.charAt(l), map.get(s.charAt(l)) + 1 );
-
-                    if(map.get(s.charAt(l)) > 0)
-                    {
-                        cnt--;
-                    }
-
-                    l++;
+                    minlen = r - l + 1;
+                    startInd = l;
                 }
+                map.put(s.charAt(l), map.get(s.charAt(l)) + 1);
+                if(map.get(s.charAt(l)) > 0)
+                {
+                    ans--;
+                }
+                l++;
             }
 
             r++;
         }
 
-        return startInd == -1 ? "" : s.substring(startInd, Math.min(n, startInd + minLen));
+        return startInd == -1 ? "" : s.substring(startInd, Math.min(startInd + minlen, n ));
 
     }
 }
