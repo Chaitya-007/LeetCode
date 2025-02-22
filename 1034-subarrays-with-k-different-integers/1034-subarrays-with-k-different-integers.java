@@ -1,41 +1,43 @@
 class Solution {
 
-    public int kthMost(int[] nums,int k)
+    public int kthMost(int[] nums, int k)
     {
+        if(k < 0) return 0;
+
         int n = nums.length;
+
+        int ans = 0;
         int l = 0;
         int r = 0;
-        int sum = 0;
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-        
+        HashMap<Integer, Integer> map = new HashMap<>();
+
         while(r < n)
         {
-            map.put(nums[r], map.getOrDefault(nums[r],0) + 1);
+            map.put(nums[r], map.getOrDefault(nums[r], 0) + 1);
 
-            if(map.size() > k)
+            while(map.size() > k)
             {
-                while(map.size() > k)
+                map.put(nums[l], map.get(nums[l]) - 1);
+                if(map.get(nums[l]) == 0)
                 {
-                    map.put(nums[l], map.get(nums[l]) - 1);
-                    if(map.get(nums[l]) == 0)
-                    {
-                        map.remove(nums[l]);
-                    }
-                    l++;
+                    map.remove(nums[l]);
                 }
+
+                l++;
             }
-            
+
             int len = r - l + 1;
-            sum += len;
+            ans += len;
             r++;
         }
 
-        return sum;
+        return ans;
 
     }
 
     public int subarraysWithKDistinct(int[] nums, int k) {
-        int ans = kthMost(nums,k) - kthMost(nums,k-1);
-        return ans;
+
+        return kthMost(nums,k) - kthMost(nums,k-1);
+        
     }
 }
