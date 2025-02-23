@@ -1,36 +1,31 @@
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
+        // T.C -> O(nlgon) + O(mlogm) + O(min(n,m))
+        // S.C -> O(1)
+        Arrays.sort(g);
+        Arrays.sort(s);
 
-        // T.C -> O(N*M)
-        // S.C -> O(N)
-        int cnt = 0;
-        int[] vis = new int[s.length];
-        Arrays.fill(vis,0);
-        
-        for(int i = 0; i < g.length; i++)
+        int l = 0;
+        int r = 0;
+        int m = g.length;
+        int n = s.length;
+
+
+
+        while(l < m && r < n)
         {
-            int mino = Integer.MAX_VALUE;
-            int ind = -1;
-            for(int j = 0; j < s.length; j++)
+            if(s[r] >= g[l])
             {
-                if(vis[j] == 0 && s[j] >= g[i])
-                {
-                    if(mino >= s[j])
-                    {
-                        mino = s[j];
-                        ind = j;
-                    }
-                }
+                l++;
             }
-
-            if(ind != -1)
-            {
-                cnt++;
-                vis[ind] = 1;
-            }
+            r++;
+           
 
         }
 
-        return cnt;
+        // wherever l is standing it will be the answer
+
+        return l;
+
     }
 }
