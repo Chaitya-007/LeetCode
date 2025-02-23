@@ -1,5 +1,7 @@
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
+        // T.C -> O(nlgon) + O(mlogm) + O(min(n,m))
+        // S.C -> O(1)
         Arrays.sort(g);
         Arrays.sort(s);
 
@@ -7,24 +9,23 @@ class Solution {
         int r = 0;
         int m = g.length;
         int n = s.length;
-        int cnt = 0;
+
+
 
         while(l < m && r < n)
         {
             if(s[r] >= g[l])
             {
-                cnt++;
                 l++;
-                r++;
             }
-            else
-            {
-                r++;
-            }
+            r++;
+           
 
         }
 
-        return cnt;
+        // wherever l is standing it will be the answer
+
+        return l;
 
     }
 }
