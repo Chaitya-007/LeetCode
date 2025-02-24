@@ -131,6 +131,7 @@
 | [0735-asteroid-collision](https://github.com/Chaitya-007/LeetCode/tree/master/0735-asteroid-collision) |
 | [0787-sliding-puzzle](https://github.com/Chaitya-007/LeetCode/tree/master/0787-sliding-puzzle) |
 | [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
+| [0890-lemonade-change](https://github.com/Chaitya-007/LeetCode/tree/master/0890-lemonade-change) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0941-sort-array-by-parity](https://github.com/Chaitya-007/LeetCode/tree/master/0941-sort-array-by-parity) |
 | [0943-sum-of-subarray-minimums](https://github.com/Chaitya-007/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
@@ -476,6 +477,7 @@
 | [0402-remove-k-digits](https://github.com/Chaitya-007/LeetCode/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/Chaitya-007/LeetCode/tree/master/0561-array-partition) |
+| [0890-lemonade-change](https://github.com/Chaitya-007/LeetCode/tree/master/0890-lemonade-change) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1341-split-a-string-in-balanced-strings) |
 | [1917-maximum-average-pass-ratio](https://github.com/Chaitya-007/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
