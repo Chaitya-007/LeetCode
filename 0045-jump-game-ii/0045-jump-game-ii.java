@@ -1,87 +1,24 @@
 class Solution {
-
-    public int fun(int ind,int[] nums)
-    {
-        if(ind == (nums.length - 1)) return 0;
-
-        int mino = nums.length;
-        for(int cnt = 1; cnt <= nums[ind]; cnt++)
-        {
-            if(ind + cnt < nums.length)
-            {
-            int left = 1 + fun( ind+cnt, nums);
-            mino = Math.min(left,mino);
-
-            }
-        } 
-
-        return mino;
-    }
-
-    public int funMemo(int ind,int[] nums,int[] dp)
-    {
-        if(ind == (nums.length - 1)) return 0;
-
-        if(dp[ind] != -1) return dp[ind];
-
-        int mino = nums.length;
-        for(int cnt = 1; cnt <= nums[ind]; cnt++)
-        {
-            if(ind + cnt < nums.length)
-            {
-            int left = 1 + funMemo( ind+cnt, nums, dp);
-            mino = Math.min(left,mino);
-
-            }
-        } 
-
-        return dp[ind] = mino;
-    }
-
     public int jump(int[] nums) {
-        // return fun(0,nums);
-
+        int jumps = 0;
+        int l = 0;
+        int r = 0;
         int n = nums.length;
-        int[] dp = new int[n];
-        Arrays.fill(dp,-1);
 
-        // return funMemo(0, nums, dp);
-
-        dp[n-1] = 0;
-
-        for(int ind = n - 2; ind >= 0; ind--)
+        while(r < n - 1)
         {
-        int mino = nums.length;
-        for(int cnt = 1; cnt <= nums[ind]; cnt++)
-        {
-            if(ind + cnt < n)
+            int farthest = 0;
+
+            for(int ind = l; ind <= r; ind++)
             {
-            int left = 1 + dp[ind+cnt];
-            mino = Math.min(left,mino);
+                farthest = Math.max(farthest, nums[ind] + ind);
             }
-        } 
 
-         dp[ind] = mino;
-
+            l = r + 1;
+            r = farthest;
+            jumps = jumps + 1;
         }
 
-        return dp[0];
-
-
-        // Striver approach
-        // Option 3: Iterative DP solution
-            // int[] dp = new int[n];
-            // Arrays.fill(dp, Integer.MAX_VALUE);
-            // dp[n-1] = 0; // 0 jumps needed to reach end from end
-            
-            // for (int i = n-2; i >= 0; i--) {
-            //     for (int j = 1; j <= nums[i] && i+j < n; j++) {
-            //         if (dp[i+j] != Integer.MAX_VALUE) {
-            //             dp[i] = Math.min(dp[i], 1 + dp[i+j]);
-            //         }
-            //     }
-            // }
-            
-            // return dp[0];
+        return jumps;
     }
 }
