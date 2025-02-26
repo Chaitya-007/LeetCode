@@ -16,15 +16,19 @@ class Solution {
 
     public int funMemo(int ind,int[] nums,int[] dp)
     {
-        if(ind >= (nums.length - 1)) return 0;
+        if(ind == (nums.length - 1)) return 0;
 
         if(dp[ind] != -1) return dp[ind];
 
         int mino = nums.length;
         for(int cnt = 1; cnt <= nums[ind]; cnt++)
         {
+            if(ind + cnt < nums.length)
+            {
             int left = 1 + funMemo( ind+cnt, nums, dp);
             mino = Math.min(left,mino);
+
+            }
         } 
 
         return dp[ind] = mino;
@@ -37,26 +41,26 @@ class Solution {
         int[] dp = new int[n];
         Arrays.fill(dp,-1);
 
-        // return funMemo(0, nums, dp);
+        return funMemo(0, nums, dp);
 
-        dp[n-1] = 0;
+        // dp[n-1] = 0;
 
-        for(int ind = n - 2; ind >= 0; ind--)
-        {
-        int mino = nums.length;
-        for(int cnt = 1; cnt <= nums[ind]; cnt++)
-        {
-            if(ind + cnt < n)
-            {
-            int left = 1 + dp[ind+cnt];
-            mino = Math.min(left,mino);
-            }
-        } 
+        // for(int ind = n - 2; ind >= 0; ind--)
+        // {
+        // int mino = nums.length;
+        // for(int cnt = 1; cnt <= nums[ind]; cnt++)
+        // {
+        //     if(ind + cnt < n)
+        //     {
+        //     int left = 1 + dp[ind+cnt];
+        //     mino = Math.min(left,mino);
+        //     }
+        // } 
 
-         dp[ind] = mino;
+        //  dp[ind] = mino;
 
-        }
+        // }
 
-        return dp[0];
+        // return dp[0];
     }
 }
