@@ -2,13 +2,17 @@ class Solution {
 
     public int fun(int ind,int[] nums)
     {
-        if(ind >= (nums.length - 1)) return 0;
+        if(ind == (nums.length - 1)) return 0;
 
         int mino = nums.length;
         for(int cnt = 1; cnt <= nums[ind]; cnt++)
         {
+            if(ind + cnt < nums.length)
+            {
             int left = 1 + fun( ind+cnt, nums);
             mino = Math.min(left,mino);
+
+            }
         } 
 
         return mino;
