@@ -3,6 +3,9 @@ class Solution {
         int maxInd = 0;
         int n = nums.length;
 
+        // T.C -> O(N)
+        // S.C -> O(1)
+
         for(int i = 0; i < n; i++)
         {
             if(i > maxInd) return false;
@@ -15,7 +18,7 @@ class Solution {
         }
 
         // dummy value
-        return false;
+        return true;
 
         
     }
