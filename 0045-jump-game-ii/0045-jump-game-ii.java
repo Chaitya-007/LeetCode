@@ -42,10 +42,10 @@ class Solution {
         // return fun(0,nums);
 
         int n = nums.length;
-        // int[] dp = new int[n];
-        // Arrays.fill(dp,-1);
+        int[] dp = new int[n];
+        Arrays.fill(dp,-1);
 
-        // return funMemo(0, nums, dp);
+        return funMemo(0, nums, dp);
 
         // dp[n-1] = 0;
 
@@ -70,18 +70,18 @@ class Solution {
 
         // Striver approach
         // Option 3: Iterative DP solution
-            int[] dp = new int[n];
-            Arrays.fill(dp, Integer.MAX_VALUE);
-            dp[n-1] = 0; // 0 jumps needed to reach end from end
+            // int[] dp = new int[n];
+            // Arrays.fill(dp, Integer.MAX_VALUE);
+            // dp[n-1] = 0; // 0 jumps needed to reach end from end
             
-            for (int i = n-2; i >= 0; i--) {
-                for (int j = 1; j <= nums[i] && i+j < n; j++) {
-                    if (dp[i+j] != Integer.MAX_VALUE) {
-                        dp[i] = Math.min(dp[i], 1 + dp[i+j]);
-                    }
-                }
-            }
+            // for (int i = n-2; i >= 0; i--) {
+            //     for (int j = 1; j <= nums[i] && i+j < n; j++) {
+            //         if (dp[i+j] != Integer.MAX_VALUE) {
+            //             dp[i] = Math.min(dp[i], 1 + dp[i+j]);
+            //         }
+            //     }
+            // }
             
-            return dp[0];
+            // return dp[0];
     }
 }
