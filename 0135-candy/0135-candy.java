@@ -1,5 +1,9 @@
 class Solution {
     public int candy(int[] ratings) {
+
+        // T.C -> O(3*N)
+        // S.C -> O(2*N)
+
         int n = ratings.length;
 
         int[] left = new int[n];
