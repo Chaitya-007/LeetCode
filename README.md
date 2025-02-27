@@ -107,6 +107,7 @@
 | [0085-maximal-rectangle](https://github.com/Chaitya-007/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chaitya-007/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0135-candy](https://github.com/Chaitya-007/LeetCode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/Chaitya-007/LeetCode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0137-single-number-ii) |
 | [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
@@ -479,6 +480,7 @@
 | [0044-wildcard-matching](https://github.com/Chaitya-007/LeetCode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Chaitya-007/LeetCode/tree/master/0055-jump-game) |
+| [0135-candy](https://github.com/Chaitya-007/LeetCode/tree/master/0135-candy) |
 | [0402-remove-k-digits](https://github.com/Chaitya-007/LeetCode/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/Chaitya-007/LeetCode/tree/master/0561-array-partition) |
