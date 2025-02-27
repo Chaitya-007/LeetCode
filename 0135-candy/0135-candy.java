@@ -1,13 +1,12 @@
 class Solution {
     public int candy(int[] ratings) {
 
-        // T.C -> O(3*N)
-        // S.C -> O(2*N)
+        // T.C -> O(2*N)
+        // S.C -> O(N)
 
         int n = ratings.length;
 
         int[] left = new int[n];
-        int[] right = new int[n];
 
         left[0] = 1;
 
@@ -24,26 +23,25 @@ class Solution {
         }
 
 
+        int curr = 1;
+        int right = 1;
 
-        right[n-1] = 1; 
+        int sum = Math.max(left[n-1],right);
+        
 
         for(int i = n - 2; i >= 0; i--)
         {
             if(ratings[i] > ratings[i + 1])
             {
-                right[i] = right[i+1] + 1;
+               curr = right + 1;
             }
             else
             {
-                right[i] = 1;
+                curr = 1;
             }
-        }
+               right = curr;
 
-        int sum = 0;
-
-        for(int i = 0; i < n; i++)
-        {
-            sum += Math.max(left[i],right[i]);
+            sum += Math.max(left[i],curr);
         }
 
         return sum;
