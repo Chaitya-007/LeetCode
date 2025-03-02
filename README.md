@@ -54,6 +54,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Chaitya-007/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/Chaitya-007/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Chaitya-007/LeetCode/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/Chaitya-007/LeetCode/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Chaitya-007/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Chaitya-007/LeetCode/tree/master/0206-reverse-linked-list) |
@@ -258,6 +259,7 @@
 | [0076-minimum-window-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/Chaitya-007/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Chaitya-007/LeetCode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Chaitya-007/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Chaitya-007/LeetCode/tree/master/0205-isomorphic-strings) |
@@ -763,6 +765,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Chaitya-007/LeetCode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Chaitya-007/LeetCode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Chaitya-007/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Chaitya-007/LeetCode/tree/master/0232-implement-queue-using-stacks) |
@@ -846,4 +849,8 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Chaitya-007/LeetCode/tree/master/0204-count-primes) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Chaitya-007/LeetCode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
