@@ -102,6 +102,7 @@
 | [0045-jump-game-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Chaitya-007/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Chaitya-007/LeetCode/tree/master/0055-jump-game) |
+| [0057-insert-interval](https://github.com/Chaitya-007/LeetCode/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/Chaitya-007/LeetCode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Chaitya-007/LeetCode/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Chaitya-007/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
