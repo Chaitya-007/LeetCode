@@ -1,5 +1,7 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
+        // T.C -> O(NlogN) + O(N)
+        // S.C -> O(N)
 
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 
@@ -8,23 +10,30 @@ class Solution {
         int n = intervals.length;
         List<Pair<Integer, Integer>> list = new ArrayList<>();
 
+            res[0][0] = intervals[0][0];
+            
+            res[0][1] = intervals[0][1];
         int i = 0;
 
         while(i < n)
         {
-            res[0][0] = intervals[i][0];
-            res[0][1] = intervals[i][1];
-            i++;
 
-            while(i < n && res[0][1] >= intervals[i][0])
+            if(res[0][1] >= intervals[i][0])
             {
                 res[0][0] = Math.min(res[0][0],intervals[i][0]);
                 res[0][1] = Math.max(res[0][1],intervals[i][1]);
-                i++;
             }
-
+            else
+            {
             list.add(new Pair<>(res[0][0],res[0][1]));
+            res[0][0] = intervals[i][0];
+            res[0][1] = intervals[i][1];
+            }
+            i++;
+
         }
+
+        list.add(new Pair<>(res[0][0],res[0][1]));
 
         int[][] ans = new int[list.size()][2];
         i = 0;
