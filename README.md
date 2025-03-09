@@ -125,6 +125,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Chaitya-007/LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Chaitya-007/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Chaitya-007/LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -359,6 +360,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
+| [0435-non-overlapping-intervals](https://github.com/Chaitya-007/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/Chaitya-007/LeetCode/tree/master/0561-array-partition) |
@@ -487,6 +489,7 @@
 | [0055-jump-game](https://github.com/Chaitya-007/LeetCode/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/Chaitya-007/LeetCode/tree/master/0135-candy) |
 | [0402-remove-k-digits](https://github.com/Chaitya-007/LeetCode/tree/master/0402-remove-k-digits) |
+| [0435-non-overlapping-intervals](https://github.com/Chaitya-007/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/Chaitya-007/LeetCode/tree/master/0561-array-partition) |
 | [0678-valid-parenthesis-string](https://github.com/Chaitya-007/LeetCode/tree/master/0678-valid-parenthesis-string) |
@@ -632,6 +635,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Chaitya-007/LeetCode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Chaitya-007/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0518-coin-change-ii) |
