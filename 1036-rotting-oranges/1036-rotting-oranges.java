@@ -29,6 +29,10 @@ class Pair
 
 class Solution {
     public int orangesRotting(int[][] grid) {
+
+        // T.C -> O(N*M) + O(N*M * 4) ~ O(N*M)
+        // S.C -> (N*M)(visited array) + (N*M)(queue) ~ O(N*M)
+
         int n = grid.length;
         int m = grid[0].length;
 
@@ -38,6 +42,7 @@ class Solution {
 
         Queue<Pair> q = new LinkedList<Pair>();
 
+        // N*M
         for(int i = 0; i < n; i++)
         {
             for(int j = 0; j < m; j++)
@@ -59,6 +64,7 @@ class Solution {
         int[] delcol = {0,1,0,-1};
         int tm = 0;
 
+        // N*M => storing all nodes in queue
         while(!q.isEmpty())
         {
             int r = q.peek().getRow();
@@ -67,6 +73,7 @@ class Solution {
             q.poll();
             tm = Math.max(t,tm);
 
+            // for each node the loop is run for 4 times
             for(int i = 0; i < 4; i++)
             {
                 int nrow = r + delrow[i];
