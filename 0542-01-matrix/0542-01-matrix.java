@@ -30,6 +30,9 @@ class Pair
 class Solution {
     public int[][] updateMatrix(int[][] mat) {
 
+
+        // T.C -> O(N*M) + O(N*M*4)
+        // S.C -> O(N*M) + O(N*M)
         int n = mat.length;
         int m = mat[0].length;
 
@@ -63,7 +66,7 @@ class Solution {
             q.poll();
             dis[row][col] = steps;
 
-            int minVal = Integer.MAX_VALUE;
+            
 
             for(int i = 0; i < 4; i++)
             {
