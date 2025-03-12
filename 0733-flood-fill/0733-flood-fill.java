@@ -22,6 +22,8 @@ class Solution {
 
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
 
+        // T.C -> O(N*M) + O(N*M*4) ~ O(N*M)
+        // S.C -> O(N*M) + O(N*M) -> O(N*M)
         int n = image.length;
         int m = image[0].length;
 
