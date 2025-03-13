@@ -23,6 +23,9 @@ class Pair
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
 
+        // T.C -> O(WordList.size * Wordlen * 26)
+        // S.C -> O(WordList.size)
+
         int listSize = wordList.size();
 
         HashSet<String> set = new HashSet<>();
@@ -36,8 +39,6 @@ class Solution {
 
         Queue<Pair> q = new LinkedList<>();
 
-        // int ans = 0;
-
         int len = beginWord.length();
 
         q.offer(new Pair(beginWord,1));
@@ -46,9 +47,9 @@ class Solution {
         {
             StringBuilder str = new StringBuilder(q.peek().getString());
             int step = q.peek().getStep();
-            // ans = Math.max(ans,step);
             q.poll();
 
+            // WordList.size * Wordlen * 26
             for(int i = 0; i < len; i++)
             {
             StringBuilder sb = new StringBuilder(str.toString());
