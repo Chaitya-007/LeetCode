@@ -110,6 +110,7 @@
 | [0085-maximal-rectangle](https://github.com/Chaitya-007/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chaitya-007/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/Chaitya-007/LeetCode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/Chaitya-007/LeetCode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0137-single-number-ii) |
@@ -670,6 +671,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Chaitya-007/LeetCode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Chaitya-007/LeetCode/tree/master/0733-flood-fill) |
 | [2201-valid-arrangement-of-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
@@ -677,6 +679,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0322-coin-change](https://github.com/Chaitya-007/LeetCode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Chaitya-007/LeetCode/tree/master/0547-number-of-provinces) |
@@ -690,6 +693,7 @@
 ## Union Find
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Chaitya-007/LeetCode/tree/master/0547-number-of-provinces) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Chaitya-007/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 ## Graph
@@ -705,6 +709,7 @@
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/Chaitya-007/LeetCode/tree/master/0085-maximal-rectangle) |
+| [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Chaitya-007/LeetCode/tree/master/0733-flood-fill) |
 | [0787-sliding-puzzle](https://github.com/Chaitya-007/LeetCode/tree/master/0787-sliding-puzzle) |
