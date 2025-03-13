@@ -21,7 +21,7 @@ class Solution {
 
     public int numEnclaves(int[][] grid) {
 
-        // T.C -> O(N*M*4) + O(N) + O(N)
+        // T.C -> O(N*M*4) + O(N) + O(N) ~ O(N*M)
         // S.C -> O(N-*M)
         
         int n = grid.length;
