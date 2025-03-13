@@ -20,6 +20,10 @@ class Solution {
     }
 
     public void solve(char[][] board) {
+
+        // T.C -> O(N*M)*4 + O(N)(boundary calls) + O(N)(boundary calls)
+        // S.C -> O(N*M)
+
         int n = board.length;
         int m = board[0].length;
 
