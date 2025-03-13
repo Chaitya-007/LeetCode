@@ -264,6 +264,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Chaitya-007/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/Chaitya-007/LeetCode/tree/master/0013-roman-to-integer) |
 | [0076-minimum-window-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0076-minimum-window-substring) |
+| [0127-word-ladder](https://github.com/Chaitya-007/LeetCode/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/Chaitya-007/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Chaitya-007/LeetCode/tree/master/0146-lru-cache) |
@@ -396,6 +397,7 @@
 | [0072-edit-distance](https://github.com/Chaitya-007/LeetCode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/Chaitya-007/LeetCode/tree/master/0115-distinct-subsequences) |
+| [0127-word-ladder](https://github.com/Chaitya-007/LeetCode/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Chaitya-007/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/0242-valid-anagram) |
@@ -681,6 +683,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/Chaitya-007/LeetCode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0322-coin-change](https://github.com/Chaitya-007/LeetCode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/0542-01-matrix) |
