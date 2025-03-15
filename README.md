@@ -221,6 +221,7 @@
 | [3533-snake-in-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/3533-snake-in-matrix) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3605-construct-the-minimum-bitwise-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
+| [3759-choose-k-elements-with-maximum-sum](https://github.com/Chaitya-007/LeetCode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3790-fruits-into-baskets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 ## Two Pointers
 |  |
@@ -386,6 +387,7 @@
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Chaitya-007/LeetCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2887-sort-vowels-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Chaitya-007/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3759-choose-k-elements-with-maximum-sum](https://github.com/Chaitya-007/LeetCode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 ## String
 |  |
 | ------- |
@@ -826,6 +828,7 @@
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Chaitya-007/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2868-continuous-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/2868-continuous-subarrays) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3759-choose-k-elements-with-maximum-sum](https://github.com/Chaitya-007/LeetCode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 ## Binary Tree
 |  |
 | ------- |
