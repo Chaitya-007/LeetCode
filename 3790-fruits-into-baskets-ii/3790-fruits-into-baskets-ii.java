@@ -1,5 +1,9 @@
 class Solution {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
+
+        // T.C -> O(N*2)
+        // S.C -> O(N)
+
         int n = fruits.length;
         boolean[] vis = new boolean[n];
         int ans = n;
