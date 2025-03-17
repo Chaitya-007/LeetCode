@@ -65,8 +65,16 @@ class NumArray {
 
         int mid = (low + high) >> 1;
 
+        if(index <= mid)
+        {
+
         updateVal(2*ind + 1, low, mid, index, val);
+        }
+        else
+        {
+
         updateVal(2*ind + 2, mid + 1, high, index, val);
+        }
 
         seg[ind] = seg[2*ind + 1] + seg[2*ind + 2];
     }
