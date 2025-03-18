@@ -223,6 +223,7 @@
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3605-construct-the-minimum-bitwise-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/Chaitya-007/LeetCode/tree/master/3759-choose-k-elements-with-maximum-sum) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Chaitya-007/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Chaitya-007/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 ## Two Pointers
@@ -776,6 +777,7 @@
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Chaitya-007/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [3427-special-array-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3427-special-array-ii) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Chaitya-007/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Database
 |  |
 | ------- |
@@ -892,6 +894,7 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Chaitya-007/LeetCode/tree/master/0204-count-primes) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Chaitya-007/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -900,6 +903,7 @@
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Chaitya-007/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Chaitya-007/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Chaitya-007/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 ## Binary Indexed Tree
