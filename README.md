@@ -222,6 +222,7 @@
 | [3533-snake-in-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/3533-snake-in-matrix) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3605-construct-the-minimum-bitwise-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
+| [3750-closest-equal-element-queries](https://github.com/Chaitya-007/LeetCode/tree/master/3750-closest-equal-element-queries) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/Chaitya-007/LeetCode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Chaitya-007/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Chaitya-007/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
@@ -326,6 +327,7 @@
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3353-existence-of-a-substring-in-a-string-and-its-reverse](https://github.com/Chaitya-007/LeetCode/tree/master/3353-existence-of-a-substring-in-a-string-and-its-reverse) |
 | [3412-permutation-difference-between-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
+| [3750-closest-equal-element-queries](https://github.com/Chaitya-007/LeetCode/tree/master/3750-closest-equal-element-queries) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Chaitya-007/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Binary Search
 |  |
@@ -344,6 +346,7 @@
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Chaitya-007/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3427-special-array-ii) |
+| [3750-closest-equal-element-queries](https://github.com/Chaitya-007/LeetCode/tree/master/3750-closest-equal-element-queries) |
 | [3790-fruits-into-baskets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Chaitya-007/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 ## Bit Manipulation
