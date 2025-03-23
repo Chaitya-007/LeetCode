@@ -81,6 +81,7 @@
 | [2481-strictly-palindromic-number](https://github.com/Chaitya-007/LeetCode/tree/master/2481-strictly-palindromic-number) |
 | [2748-calculate-delayed-arrival-time](https://github.com/Chaitya-007/LeetCode/tree/master/2748-calculate-delayed-arrival-time) |
 | [2757-count-of-integers](https://github.com/Chaitya-007/LeetCode/tree/master/2757-count-of-integers) |
+| [3017-number-of-beautiful-integers-in-the-range](https://github.com/Chaitya-007/LeetCode/tree/master/3017-number-of-beautiful-integers-in-the-range) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Chaitya-007/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Recursion
@@ -676,6 +677,7 @@
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2164-two-best-non-overlapping-events](https://github.com/Chaitya-007/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2757-count-of-integers](https://github.com/Chaitya-007/LeetCode/tree/master/2757-count-of-integers) |
+| [3017-number-of-beautiful-integers-in-the-range](https://github.com/Chaitya-007/LeetCode/tree/master/3017-number-of-beautiful-integers-in-the-range) |
 | [3795-zero-array-transformation-iv](https://github.com/Chaitya-007/LeetCode/tree/master/3795-zero-array-transformation-iv) |
 ## Memoization
 |  |
