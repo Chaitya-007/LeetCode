@@ -496,6 +496,7 @@
 | [2881-split-strings-by-separator](https://github.com/Chaitya-007/LeetCode/tree/master/2881-split-strings-by-separator) |
 | [2886-faulty-keyboard](https://github.com/Chaitya-007/LeetCode/tree/master/2886-faulty-keyboard) |
 | [2887-sort-vowels-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
+| [2921-count-stepping-numbers-in-range](https://github.com/Chaitya-007/LeetCode/tree/master/2921-count-stepping-numbers-in-range) |
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/Chaitya-007/LeetCode/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Chaitya-007/LeetCode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -677,6 +678,7 @@
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2164-two-best-non-overlapping-events](https://github.com/Chaitya-007/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2757-count-of-integers](https://github.com/Chaitya-007/LeetCode/tree/master/2757-count-of-integers) |
+| [2921-count-stepping-numbers-in-range](https://github.com/Chaitya-007/LeetCode/tree/master/2921-count-stepping-numbers-in-range) |
 | [3017-number-of-beautiful-integers-in-the-range](https://github.com/Chaitya-007/LeetCode/tree/master/3017-number-of-beautiful-integers-in-the-range) |
 | [3795-zero-array-transformation-iv](https://github.com/Chaitya-007/LeetCode/tree/master/3795-zero-array-transformation-iv) |
 ## Memoization
