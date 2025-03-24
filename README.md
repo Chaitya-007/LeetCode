@@ -84,6 +84,7 @@
 | [2748-calculate-delayed-arrival-time](https://github.com/Chaitya-007/LeetCode/tree/master/2748-calculate-delayed-arrival-time) |
 | [2757-count-of-integers](https://github.com/Chaitya-007/LeetCode/tree/master/2757-count-of-integers) |
 | [3017-number-of-beautiful-integers-in-the-range](https://github.com/Chaitya-007/LeetCode/tree/master/3017-number-of-beautiful-integers-in-the-range) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/Chaitya-007/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Chaitya-007/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Chaitya-007/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Recursion
@@ -505,6 +506,7 @@
 | [2921-count-stepping-numbers-in-range](https://github.com/Chaitya-007/LeetCode/tree/master/2921-count-stepping-numbers-in-range) |
 | [2977-check-if-a-string-is-an-acronym-of-words](https://github.com/Chaitya-007/LeetCode/tree/master/2977-check-if-a-string-is-an-acronym-of-words) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Chaitya-007/LeetCode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/Chaitya-007/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3353-existence-of-a-substring-in-a-string-and-its-reverse](https://github.com/Chaitya-007/LeetCode/tree/master/3353-existence-of-a-substring-in-a-string-and-its-reverse) |
 | [3379-score-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/3379-score-of-a-string) |
@@ -688,6 +690,7 @@
 | [2757-count-of-integers](https://github.com/Chaitya-007/LeetCode/tree/master/2757-count-of-integers) |
 | [2921-count-stepping-numbers-in-range](https://github.com/Chaitya-007/LeetCode/tree/master/2921-count-stepping-numbers-in-range) |
 | [3017-number-of-beautiful-integers-in-the-range](https://github.com/Chaitya-007/LeetCode/tree/master/3017-number-of-beautiful-integers-in-the-range) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/Chaitya-007/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3795-zero-array-transformation-iv](https://github.com/Chaitya-007/LeetCode/tree/master/3795-zero-array-transformation-iv) |
 ## Memoization
 |  |
