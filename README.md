@@ -74,6 +74,7 @@
 | [0204-count-primes](https://github.com/Chaitya-007/LeetCode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Chaitya-007/LeetCode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/Chaitya-007/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1761-count-sorted-vowel-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1761-count-sorted-vowel-strings) |
 | [2032-largest-odd-number-in-string](https://github.com/Chaitya-007/LeetCode/tree/master/2032-largest-odd-number-in-string) |
@@ -146,6 +147,7 @@
 | [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
 | [0890-lemonade-change](https://github.com/Chaitya-007/LeetCode/tree/master/0890-lemonade-change) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/Chaitya-007/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [0941-sort-array-by-parity](https://github.com/Chaitya-007/LeetCode/tree/master/0941-sort-array-by-parity) |
 | [0943-sum-of-subarray-minimums](https://github.com/Chaitya-007/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
@@ -339,6 +341,7 @@
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/Chaitya-007/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Chaitya-007/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Chaitya-007/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -432,6 +435,7 @@
 | [0678-valid-parenthesis-string](https://github.com/Chaitya-007/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0812-rotate-string](https://github.com/Chaitya-007/LeetCode/tree/master/0812-rotate-string) |
 | [0824-number-of-lines-to-write-string](https://github.com/Chaitya-007/LeetCode/tree/master/0824-number-of-lines-to-write-string) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/Chaitya-007/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [0979-di-string-match](https://github.com/Chaitya-007/LeetCode/tree/master/0979-di-string-match) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Chaitya-007/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1078-remove-outermost-parentheses](https://github.com/Chaitya-007/LeetCode/tree/master/1078-remove-outermost-parentheses) |
@@ -670,6 +674,7 @@
 | [0542-01-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Chaitya-007/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0938-numbers-at-most-n-given-digit-set](https://github.com/Chaitya-007/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [0943-sum-of-subarray-minimums](https://github.com/Chaitya-007/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [1170-shortest-common-supersequence](https://github.com/Chaitya-007/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/1250-longest-common-subsequence) |
