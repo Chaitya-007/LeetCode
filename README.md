@@ -678,6 +678,7 @@
 | [0518-coin-change-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/0583-delete-operation-for-two-strings) |
+| [0600-non-negative-integers-without-consecutive-ones](https://github.com/Chaitya-007/LeetCode/tree/master/0600-non-negative-integers-without-consecutive-ones) |
 | [0678-valid-parenthesis-string](https://github.com/Chaitya-007/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/Chaitya-007/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [0943-sum-of-subarray-minimums](https://github.com/Chaitya-007/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
