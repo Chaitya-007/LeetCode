@@ -695,6 +695,7 @@
 | [3017-number-of-beautiful-integers-in-the-range](https://github.com/Chaitya-007/LeetCode/tree/master/3017-number-of-beautiful-integers-in-the-range) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Chaitya-007/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3795-zero-array-transformation-iv](https://github.com/Chaitya-007/LeetCode/tree/master/3795-zero-array-transformation-iv) |
+| [3801-count-beautiful-numbers](https://github.com/Chaitya-007/LeetCode/tree/master/3801-count-beautiful-numbers) |
 ## Memoization
 |  |
 | ------- |
