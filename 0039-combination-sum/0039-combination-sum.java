@@ -9,7 +9,7 @@ class Solution {
             return;
         }
 
-        if(ind < 0)
+        if(ind == nums.length)
         {
             return;
         }
@@ -21,7 +21,7 @@ class Solution {
             list.remove(list.size() - 1);
         }
 
-        solve(ind - 1, target, nums, list, ans);
+        solve(ind + 1, target, nums, list, ans);
         return;
     }
 
@@ -30,7 +30,7 @@ class Solution {
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
         int n = candidates.length;
-        solve(n - 1, target, candidates, list, ans);
+        solve(0, target, candidates, list, ans);
         return ans;
     }
 }
