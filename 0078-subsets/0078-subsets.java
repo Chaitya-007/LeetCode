@@ -1,22 +1,26 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> ll = new ArrayList<>();
+
+        List<List<Integer>> ans = new ArrayList<>();
+
         int n = nums.length;
 
-        for(int num = 0; num < (1<<n); num++)
+        for(int i = 0; i < (1 << n); i++)
         {
-            List<Integer> list = new ArrayList<Integer>();
-            for(int j = 0; j < n; j++)
+            List<Integer> list = new ArrayList<>();
+
+            for(int ind = 0; ind < n; ind++)
             {
-                if ( (num & (1<<j)) != 0)
+                if ( (i & (1 << ind) ) != 0)
                 {
-                    list.add(nums[j]);
+                    list.add(nums[ind]);
                 }
             }
 
-            ll.add(list);
+            ans.add(list);
         }
 
-        return ll;
+        return ans;
+        
     }
 }
