@@ -2,10 +2,6 @@ class Solution {
 
     public void fun(int ind, int[] nums, List<Integer> list, List<List<Integer>> ans)
     {
-        if(ind == nums.length)
-        {
-            return;
-        }
 
         for(int i = ind; i < nums.length; i++)
         {
