@@ -8,25 +8,33 @@ class Solution {
             {
                 if(board[i][j] == '.')
                 {
-
+                    // try out all possible conditions
                     for(char ch = '1'; ch <= '9'; ch++)
                     {
+
+                        //  check if chosen character is safe or not
                         if(isSafe(i,j,board,ch) == true)
                         {
 
                         board[i][j] = ch;
 
+                        // call the function for next empty character
                         if(fun(board) == true)
                         {
+                            // if fun() returns true => then don't remove, just keep returning true;
                             return true;
                         }
-                        else
+                        else 
                         {
+                            // if fun() returns false => then backtrack and reomve the last appended character
                             board[i][j] = '.';
                         }
 
                         }
                     }
+
+                    // if you have a vaccant position but not able to fill any 0 - 9 digit
+                    // return false
 
                     return false;
 
@@ -34,6 +42,7 @@ class Solution {
             }
         }
 
+        // once all operations are done => i.e we have solved the sudoku
         return true;
     }
 
