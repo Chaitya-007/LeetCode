@@ -18,7 +18,7 @@ class Solution {
         StringBuilder sb = new StringBuilder();
 
         List<Integer> list = new ArrayList<>();
-        List<Integer> ans = new ArrayList<>();
+        
 
         for(int i = 1; i <= n; i++)
         {
@@ -26,24 +26,24 @@ class Solution {
         }
 
         k = k - 1;
-        int temp = n - 1;
-        int div = fact(temp);
-        int ind = k/div;
 
-        while(sb.length() != n)
+
+        int facto = fact(n - 1);
+
+        while(true)
         {
+            sb.append(String.valueOf( list.get( k/facto ) ) );
+            list.remove(k/facto);
+            if(list.size() == 0)
+            break;
 
-            Integer num = list.get(ind);
-            list.remove(ind);
-            // ans.add(num);
-            sb.append(num);
+            k = k%facto;
+            facto = facto / list.size();
 
-            k = k%div;
-            temp--;
-            div = fact(temp);
-            ind = k/div;
             
         }
+
+        
 
         return sb.toString();
         
