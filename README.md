@@ -435,6 +435,7 @@
 | [0115-distinct-subsequences](https://github.com/Chaitya-007/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0126-word-ladder-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Chaitya-007/LeetCode/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/Chaitya-007/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Chaitya-007/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/0242-valid-anagram) |
@@ -679,6 +680,7 @@
 | [0085-maximal-rectangle](https://github.com/Chaitya-007/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/Chaitya-007/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chaitya-007/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/Chaitya-007/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Chaitya-007/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0213-house-robber-ii) |
 | [0233-number-of-digit-one](https://github.com/Chaitya-007/LeetCode/tree/master/0233-number-of-digit-one) |
@@ -806,6 +808,7 @@
 | [0078-subsets](https://github.com/Chaitya-007/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0090-subsets-ii) |
 | [0126-word-ladder-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0126-word-ladder-ii) |
+| [0131-palindrome-partitioning](https://github.com/Chaitya-007/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0494-target-sum) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Chaitya-007/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Brainteaser
