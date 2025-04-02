@@ -147,6 +147,7 @@
 | [0442-find-all-duplicates-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/Chaitya-007/LeetCode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Chaitya-007/LeetCode/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Chaitya-007/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -355,6 +356,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Chaitya-007/LeetCode/tree/master/0300-longest-increasing-subsequence) |
+| [0493-reverse-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/0493-reverse-pairs) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/Chaitya-007/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
@@ -724,10 +726,12 @@
 | [0148-sort-list](https://github.com/Chaitya-007/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Chaitya-007/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0493-reverse-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/0493-reverse-pairs) |
 ## Merge Sort
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Chaitya-007/LeetCode/tree/master/0148-sort-list) |
+| [0493-reverse-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/0493-reverse-pairs) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -790,6 +794,7 @@
 ## Ordered Set
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/0493-reverse-pairs) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2868-continuous-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/2868-continuous-subarrays) |
 | [3791-fruits-into-baskets-iii](https://github.com/Chaitya-007/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
@@ -959,6 +964,7 @@
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Chaitya-007/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [0493-reverse-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/0493-reverse-pairs) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Chaitya-007/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Chaitya-007/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
@@ -966,4 +972,5 @@
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/Chaitya-007/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [0493-reverse-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
