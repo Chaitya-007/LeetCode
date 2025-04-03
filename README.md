@@ -130,6 +130,7 @@
 | [0135-candy](https://github.com/Chaitya-007/LeetCode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/Chaitya-007/LeetCode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0137-single-number-ii) |
+| [0152-maximum-product-subarray](https://github.com/Chaitya-007/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/Chaitya-007/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Chaitya-007/LeetCode/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/Chaitya-007/LeetCode/tree/master/0204-count-primes) |
@@ -685,6 +686,7 @@
 | [0115-distinct-subsequences](https://github.com/Chaitya-007/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chaitya-007/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/Chaitya-007/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0152-maximum-product-subarray](https://github.com/Chaitya-007/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Chaitya-007/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0213-house-robber-ii) |
 | [0233-number-of-digit-one](https://github.com/Chaitya-007/LeetCode/tree/master/0233-number-of-digit-one) |
