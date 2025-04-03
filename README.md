@@ -121,6 +121,7 @@
 | [0057-insert-interval](https://github.com/Chaitya-007/LeetCode/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/Chaitya-007/LeetCode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Chaitya-007/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Chaitya-007/LeetCode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Chaitya-007/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Chaitya-007/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0090-subsets-ii) |
@@ -440,6 +441,7 @@
 | [0044-wildcard-matching](https://github.com/Chaitya-007/LeetCode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Chaitya-007/LeetCode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Chaitya-007/LeetCode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/Chaitya-007/LeetCode/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/Chaitya-007/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0126-word-ladder-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Chaitya-007/LeetCode/tree/master/0127-word-ladder) |
@@ -745,6 +747,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Chaitya-007/LeetCode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Chaitya-007/LeetCode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Chaitya-007/LeetCode/tree/master/0733-flood-fill) |
@@ -788,6 +791,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Chaitya-007/LeetCode/tree/master/0037-sudoku-solver) |
+| [0079-word-search](https://github.com/Chaitya-007/LeetCode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Chaitya-007/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/0542-01-matrix) |
@@ -824,6 +828,7 @@
 | [0047-permutations-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Chaitya-007/LeetCode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Chaitya-007/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Chaitya-007/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0090-subsets-ii) |
 | [0126-word-ladder-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/Chaitya-007/LeetCode/tree/master/0131-palindrome-partitioning) |
