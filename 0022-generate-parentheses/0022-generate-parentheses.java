@@ -8,38 +8,25 @@ class Solution {
             return;
         }
 
-        if(op == clo)
+        if(op > 0)
         {
             sb.append('(');
             fun(op - 1, clo, ans, sb);
             sb.deleteCharAt(sb.length() - 1);
-            return;
         }
 
-        if(op == 0 && clo != 0)
+        if(clo > 0 && clo > op)
         {
             sb.append(')');
             fun(op, clo - 1, ans, sb);
             sb.deleteCharAt(sb.length() - 1);
-            return;
         }
-
-        sb.append('(');
-        fun(op - 1, clo, ans, sb);
-        sb.deleteCharAt(sb.length() - 1);
-        sb.append(')');
-        fun(op, clo - 1, ans, sb);
-        sb.deleteCharAt(sb.length() - 1);
-        return;
-
-        
     }
-
-
 
     public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();
         StringBuilder sb = new StringBuilder("");
+
         fun(n,n,ans,sb);
         return ans;
     }
