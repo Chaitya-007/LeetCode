@@ -76,6 +76,7 @@
 | [0231-power-of-two](https://github.com/Chaitya-007/LeetCode/tree/master/0231-power-of-two) |
 | [0233-number-of-digit-one](https://github.com/Chaitya-007/LeetCode/tree/master/0233-number-of-digit-one) |
 | [0268-missing-number](https://github.com/Chaitya-007/LeetCode/tree/master/0268-missing-number) |
+| [0282-expression-add-operators](https://github.com/Chaitya-007/LeetCode/tree/master/0282-expression-add-operators) |
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/Chaitya-007/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [1057-numbers-with-repeated-digits](https://github.com/Chaitya-007/LeetCode/tree/master/1057-numbers-with-repeated-digits) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -454,6 +455,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Chaitya-007/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Chaitya-007/LeetCode/tree/master/0242-valid-anagram) |
+| [0282-expression-add-operators](https://github.com/Chaitya-007/LeetCode/tree/master/0282-expression-add-operators) |
 | [0344-reverse-string](https://github.com/Chaitya-007/LeetCode/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Chaitya-007/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
@@ -841,6 +843,7 @@
 | [0131-palindrome-partitioning](https://github.com/Chaitya-007/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0140-word-break-ii) |
 | [0216-combination-sum-iii](https://github.com/Chaitya-007/LeetCode/tree/master/0216-combination-sum-iii) |
+| [0282-expression-add-operators](https://github.com/Chaitya-007/LeetCode/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0494-target-sum) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Chaitya-007/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Brainteaser
