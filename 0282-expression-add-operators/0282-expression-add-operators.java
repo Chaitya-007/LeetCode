@@ -1,79 +1,59 @@
 class Solution {
-
-  public ArrayList<String> answer;
-  public String digits;
-  public long target;
-
-  public void recurse(
-      int index, long previousOperand, long currentOperand, long value, ArrayList<String> ops) {
-    String nums = this.digits;
-
-    // Done processing all the digits in num
-    if (index == nums.length()) {
-
-      // If the final value == target expected AND
-      // no operand is left unprocessed
-      if (value == this.target && currentOperand == 0) {
-        StringBuilder sb = new StringBuilder();
-        ops.subList(1, ops.size()).forEach(v -> sb.append(v));
-        this.answer.add(sb.toString());
-      }
-      return;
+    public List<String> addOperators(String num, int target) {
+        List<String> result = new ArrayList<>();
+        if (num == null || num.length() == 0) return result;
+        
+        backtrack(result, new StringBuilder(), num, target, 0, 0, 0);
+        return result;
     }
-
-    // Extending the current operand by one digit
-    currentOperand = currentOperand * 10 + Character.getNumericValue(nums.charAt(index));
-    String current_val_rep = Long.toString(currentOperand);
-    int length = nums.length();
-
-    // To avoid cases where we have 1 + 05 or 1 * 05 since 05 won't be a
-    // valid operand. Hence this check
-    if (currentOperand > 0) {
-
-      // NO OP recursion
-      recurse(index + 1, previousOperand, currentOperand, value, ops);
+    
+    private void backtrack(List<String> result, StringBuilder expression, String num, 
+                          int target, int index, long evaluated, long lastNum) {
+        // Base case: reached the end of the string
+        if (index == num.length()) {
+            if (evaluated == target) {
+                result.add(expression.toString());
+            }
+            return;
+        }
+        
+        // Save current expression length for backtracking
+        int len = expression.length();
+        
+        for (int i = index; i < num.length(); i++) {
+            // Handle leading zeros - skip if current position is not the first digit
+            // and the digit at index is '0'
+            if (i > index && num.charAt(index) == '0') {
+                break;
+            }
+            
+            // Extract current number
+            String currStr = num.substring(index, i + 1);
+            long currNum = Long.parseLong(currStr);
+            
+            // If this is the first number, we don't need any operator
+            if (index == 0) {
+                expression.append(currStr);
+                backtrack(result, expression, num, target, i + 1, currNum, currNum);
+                expression.setLength(len);
+            } else {
+                // Addition
+                expression.append("+").append(currStr);
+                backtrack(result, expression, num, target, i + 1, evaluated + currNum, currNum);
+                expression.setLength(len);
+                
+                // Subtraction
+                expression.append("-").append(currStr);
+                backtrack(result, expression, num, target, i + 1, evaluated - currNum, -currNum);
+                expression.setLength(len);
+                
+                // Multiplication - needs special handling for precedence
+                // We need to undo the last operation and apply multiplication first
+                expression.append("*").append(currStr);
+                backtrack(result, expression, num, target, i + 1, 
+                        evaluated - lastNum + (lastNum * currNum), lastNum * currNum);
+                expression.setLength(len);
+            }
+        }
     }
-
-    // ADDITION
-    ops.add("+");
-    ops.add(current_val_rep);
-    recurse(index + 1, currentOperand, 0, value + currentOperand, ops);
-    ops.remove(ops.size() - 1);
-    ops.remove(ops.size() - 1);
-
-    if (ops.size() > 0) {
-
-      // SUBTRACTION
-      ops.add("-");
-      ops.add(current_val_rep);
-      recurse(index + 1, -currentOperand, 0, value - currentOperand, ops);
-      ops.remove(ops.size() - 1);
-      ops.remove(ops.size() - 1);
-
-      // MULTIPLICATION
-      ops.add("*");
-      ops.add(current_val_rep);
-      recurse(
-          index + 1,
-          currentOperand * previousOperand,
-          0,
-          value - previousOperand + (currentOperand * previousOperand),
-          ops);
-      ops.remove(ops.size() - 1);
-      ops.remove(ops.size() - 1);
-    }
-  }
-
-  public List<String> addOperators(String num, int target) {
-
-    if (num.length() == 0) {
-      return new ArrayList<String>();
-    }
-
-    this.target = target;
-    this.digits = num;
-    this.answer = new ArrayList<String>();
-    this.recurse(0, 0, 0, 0, new ArrayList<String>());
-    return this.answer;
-  }
 }
