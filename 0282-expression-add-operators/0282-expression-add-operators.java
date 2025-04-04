@@ -1,59 +1,68 @@
 class Solution {
-    public List<String> addOperators(String num, int target) {
-        List<String> result = new ArrayList<>();
-        if (num == null || num.length() == 0) return result;
-        
-        backtrack(result, new StringBuilder(), num, target, 0, 0, 0);
-        return result;
-    }
-    
-    private void backtrack(List<String> result, StringBuilder expression, String num, 
-                          int target, int index, long evaluated, long lastNum) {
-        // Base case: reached the end of the string
-        if (index == num.length()) {
-            if (evaluated == target) {
-                result.add(expression.toString());
+
+    public void fun(int ind,  StringBuilder sb, long eval, long residual, List<String> ans, int target, String str)
+    {
+        if(ind == str.length())
+        {
+            if(eval == target)
+            {
+                if(sb.length() != 0)
+                {
+                    ans.add(new String(sb.toString()));
+                }
             }
+
             return;
         }
-        
-        // Save current expression length for backtracking
-        int len = expression.length();
-        
-        for (int i = index; i < num.length(); i++) {
-            // Handle leading zeros - skip if current position is not the first digit
-            // and the digit at index is '0'
-            if (i > index && num.charAt(index) == '0') {
-                break;
+
+        StringBuilder currStr = new StringBuilder("");
+        long currNum = 0;
+
+        for(int i = ind; i < str.length(); i++)
+        {
+            if(i > ind && str.charAt(ind) == '0') return;
+
+            currStr.append(str.charAt(i));
+            currNum = currNum * 10 + (int)(str.charAt(i) - '0');
+
+            if(ind == 0)
+            {
+                
+                 sb.append(currStr);
+                fun(i + 1, sb, currNum, currNum, ans, target, str);
+                sb.delete(sb.length() - currStr.length(), sb.length());
+               
             }
-            
-            // Extract current number
-            String currStr = num.substring(index, i + 1);
-            long currNum = Long.parseLong(currStr);
-            
-            // If this is the first number, we don't need any operator
-            if (index == 0) {
-                expression.append(currStr);
-                backtrack(result, expression, num, target, i + 1, currNum, currNum);
-                expression.setLength(len);
-            } else {
-                // Addition
-                expression.append("+").append(currStr);
-                backtrack(result, expression, num, target, i + 1, evaluated + currNum, currNum);
-                expression.setLength(len);
-                
-                // Subtraction
-                expression.append("-").append(currStr);
-                backtrack(result, expression, num, target, i + 1, evaluated - currNum, -currNum);
-                expression.setLength(len);
-                
-                // Multiplication - needs special handling for precedence
-                // We need to undo the last operation and apply multiplication first
-                expression.append("*").append(currStr);
-                backtrack(result, expression, num, target, i + 1, 
-                        evaluated - lastNum + (lastNum * currNum), lastNum * currNum);
-                expression.setLength(len);
+            else
+            {
+                sb.append('+');
+                sb.append(currStr);
+                fun(i + 1, sb, eval + currNum, currNum, ans, target, str);
+                sb.delete(sb.length() - currStr.length(), sb.length());
+                sb.deleteCharAt(sb.length() - 1);
+
+                sb.append('-');
+                sb.append(currStr);
+                fun(i + 1, sb, eval - currNum, -currNum, ans, target, str);
+                sb.delete(sb.length() - currStr.length(), sb.length());
+                sb.deleteCharAt(sb.length() - 1);
+
+                sb.append('*');
+                sb.append(currStr);
+                fun(i + 1, sb, eval - residual + (residual * currNum), currNum*residual, ans, target, str);
+                sb.delete(sb.length() - currStr.length(), sb.length());
+                sb.deleteCharAt(sb.length() - 1);
+
             }
         }
+    }
+
+    public List<String> addOperators(String num, int target) {
+        List<String> ans = new ArrayList<>();
+        StringBuilder sb = new StringBuilder("");
+
+        fun(0,sb,0,0,ans,target,num);
+        return ans;
+        
     }
 }
