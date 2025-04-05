@@ -15,15 +15,17 @@ class Solution {
             return;
         }
 
-        StringBuilder currStr = new StringBuilder("");
-        long currNum = 0;
+        // StringBuilder currStr = new StringBuilder("");
+        // long currNum = 0;
 
         for(int i = ind; i < str.length(); i++)
         {
             if(i > ind && str.charAt(ind) == '0') return;
 
-            currStr.append(str.charAt(i));
-            currNum = currNum * 10 + (int)(str.charAt(i) - '0');
+            StringBuilder currStr = new StringBuilder(str.substring(ind, i + 1));
+            long currNum = Long.valueOf(currStr.toString());
+            // currStr.append(str.charAt(i));
+            // currNum = currNum * 10 + (int)(str.charAt(i) - '0');
 
             if(ind == 0)
             {
