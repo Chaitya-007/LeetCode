@@ -1,6 +1,6 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        // In order to take 
+        // In you want to take ai then you must take bi first => a -> b
         List<List<Integer>> adj = new ArrayList<>();
         int v = numCourses;
 
@@ -14,7 +14,7 @@ class Solution {
             int a = prerequisites[i][0];
             int b = prerequisites[i][1];
 
-            adj.get(a).add(b);
+            adj.get(b).add(a);
         }
 
         int[] indegree = new int[v];
