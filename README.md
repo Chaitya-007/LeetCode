@@ -180,6 +180,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1073-number-of-enclaves](https://github.com/Chaitya-007/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Chaitya-007/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1217-relative-sort-array](https://github.com/Chaitya-007/LeetCode/tree/master/1217-relative-sort-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Chaitya-007/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Chaitya-007/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -787,6 +788,7 @@
 | [0820-find-eventual-safe-states](https://github.com/Chaitya-007/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Chaitya-007/LeetCode/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Chaitya-007/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Chaitya-007/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -825,6 +827,7 @@
 | [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Chaitya-007/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Chaitya-007/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1972-rotating-the-box](https://github.com/Chaitya-007/LeetCode/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/Chaitya-007/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Chaitya-007/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
