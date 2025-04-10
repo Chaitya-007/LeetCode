@@ -70,16 +70,16 @@ class Solution {
         };
 
         // PriorityQueue<DisNodeK> pq = new PriorityQueue<>(cmp);
-        Queue<DisNodeK> pq = new LinkedList<>();
-        pq.offer(new DisNodeK(0,src,0));
+        Queue<DisNodeK> q = new LinkedList<>();
+        q.offer(new DisNodeK(0,src,0));
 
         int[] dis = new int[n];
         Arrays.fill(dis,Integer.MAX_VALUE);
         dis[src] = 0;
 
-        while(!pq.isEmpty())
+        while(!q.isEmpty())
         {
-            DisNodeK p = pq.poll();
+            DisNodeK p = q.poll();
             int node = p.getNode();
             int distance = p.getDis();
             int newK = p.getK();
@@ -97,7 +97,7 @@ class Solution {
                     if(distance + edgeWt < dis[adjv])
                     {
                         dis[adjv] = distance + edgeWt;
-                        pq.offer(new DisNodeK(newK+1,adjv,dis[adjv]));
+                        q.offer(new DisNodeK(newK+1,adjv,dis[adjv]));
                     }
                 
 
