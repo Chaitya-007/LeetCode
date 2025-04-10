@@ -94,7 +94,7 @@ class Solution {
                 int adjv = adjNode.getV();
                 int edgeWt = adjNode.getW();
                  
-                    if(distance + edgeWt < dis[adjv] && newK <= k)
+                    if(distance + edgeWt < dis[adjv])
                     {
                         dis[adjv] = distance + edgeWt;
                         pq.offer(new DisNodeK(newK+1,adjv,dis[adjv]));
