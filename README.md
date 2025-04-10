@@ -192,6 +192,7 @@
 | [1580-shuffle-the-array](https://github.com/Chaitya-007/LeetCode/tree/master/1580-shuffle-the-array) |
 | [1651-shuffle-string](https://github.com/Chaitya-007/LeetCode/tree/master/1651-shuffle-string) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1753-path-with-minimum-effort](https://github.com/Chaitya-007/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [1755-defuse-the-bomb](https://github.com/Chaitya-007/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Chaitya-007/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Chaitya-007/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -372,6 +373,7 @@
 | [0938-numbers-at-most-n-given-digit-set](https://github.com/Chaitya-007/LeetCode/tree/master/0938-numbers-at-most-n-given-digit-set) |
 | [1046-max-consecutive-ones-iii](https://github.com/Chaitya-007/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Chaitya-007/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1753-path-with-minimum-effort](https://github.com/Chaitya-007/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Chaitya-007/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Chaitya-007/LeetCode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2164-two-best-non-overlapping-events](https://github.com/Chaitya-007/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
@@ -769,6 +771,7 @@
 | [0801-is-graph-bipartite](https://github.com/Chaitya-007/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Chaitya-007/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1073-number-of-enclaves](https://github.com/Chaitya-007/LeetCode/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/Chaitya-007/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [2201-valid-arrangement-of-pairs](https://github.com/Chaitya-007/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
@@ -789,6 +792,7 @@
 | [1036-rotting-oranges](https://github.com/Chaitya-007/LeetCode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Chaitya-007/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/Chaitya-007/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Chaitya-007/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Chaitya-007/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -801,6 +805,7 @@
 | [0801-is-graph-bipartite](https://github.com/Chaitya-007/LeetCode/tree/master/0801-is-graph-bipartite) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Chaitya-007/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1073-number-of-enclaves](https://github.com/Chaitya-007/LeetCode/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/Chaitya-007/LeetCode/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
 | ------- |
@@ -828,6 +833,7 @@
 | [1073-number-of-enclaves](https://github.com/Chaitya-007/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Chaitya-007/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/Chaitya-007/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [1972-rotating-the-box](https://github.com/Chaitya-007/LeetCode/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/Chaitya-007/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Chaitya-007/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -934,6 +940,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/Chaitya-007/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Chaitya-007/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Chaitya-007/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1753-path-with-minimum-effort](https://github.com/Chaitya-007/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [1917-maximum-average-pass-ratio](https://github.com/Chaitya-007/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/Chaitya-007/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Chaitya-007/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
