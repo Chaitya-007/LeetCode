@@ -9,10 +9,10 @@ class Solution {
             return;
         }
 
-        for(int i = 0; i < nums.length; i++)
+        for(int i = ind; i < nums.length; i++)
         {
 
-            if(i > 0 && nums[i] == nums[i-1] && !vis[i-1])
+            if(i > ind && nums[i] == nums[i-1])
             {
                 continue;
             }
@@ -21,7 +21,7 @@ class Solution {
             {
                 vis[i] = true;
                 list.add(nums[i]);
-                solve(ind + 1, nums, ans, vis, list);
+                solve(i + 1, nums, ans, vis, list);
                 vis[i] = false;
                 list.remove(ind);
             }
