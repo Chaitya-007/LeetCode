@@ -969,6 +969,7 @@
 | [1942-primary-department-for-each-employee](https://github.com/Chaitya-007/LeetCode/tree/master/1942-primary-department-for-each-employee) |
 | [2057-count-salary-categories](https://github.com/Chaitya-007/LeetCode/tree/master/2057-count-salary-categories) |
 | [2087-confirmation-rate](https://github.com/Chaitya-007/LeetCode/tree/master/2087-confirmation-rate) |
+| [2127-employees-whose-manager-left-the-company](https://github.com/Chaitya-007/LeetCode/tree/master/2127-employees-whose-manager-left-the-company) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/Chaitya-007/LeetCode/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Queue
 |  |
