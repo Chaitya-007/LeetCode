@@ -1,12 +1,10 @@
 # Write your MySQL query statement below
-
-select 
-Left(t.trans_date,7) as month
-,t.country
-,count(*) as trans_count
-,sum(if(t.state = 'approved', 1, 0)) as approved_count
-,sum(t.amount) as trans_total_amount
-,sum(case when t.state = 'approved' then t.amount else 0 end) as approved_total_amount
-from Transactions t
-group by 
-month,t.country;
+select
+left(trans_date,7) as month,
+country,
+count(*) as trans_count,
+sum(if(state = 'approved',1,0)) as approved_count,
+sum(amount) as trans_total_amount,
+sum(if(state = 'approved',amount,0)) as approved_total_amount
+from Transactions
+group by left(trans_date,7),country;
