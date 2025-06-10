@@ -366,6 +366,7 @@
 | [3353-existence-of-a-substring-in-a-string-and-its-reverse](https://github.com/Chaitya-007/LeetCode/tree/master/3353-existence-of-a-substring-in-a-string-and-its-reverse) |
 | [3412-permutation-difference-between-two-strings](https://github.com/Chaitya-007/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
 | [3750-closest-equal-element-queries](https://github.com/Chaitya-007/LeetCode/tree/master/3750-closest-equal-element-queries) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Chaitya-007/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Chaitya-007/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Binary Search
 |  |
@@ -560,6 +561,7 @@
 | [3533-snake-in-matrix](https://github.com/Chaitya-007/LeetCode/tree/master/3533-snake-in-matrix) |
 | [3540-hash-divided-string](https://github.com/Chaitya-007/LeetCode/tree/master/3540-hash-divided-string) |
 | [3617-find-the-original-typed-string-i](https://github.com/Chaitya-007/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Chaitya-007/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Greedy
 |  |
 | ------- |
@@ -611,6 +613,7 @@
 | [2594-count-pairs-of-similar-strings](https://github.com/Chaitya-007/LeetCode/tree/master/2594-count-pairs-of-similar-strings) |
 | [2654-count-the-number-of-vowel-strings-in-range](https://github.com/Chaitya-007/LeetCode/tree/master/2654-count-the-number-of-vowel-strings-in-range) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Chaitya-007/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Chaitya-007/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Simulation
 |  |
 | ------- |
