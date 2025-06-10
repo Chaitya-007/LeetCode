@@ -1,16 +1,16 @@
 # Write your MySQL query statement below
-
-with all_id as 
+select req as id,count(*) as num
+from 
 (
-    select r.requester_id  as id from RequestAccepted r
 
-    union all
+(select requester_id as req
+from RequestAccepted)
 
-    select q.accepter_id as id from RequestAccepted q
-)
+union all 
 
-select id,count(*) as num
-from all_id
-group by id
-order by count(*) desc
-limit 1;
+(select accepter_id as req
+from RequestAccepted)
+) as q
+group by req
+order by num desc
+limit 0,1;
