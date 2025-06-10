@@ -1,6 +1,5 @@
 # Write your MySQL query statement below
-select req as id,count(*) as num
-from 
+with tab as 
 (
 
 (select requester_id as req
@@ -10,7 +9,12 @@ union all
 
 (select accepter_id as req
 from RequestAccepted)
-) as q
+
+)
+
+
+select req as id,count(*) as num
+from tab
 group by req
 order by num desc
 limit 0,1;
