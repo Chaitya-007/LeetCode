@@ -781,6 +781,7 @@
 | ------- |
 | [0079-word-search](https://github.com/Chaitya-007/LeetCode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Chaitya-007/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0100-same-tree) |
 | [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/Chaitya-007/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0210-course-schedule-ii) |
@@ -803,6 +804,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0100-same-tree) |
 | [0126-word-ladder-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/Chaitya-007/LeetCode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
@@ -1005,6 +1007,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Chaitya-007/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0100-same-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Chaitya-007/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -1047,6 +1050,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Chaitya-007/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0100-same-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0100-same-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Chaitya-007/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
