@@ -720,6 +720,7 @@
 | [0085-maximal-rectangle](https://github.com/Chaitya-007/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/Chaitya-007/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chaitya-007/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Chaitya-007/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Chaitya-007/LeetCode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0140-word-break-ii) |
@@ -783,6 +784,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/Chaitya-007/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/Chaitya-007/LeetCode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/Chaitya-007/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Chaitya-007/LeetCode/tree/master/0210-course-schedule-ii) |
@@ -1014,6 +1016,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/Chaitya-007/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Chaitya-007/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Design
@@ -1059,6 +1062,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/Chaitya-007/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chaitya-007/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Chaitya-007/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Chaitya-007/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Chaitya-007/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Data Stream
