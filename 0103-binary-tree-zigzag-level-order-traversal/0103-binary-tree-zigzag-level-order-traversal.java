@@ -24,11 +24,20 @@ class Solution {
         while(!q.isEmpty())
         {
             int size = q.size();
-            List<Integer> level = new ArrayList<>();
+            Deque<Integer> level = new ArrayDeque<>();
 
             while(size > 0)
             {
                 TreeNode node = q.poll();
+
+                if(flag)
+                {
+                    level.offerLast(node.val);
+                }
+                else
+                {
+                    level.offerFirst(node.val);
+                }
 
                 if(node.left != null)
                 {
@@ -40,19 +49,10 @@ class Solution {
                     q.offer(node.right);
                 }
 
-                level.add(node.val);
                 size--;
             }
 
-            if(flag)
-            {
-                list.add(new ArrayList<>(level));
-            }
-            else 
-            {
-                Collections.reverse(level);
-                list.add(new ArrayList<>(level));
-            }
+            list.add(new ArrayList<>(level));
 
             flag = !flag;
         }
