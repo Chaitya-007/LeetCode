@@ -260,6 +260,7 @@
 | [3790-fruits-into-baskets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Chaitya-007/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3795-zero-array-transformation-iv](https://github.com/Chaitya-007/LeetCode/tree/master/3795-zero-array-transformation-iv) |
+| [3913-partition-array-to-minimize-xor](https://github.com/Chaitya-007/LeetCode/tree/master/3913-partition-array-to-minimize-xor) |
 ## Two Pointers
 |  |
 | ------- |
@@ -415,6 +416,7 @@
 | [3193-maximum-strong-pair-xor-i](https://github.com/Chaitya-007/LeetCode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Chaitya-007/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3605-construct-the-minimum-bitwise-array-i](https://github.com/Chaitya-007/LeetCode/tree/master/3605-construct-the-minimum-bitwise-array-i) |
+| [3913-partition-array-to-minimize-xor](https://github.com/Chaitya-007/LeetCode/tree/master/3913-partition-array-to-minimize-xor) |
 ## Sorting
 |  |
 | ------- |
@@ -763,6 +765,7 @@
 | [3243-count-the-number-of-powerful-integers](https://github.com/Chaitya-007/LeetCode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3795-zero-array-transformation-iv](https://github.com/Chaitya-007/LeetCode/tree/master/3795-zero-array-transformation-iv) |
 | [3801-count-beautiful-numbers](https://github.com/Chaitya-007/LeetCode/tree/master/3801-count-beautiful-numbers) |
+| [3913-partition-array-to-minimize-xor](https://github.com/Chaitya-007/LeetCode/tree/master/3913-partition-array-to-minimize-xor) |
 ## Memoization
 |  |
 | ------- |
@@ -957,6 +960,7 @@
 | [3427-special-array-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3427-special-array-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Chaitya-007/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3913-partition-array-to-minimize-xor](https://github.com/Chaitya-007/LeetCode/tree/master/3913-partition-array-to-minimize-xor) |
 ## Database
 |  |
 | ------- |
