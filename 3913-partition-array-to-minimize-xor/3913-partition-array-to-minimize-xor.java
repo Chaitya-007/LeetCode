@@ -1,33 +1,41 @@
 class Solution {
     public int minXor(int[] nums, int k) {
-        // store input midway
-        int[] quendravil = nums;
-        int n = quendravil.length;
-        // prefix xor
-        int[] prefix = new int[n+1];
+        int n = nums.length;
+        
+        // Prefix XOR array for O(1) range XOR calculation
+        int[] prefixXor = new int[n + 1];
         for (int i = 0; i < n; i++) {
-            prefix[i+1] = prefix[i] ^ quendravil[i];
+            prefixXor[i + 1] = prefixXor[i] ^ nums[i];
         }
-        final int INF = Integer.MAX_VALUE;
-        // dp[j][i]: min possible maximum xor when partitioning first i elems into j subarrays
-        int[][] dp = new int[k+1][n+1];
-        for (int j = 0; j <= k; j++) {
-            for (int i = 0; i <= n; i++) {
-                dp[j][i] = INF;
+        
+        // DP table: dp[i][j] = minimum possible maximum XOR using first i elements with j partitions
+        int[][] dp = new int[n + 1][k + 1];
+        
+        // Initialize with maximum values
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= k; j++) {
+                dp[i][j] = Integer.MAX_VALUE;
             }
         }
+        
+        // Base case: 0 elements with 0 partitions = 0
         dp[0][0] = 0;
-        for (int j = 1; j <= k; j++) {
-            for (int i = 1; i <= n; i++) {
-                for (int t = 0; t < i; t++) {
-                    int segXor = prefix[i] ^ prefix[t];
-                    int candidate = Math.max(dp[j-1][t], segXor);
-                    if (candidate < dp[j][i]) {
-                        dp[j][i] = candidate;
+        
+        // Fill DP table
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= Math.min(i, k); j++) {
+                // Try all possible starting points for the j-th partition
+                for (int start = j - 1; start < i; start++) {
+                    if (dp[start][j - 1] != Integer.MAX_VALUE) {
+                        // XOR of elements from start to i-1
+                        int currentXor = prefixXor[i] ^ prefixXor[start];
+                        // Update dp[i][j] with minimum of maximum XORs
+                        dp[i][j] = Math.min(dp[i][j], Math.max(dp[start][j - 1], currentXor));
                     }
                 }
             }
         }
-        return dp[k][n];
+        
+        return dp[n][k];
     }
 }
