@@ -396,6 +396,7 @@
 | [3750-closest-equal-element-queries](https://github.com/Chaitya-007/LeetCode/tree/master/3750-closest-equal-element-queries) |
 | [3790-fruits-into-baskets-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Chaitya-007/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
+| [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/Chaitya-007/LeetCode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -597,6 +598,7 @@
 | [2487-optimal-partition-of-string](https://github.com/Chaitya-007/LeetCode/tree/master/2487-optimal-partition-of-string) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Chaitya-007/LeetCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Chaitya-007/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/Chaitya-007/LeetCode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
 ## Counting
 |  |
 | ------- |
@@ -864,6 +866,7 @@
 | [1073-number-of-enclaves](https://github.com/Chaitya-007/LeetCode/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Chaitya-007/LeetCode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/Chaitya-007/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/Chaitya-007/LeetCode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
 ## Graph
 |  |
 | ------- |
@@ -884,6 +887,7 @@
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Chaitya-007/LeetCode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3189-find-champion-ii](https://github.com/Chaitya-007/LeetCode/tree/master/3189-find-champion-ii) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Chaitya-007/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+| [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/Chaitya-007/LeetCode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
 ## Matrix
 |  |
 | ------- |
@@ -1172,4 +1176,8 @@
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/Chaitya-007/LeetCode/tree/master/1300-critical-connections-in-a-network) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/Chaitya-007/LeetCode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
 <!---LeetCode Topics End-->
