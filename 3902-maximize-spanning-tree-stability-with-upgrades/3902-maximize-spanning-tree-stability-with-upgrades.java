@@ -113,13 +113,12 @@ class Solution {
 
             if(ds.findUpar(u) != ds.findUpar(v))
             {
-                if(updates >= k)
+                if(++updates > k)
                 {
                     return false;
                 }
                 else
                 {
-                    updates++;
                     ds.unionBySize(u,v);
                 }
             }
